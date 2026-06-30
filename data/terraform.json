@@ -1,92 +1,3859 @@
 [
   {
-    "id": 1,
-    "question": "How do you handle a Terraform resource that already exists without recreating it?",
-    "difficulty": "Intermediate",
-    "tags": ["state", "import"]
-  },
-  {
-    "id": 2,
-    "question": "How do you deploy only a specific virtual machine when your Terraform configuration contains many resources?",
-    "difficulty": "Intermediate",
-    "tags": ["target", "deployment"]
-  },
-  {
-    "id": 3,
-    "question": "How do you create multiple Azure Key Vaults and corresponding Azure SQL Servers using a foreach loop in Terraform?",
-    "difficulty": "Advanced",
-    "tags": ["foreach", "keyvault", "sql"]
-  },
-  {
-    "id": 4,
-    "question": "How do you manage backend configuration across multiple Terraform workspaces?",
-    "difficulty": "Advanced",
-    "tags": ["backend", "workspace"]
-  },
-  {
-    "id": 5,
-    "question": "What are Terraform meta-arguments? Explain their use with Azure examples.",
-    "difficulty": "Intermediate",
-    "tags": ["count", "foreach", "depends_on", "lifecycle"]
-  },
-  {
-    "id": 6,
-    "question": "What is the difference between a Terraform data source and terraform import?",
-    "difficulty": "Intermediate",
-    "tags": ["data-source", "import"]
-  },
-  {
-    "id": 7,
-    "question": "How would you continue writing Terraform code if the remote backend state is locked?",
-    "difficulty": "Advanced",
-    "tags": ["backend", "state-lock"]
-  },
-  {
-    "id": 8,
-    "question": "How do you manage Terraform deployments across Development, Testing, and Production environments?",
-    "difficulty": "Intermediate",
-    "tags": ["environments", "workspace"]
-  },
-  {
-    "id": 9,
-    "question": "If all Azure resources are deleted but the Terraform state file still exists, how would you recover?",
-    "difficulty": "Advanced",
-    "tags": ["state", "recovery"]
-  },
-  {
-    "id": 10,
-    "question": "How do you troubleshoot syntax errors in Terraform configuration files?",
+    "id": "TF-001",
+    "question": "What is Terraform?",
     "difficulty": "Beginner",
-    "tags": ["validate", "fmt"]
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "is"
+    ]
   },
   {
-    "id": 11,
-    "question": "When is terraform init required?",
+    "id": "TF-002",
+    "question": "Why is Terraform used?",
     "difficulty": "Beginner",
-    "tags": ["init"]
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "why",
+      "is"
+    ]
   },
   {
-    "id": 12,
-    "question": "How do you organize and call separate Terraform modules for Azure Cosmos DB and Azure API Management from the main configuration?",
-    "difficulty": "Intermediate",
-    "tags": ["modules"]
+    "id": "TF-003",
+    "question": "What problems does Terraform solve?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "problems",
+      "does"
+    ]
   },
   {
-    "id": 13,
+    "id": "TF-004",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "is",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "TF-005",
+    "question": "What are the advantages of Terraform over manual provisioning?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "are",
+      "the"
+    ]
+  },
+  {
+    "id": "TF-006",
+    "question": "Terraform vs ARM Templates?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "vs",
+      "arm"
+    ]
+  },
+  {
+    "id": "TF-007",
+    "question": "Terraform vs Bicep?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "vs",
+      "bicep"
+    ]
+  },
+  {
+    "id": "TF-008",
+    "question": "Terraform vs CloudFormation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "vs",
+      "cloudformation"
+    ]
+  },
+  {
+    "id": "TF-009",
+    "question": "Terraform vs Ansible?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "vs",
+      "ansible"
+    ]
+  },
+  {
+    "id": "TF-010",
+    "question": "Terraform vs Pulumi?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "vs",
+      "pulumi"
+    ]
+  },
+  {
+    "id": "TF-011",
     "question": "Why do organizations use Terraform?",
     "difficulty": "Beginner",
-    "tags": ["iac"]
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "why",
+      "do",
+      "organizations"
+    ]
   },
   {
-    "id": 14,
-    "question": "What is the Terraform lifecycle meta-argument and when would you use it?",
-    "difficulty": "Intermediate",
-    "tags": ["lifecycle"]
+    "id": "TF-012",
+    "question": "What cloud providers does Terraform support?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "cloud",
+      "providers"
+    ]
   },
   {
-    "id": 15,
+    "id": "TF-013",
+    "question": "What is a Terraform provider?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "TF-014",
+    "question": "What is the Terraform Registry?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "is",
+      "the"
+    ]
+  },
+  {
+    "id": "TF-015",
+    "question": "Explain Terraform architecture?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "explain",
+      "architecture"
+    ]
+  },
+  {
+    "id": "TF-016",
+    "question": "What is declarative infrastructure?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "is",
+      "declarative"
+    ]
+  },
+  {
+    "id": "TF-017",
+    "question": "What is desired state?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "is",
+      "desired"
+    ]
+  },
+  {
+    "id": "TF-018",
+    "question": "What is idempotency in Terraform?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "is",
+      "idempotency"
+    ]
+  },
+  {
+    "id": "TF-019",
+    "question": "What is drift in Terraform?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "is",
+      "drift"
+    ]
+  },
+  {
+    "id": "TF-020",
+    "question": "How does Terraform detect infrastructure changes?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "how",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-021",
+    "question": "What are Terraform resources?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "are"
+    ]
+  },
+  {
+    "id": "TF-022",
+    "question": "What are Terraform data sources?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "are"
+    ]
+  },
+  {
+    "id": "TF-023",
+    "question": "Resource vs Data Source?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "resource",
+      "vs",
+      "data"
+    ]
+  },
+  {
+    "id": "TF-024",
+    "question": "What is HCL?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "is",
+      "hcl"
+    ]
+  },
+  {
+    "id": "TF-025",
+    "question": "Why does Terraform use HCL?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "why",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-026",
+    "question": "What are providers?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "are",
+      "providers"
+    ]
+  },
+  {
+    "id": "TF-027",
+    "question": "What are plugins?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "are",
+      "plugins"
+    ]
+  },
+  {
+    "id": "TF-028",
+    "question": "What are provisioners?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "are",
+      "provisioners"
+    ]
+  },
+  {
+    "id": "TF-029",
+    "question": "What are backends?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "what",
+      "are",
+      "backends"
+    ]
+  },
+  {
+    "id": "TF-030",
+    "question": "Terraform workflow explained?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "fundamentals",
+      "workflow",
+      "explained"
+    ]
+  },
+  {
+    "id": "TF-031",
+    "question": "What does terraform init do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-032",
+    "question": "When is terraform init required?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "when",
+      "is"
+    ]
+  },
+  {
+    "id": "TF-033",
     "question": "What happens during terraform plan?",
     "difficulty": "Beginner",
-    "tags": ["plan"]
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "happens",
+      "during"
+    ]
+  },
+  {
+    "id": "TF-034",
+    "question": "What does terraform apply do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-035",
+    "question": "What does terraform destroy do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-036",
+    "question": "Difference between plan and apply?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "difference",
+      "between",
+      "plan"
+    ]
+  },
+  {
+    "id": "TF-037",
+    "question": "What does terraform validate do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-038",
+    "question": "What does terraform fmt do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-039",
+    "question": "What does terraform output do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-040",
+    "question": "What does terraform show do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-041",
+    "question": "What does terraform state list do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-042",
+    "question": "What does terraform state show do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-043",
+    "question": "What does terraform state rm do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-044",
+    "question": "What does terraform taint do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-045",
+    "question": "What replaced terraform taint?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "replaced"
+    ]
+  },
+  {
+    "id": "TF-046",
+    "question": "What does terraform untaint do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-047",
+    "question": "What does terraform refresh do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-048",
+    "question": "Why was refresh deprecated?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "why",
+      "was",
+      "refresh"
+    ]
+  },
+  {
+    "id": "TF-049",
+    "question": "What does terraform graph do?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "does"
+    ]
+  },
+  {
+    "id": "TF-050",
+    "question": "What is terraform console?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cli",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "TF-051",
+    "question": "What is Terraform state?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "TF-052",
+    "question": "Why is state required?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "why",
+      "is"
+    ]
+  },
+  {
+    "id": "TF-053",
+    "question": "Local vs Remote State?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "local",
+      "vs",
+      "remote"
+    ]
+  },
+  {
+    "id": "TF-054",
+    "question": "What information is stored in the state file?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "what",
+      "information",
+      "is"
+    ]
+  },
+  {
+    "id": "TF-055",
+    "question": "Can Terraform work without state?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "can",
+      "work"
+    ]
+  },
+  {
+    "id": "TF-056",
+    "question": "Why shouldn't state files be edited manually?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "why",
+      "shouldn",
+      "t"
+    ]
+  },
+  {
+    "id": "TF-057",
+    "question": "Sensitive data in state?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "sensitive",
+      "data",
+      "in"
+    ]
+  },
+  {
+    "id": "TF-058",
+    "question": "State locking?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "locking"
+    ]
+  },
+  {
+    "id": "TF-059",
+    "question": "State consistency?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "consistency"
+    ]
+  },
+  {
+    "id": "TF-060",
+    "question": "State corruption?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "corruption"
+    ]
+  },
+  {
+    "id": "TF-061",
+    "question": "State recovery?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "recovery"
+    ]
+  },
+  {
+    "id": "TF-062",
+    "question": "State migration?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "migration"
+    ]
+  },
+  {
+    "id": "TF-063",
+    "question": "State versioning?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "versioning"
+    ]
+  },
+  {
+    "id": "TF-064",
+    "question": "State encryption?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "encryption"
+    ]
+  },
+  {
+    "id": "TF-065",
+    "question": "Backend state locking?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "backend",
+      "locking"
+    ]
+  },
+  {
+    "id": "TF-066",
+    "question": "What happens if state is deleted?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "what",
+      "happens",
+      "if"
+    ]
+  },
+  {
+    "id": "TF-067",
+    "question": "How do you recover a lost state file?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-068",
+    "question": "State import?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "import"
+    ]
+  },
+  {
+    "id": "TF-069",
+    "question": "State remove?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "remove"
+    ]
+  },
+  {
+    "id": "TF-070",
+    "question": "State move?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "move"
+    ]
+  },
+  {
+    "id": "TF-071",
+    "question": "State pull?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "pull"
+    ]
+  },
+  {
+    "id": "TF-072",
+    "question": "State push?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "push"
+    ]
+  },
+  {
+    "id": "TF-073",
+    "question": "State replace-provider?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "replace",
+      "provider"
+    ]
+  },
+  {
+    "id": "TF-074",
+    "question": "Remote state data source?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "remote",
+      "data"
+    ]
+  },
+  {
+    "id": "TF-075",
+    "question": "Sharing state across teams?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "state",
+      "sharing",
+      "across"
+    ]
+  },
+  {
+    "id": "TF-076",
+    "question": "What is a backend?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "TF-077",
+    "question": "Local backend?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "local"
+    ]
+  },
+  {
+    "id": "TF-078",
+    "question": "Azure Storage backend?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "azure",
+      "storage"
+    ]
+  },
+  {
+    "id": "TF-079",
+    "question": "S3 backend?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "s"
+    ]
+  },
+  {
+    "id": "TF-080",
+    "question": "Terraform Cloud backend?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "terraform",
+      "cloud"
+    ]
+  },
+  {
+    "id": "TF-081",
+    "question": "Backend configuration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration"
+    ]
+  },
+  {
+    "id": "TF-082",
+    "question": "Backend migration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "migration"
+    ]
+  },
+  {
+    "id": "TF-083",
+    "question": "Backend initialization?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "initialization"
+    ]
+  },
+  {
+    "id": "TF-084",
+    "question": "Backend authentication?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "authentication"
+    ]
+  },
+  {
+    "id": "TF-085",
+    "question": "Backend locking?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "locking"
+    ]
+  },
+  {
+    "id": "TF-086",
+    "question": "Backend security?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "security"
+    ]
+  },
+  {
+    "id": "TF-087",
+    "question": "Managing backend configuration across workspaces?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "managing"
+    ]
+  },
+  {
+    "id": "TF-088",
+    "question": "What happens if backend storage is unavailable?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "what",
+      "happens",
+      "if"
+    ]
+  },
+  {
+    "id": "TF-089",
+    "question": "Backend best practices?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "TF-090",
+    "question": "Backend troubleshooting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "backend",
+      "configuration",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "TF-091",
+    "question": "What is a provider?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "TF-092",
+    "question": "Provider lifecycle?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "provider",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "TF-093",
+    "question": "Provider authentication?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "provider",
+      "authentication"
+    ]
+  },
+  {
+    "id": "TF-094",
+    "question": "Multiple providers?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "multiple"
+    ]
+  },
+  {
+    "id": "TF-095",
+    "question": "Provider aliases?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "provider",
+      "aliases"
+    ]
+  },
+  {
+    "id": "TF-096",
+    "question": "Provider versions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "provider",
+      "versions"
+    ]
+  },
+  {
+    "id": "TF-097",
+    "question": "Version constraints?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "version",
+      "constraints"
+    ]
+  },
+  {
+    "id": "TF-098",
+    "question": "Required providers?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "required"
+    ]
+  },
+  {
+    "id": "TF-099",
+    "question": "Provider upgrades?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "provider",
+      "upgrades"
+    ]
+  },
+  {
+    "id": "TF-100",
+    "question": "Custom providers?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "custom"
+    ]
+  },
+  {
+    "id": "TF-101",
+    "question": "AzureRM provider?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "azurerm",
+      "provider"
+    ]
+  },
+  {
+    "id": "TF-102",
+    "question": "AzureAD provider?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "azuread",
+      "provider"
+    ]
+  },
+  {
+    "id": "TF-103",
+    "question": "Random provider?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "random",
+      "provider"
+    ]
+  },
+  {
+    "id": "TF-104",
+    "question": "Null provider?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "null",
+      "provider"
+    ]
+  },
+  {
+    "id": "TF-105",
+    "question": "Time provider?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "providers",
+      "time",
+      "provider"
+    ]
+  },
+  {
+    "id": "TF-106",
+    "question": "Variable types?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "variable",
+      "types"
+    ]
+  },
+  {
+    "id": "TF-107",
+    "question": "Input variables?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "input"
+    ]
+  },
+  {
+    "id": "TF-108",
+    "question": "Output variables?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "output"
+    ]
+  },
+  {
+    "id": "TF-109",
+    "question": "Local values?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "local",
+      "values"
+    ]
+  },
+  {
+    "id": "TF-110",
+    "question": "Variable precedence?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "variable",
+      "precedence"
+    ]
+  },
+  {
+    "id": "TF-111",
+    "question": "Default values?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "default",
+      "values"
+    ]
+  },
+  {
+    "id": "TF-112",
+    "question": "Validation blocks?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "validation",
+      "blocks"
+    ]
+  },
+  {
+    "id": "TF-113",
+    "question": "Sensitive variables?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "sensitive"
+    ]
+  },
+  {
+    "id": "TF-114",
+    "question": "Environment variables?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "environment"
+    ]
+  },
+  {
+    "id": "TF-115",
+    "question": "tfvars files?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "tfvars",
+      "files"
+    ]
+  },
+  {
+    "id": "TF-116",
+    "question": "Auto tfvars?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "auto",
+      "tfvars"
+    ]
+  },
+  {
+    "id": "TF-117",
+    "question": "Variable files?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "variable",
+      "files"
+    ]
+  },
+  {
+    "id": "TF-118",
+    "question": "Maps?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "maps"
+    ]
+  },
+  {
+    "id": "TF-119",
+    "question": "Lists?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "lists"
+    ]
+  },
+  {
+    "id": "TF-120",
+    "question": "Sets?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "sets"
+    ]
+  },
+  {
+    "id": "TF-121",
+    "question": "Objects?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "objects"
+    ]
+  },
+  {
+    "id": "TF-122",
+    "question": "Tuples?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "tuples"
+    ]
+  },
+  {
+    "id": "TF-123",
+    "question": "Dynamic typing?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "dynamic",
+      "typing"
+    ]
+  },
+  {
+    "id": "TF-124",
+    "question": "Output dependencies?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "output",
+      "dependencies"
+    ]
+  },
+  {
+    "id": "TF-125",
+    "question": "Best practices?",
+    "difficulty": "Beginner",
+    "tags": [
+      "variables",
+      "outputs",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "TF-126",
+    "question": "Terraform expressions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "terraform"
+    ]
+  },
+  {
+    "id": "TF-127",
+    "question": "Interpolation?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "interpolation"
+    ]
+  },
+  {
+    "id": "TF-128",
+    "question": "Conditional expressions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "conditional"
+    ]
+  },
+  {
+    "id": "TF-129",
+    "question": "for expressions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "for"
+    ]
+  },
+  {
+    "id": "TF-130",
+    "question": "Dynamic blocks?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "dynamic",
+      "blocks"
+    ]
+  },
+  {
+    "id": "TF-131",
+    "question": "Built-in functions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "built",
+      "in"
+    ]
+  },
+  {
+    "id": "TF-132",
+    "question": "String functions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "string"
+    ]
+  },
+  {
+    "id": "TF-133",
+    "question": "Collection functions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "collection"
+    ]
+  },
+  {
+    "id": "TF-134",
+    "question": "Numeric functions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "numeric"
+    ]
+  },
+  {
+    "id": "TF-135",
+    "question": "File functions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "file"
+    ]
+  },
+  {
+    "id": "TF-136",
+    "question": "Templatefile?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "templatefile"
+    ]
+  },
+  {
+    "id": "TF-137",
+    "question": "jsonencode?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "jsonencode"
+    ]
+  },
+  {
+    "id": "TF-138",
+    "question": "yamldecode?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "yamldecode"
+    ]
+  },
+  {
+    "id": "TF-139",
+    "question": "flatten?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "flatten"
+    ]
+  },
+  {
+    "id": "TF-140",
+    "question": "merge?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "merge"
+    ]
+  },
+  {
+    "id": "TF-141",
+    "question": "zipmap?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "zipmap"
+    ]
+  },
+  {
+    "id": "TF-142",
+    "question": "lookup?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "lookup"
+    ]
+  },
+  {
+    "id": "TF-143",
+    "question": "contains?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "contains"
+    ]
+  },
+  {
+    "id": "TF-144",
+    "question": "try?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "try"
+    ]
+  },
+  {
+    "id": "TF-145",
+    "question": "can?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressions",
+      "functions",
+      "can"
+    ]
+  },
+  {
+    "id": "TF-146",
+    "question": "Resource block?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "resource",
+      "block"
+    ]
+  },
+  {
+    "id": "TF-147",
+    "question": "Resource lifecycle?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "resource",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "TF-148",
+    "question": "Dependencies?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "dependencies"
+    ]
+  },
+  {
+    "id": "TF-149",
+    "question": "Implicit dependency?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "implicit",
+      "dependency"
+    ]
+  },
+  {
+    "id": "TF-150",
+    "question": "Explicit dependency?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "explicit",
+      "dependency"
+    ]
+  },
+  {
+    "id": "TF-151",
+    "question": "depends_on?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "depends",
+      "on"
+    ]
+  },
+  {
+    "id": "TF-152",
+    "question": "Resource addressing?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "resource",
+      "addressing"
+    ]
+  },
+  {
+    "id": "TF-153",
+    "question": "Resource targeting?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "resource",
+      "targeting"
+    ]
+  },
+  {
+    "id": "TF-154",
+    "question": "Resource replacement?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "resource",
+      "replacement"
+    ]
+  },
+  {
+    "id": "TF-155",
+    "question": "Resource recreation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "resource",
+      "recreation"
+    ]
+  },
+  {
+    "id": "TF-156",
+    "question": "Import existing resources?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "import",
+      "existing"
+    ]
+  },
+  {
+    "id": "TF-157",
+    "question": "Resource drift?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "resource",
+      "drift"
+    ]
+  },
+  {
+    "id": "TF-158",
+    "question": "Lifecycle meta-argument?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "lifecycle",
+      "meta",
+      "argument"
+    ]
+  },
+  {
+    "id": "TF-159",
+    "question": "prevent_destroy?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "prevent",
+      "destroy"
+    ]
+  },
+  {
+    "id": "TF-160",
+    "question": "ignore_changes?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "ignore",
+      "changes"
+    ]
+  },
+  {
+    "id": "TF-161",
+    "question": "create_before_destroy?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "create",
+      "before",
+      "destroy"
+    ]
+  },
+  {
+    "id": "TF-162",
+    "question": "replace_triggered_by?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "replace",
+      "triggered",
+      "by"
+    ]
+  },
+  {
+    "id": "TF-163",
+    "question": "destroy provisioner?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "destroy",
+      "provisioner"
+    ]
+  },
+  {
+    "id": "TF-164",
+    "question": "Null resource?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "null",
+      "resource"
+    ]
+  },
+  {
+    "id": "TF-165",
+    "question": "Terraform moved block?",
+    "difficulty": "Beginner",
+    "tags": [
+      "resources",
+      "terraform",
+      "moved",
+      "block"
+    ]
+  },
+  {
+    "id": "TF-166",
+    "question": "count?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "meta",
+      "arguments",
+      "count"
+    ]
+  },
+  {
+    "id": "TF-167",
+    "question": "for_each?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "meta",
+      "arguments",
+      "for",
+      "each"
+    ]
+  },
+  {
+    "id": "TF-168",
+    "question": "provider?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "meta",
+      "arguments",
+      "provider"
+    ]
+  },
+  {
+    "id": "TF-169",
+    "question": "lifecycle?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "meta",
+      "arguments",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "TF-170",
+    "question": "Difference between count and for_each?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "meta",
+      "arguments",
+      "difference",
+      "between",
+      "count"
+    ]
+  },
+  {
+    "id": "TF-171",
+    "question": "When should count not be used?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "meta",
+      "arguments",
+      "when",
+      "should",
+      "count"
+    ]
+  },
+  {
+    "id": "TF-172",
+    "question": "Dynamic blocks vs for_each?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "meta",
+      "arguments",
+      "dynamic",
+      "blocks",
+      "vs"
+    ]
+  },
+  {
+    "id": "TF-173",
+    "question": "Meta-arguments explained with Azure examples?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "meta",
+      "arguments",
+      "explained"
+    ]
+  },
+  {
+    "id": "TF-174",
+    "question": "Nested for_each?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "meta",
+      "arguments",
+      "nested",
+      "for",
+      "each"
+    ]
+  },
+  {
+    "id": "TF-175",
+    "question": "What are modules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "what",
+      "are"
+    ]
+  },
+  {
+    "id": "TF-176",
+    "question": "Root module?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "root",
+      "module"
+    ]
+  },
+  {
+    "id": "TF-177",
+    "question": "Child module?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "child",
+      "module"
+    ]
+  },
+  {
+    "id": "TF-178",
+    "question": "Module inputs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "inputs"
+    ]
+  },
+  {
+    "id": "TF-179",
+    "question": "Module outputs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "outputs"
+    ]
+  },
+  {
+    "id": "TF-180",
+    "question": "Module versioning?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "versioning"
+    ]
+  },
+  {
+    "id": "TF-181",
+    "question": "Module registry?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "registry"
+    ]
+  },
+  {
+    "id": "TF-182",
+    "question": "Private modules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "private"
+    ]
+  },
+  {
+    "id": "TF-183",
+    "question": "Module composition?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "composition"
+    ]
+  },
+  {
+    "id": "TF-184",
+    "question": "Module dependencies?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "dependencies"
+    ]
+  },
+  {
+    "id": "TF-185",
+    "question": "Module reuse?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "reuse"
+    ]
+  },
+  {
+    "id": "TF-186",
+    "question": "Organizing Azure modules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "organizing",
+      "azure"
+    ]
+  },
+  {
+    "id": "TF-187",
+    "question": "Shared modules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "shared"
+    ]
+  },
+  {
+    "id": "TF-188",
+    "question": "Nested modules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "nested"
+    ]
+  },
+  {
+    "id": "TF-189",
+    "question": "Module testing?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "testing"
+    ]
+  },
+  {
+    "id": "TF-190",
+    "question": "Module documentation?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "documentation"
+    ]
+  },
+  {
+    "id": "TF-191",
+    "question": "Module upgrade strategy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "upgrade",
+      "strategy"
+    ]
+  },
+  {
+    "id": "TF-192",
+    "question": "Module source types?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "source",
+      "types"
+    ]
+  },
+  {
+    "id": "TF-193",
+    "question": "Module debugging?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "modules",
+      "module",
+      "debugging"
+    ]
+  },
+  {
+    "id": "TF-194",
+    "question": "What are workspaces?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "workspaces",
+      "what",
+      "are"
+    ]
+  },
+  {
+    "id": "TF-195",
+    "question": "Workspace lifecycle?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "workspaces",
+      "workspace",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "TF-196",
+    "question": "Workspace vs tfvars?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "workspaces",
+      "workspace",
+      "vs",
+      "tfvars"
+    ]
+  },
+  {
+    "id": "TF-197",
+    "question": "Workspace best practices?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "workspaces",
+      "workspace",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "TF-198",
+    "question": "Managing Dev/Test/Prod?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "workspaces",
+      "managing",
+      "dev",
+      "test"
+    ]
+  },
+  {
+    "id": "TF-199",
+    "question": "Workspace limitations?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "workspaces",
+      "workspace",
+      "limitations"
+    ]
+  },
+  {
+    "id": "TF-200",
+    "question": "Workspace commands?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "workspaces",
+      "workspace",
+      "commands"
+    ]
+  },
+  {
+    "id": "TF-201",
+    "question": "Workspace isolation?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "workspaces",
+      "workspace",
+      "isolation"
+    ]
+  },
+  {
+    "id": "TF-202",
+    "question": "Workspace state?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "workspaces",
+      "workspace",
+      "state"
+    ]
+  },
+  {
+    "id": "TF-203",
+    "question": "Backend with workspaces?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "workspaces",
+      "backend",
+      "with"
+    ]
+  },
+  {
+    "id": "TF-204",
+    "question": "local-exec?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioners",
+      "local",
+      "exec"
+    ]
+  },
+  {
+    "id": "TF-205",
+    "question": "remote-exec?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioners",
+      "remote",
+      "exec"
+    ]
+  },
+  {
+    "id": "TF-206",
+    "question": "file provisioner?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioners",
+      "file",
+      "provisioner"
+    ]
+  },
+  {
+    "id": "TF-207",
+    "question": "Why provisioners are discouraged?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioners",
+      "why",
+      "are"
+    ]
+  },
+  {
+    "id": "TF-208",
+    "question": "Alternatives to provisioners?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioners",
+      "alternatives",
+      "to"
+    ]
+  },
+  {
+    "id": "TF-209",
+    "question": "Connection blocks?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioners",
+      "connection",
+      "blocks"
+    ]
+  },
+  {
+    "id": "TF-210",
+    "question": "Provisioner lifecycle?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioners",
+      "provisioner",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "TF-211",
+    "question": "Failure handling?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioners",
+      "failure",
+      "handling"
+    ]
+  },
+  {
+    "id": "TF-212",
+    "question": "Provisioner troubleshooting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioners",
+      "provisioner",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "TF-213",
+    "question": "Deploy Azure Resource Groups?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "resource"
+    ]
+  },
+  {
+    "id": "TF-214",
+    "question": "Deploy VNets?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "vnets"
+    ]
+  },
+  {
+    "id": "TF-215",
+    "question": "Deploy Subnets?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "subnets"
+    ]
+  },
+  {
+    "id": "TF-216",
+    "question": "Deploy NSGs?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "nsgs"
+    ]
+  },
+  {
+    "id": "TF-217",
+    "question": "Deploy Storage Accounts?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "storage",
+      "accounts"
+    ]
+  },
+  {
+    "id": "TF-218",
+    "question": "Deploy Key Vault?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "key",
+      "vault"
+    ]
+  },
+  {
+    "id": "TF-219",
+    "question": "Deploy SQL Server?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "sql",
+      "server"
+    ]
+  },
+  {
+    "id": "TF-220",
+    "question": "Deploy SQL Database?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "sql",
+      "database"
+    ]
+  },
+  {
+    "id": "TF-221",
+    "question": "Deploy App Service?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "app",
+      "service"
+    ]
+  },
+  {
+    "id": "TF-222",
+    "question": "Deploy Function Apps?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "function",
+      "apps"
+    ]
+  },
+  {
+    "id": "TF-223",
+    "question": "Deploy AKS?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "aks"
+    ]
+  },
+  {
+    "id": "TF-224",
+    "question": "Deploy Load Balancer?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "load",
+      "balancer"
+    ]
+  },
+  {
+    "id": "TF-225",
+    "question": "Deploy Application Gateway?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "application",
+      "gateway"
+    ]
+  },
+  {
+    "id": "TF-226",
+    "question": "Deploy Azure Firewall?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "firewall"
+    ]
+  },
+  {
+    "id": "TF-227",
+    "question": "Deploy Bastion?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "bastion"
+    ]
+  },
+  {
+    "id": "TF-228",
+    "question": "Deploy Virtual Machine?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "virtual",
+      "machine"
+    ]
+  },
+  {
+    "id": "TF-229",
+    "question": "Deploy Managed Identity?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "managed",
+      "identity"
+    ]
+  },
+  {
+    "id": "TF-230",
+    "question": "Deploy Cosmos DB?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "cosmos",
+      "db"
+    ]
+  },
+  {
+    "id": "TF-231",
+    "question": "Deploy API Management?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "api",
+      "management"
+    ]
+  },
+  {
+    "id": "TF-232",
+    "question": "Deploy Private Endpoints?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "private",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "TF-233",
+    "question": "Deploy Private DNS Zones?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "private",
+      "dns"
+    ]
+  },
+  {
+    "id": "TF-234",
+    "question": "Deploy Virtual WAN?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "virtual",
+      "wan"
+    ]
+  },
+  {
+    "id": "TF-235",
+    "question": "Deploy VPN Gateway?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "vpn",
+      "gateway"
+    ]
+  },
+  {
+    "id": "TF-236",
+    "question": "Deploy ExpressRoute?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "expressroute"
+    ]
+  },
+  {
+    "id": "TF-237",
+    "question": "Deploy Azure Monitor resources?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "terraform",
+      "deploy",
+      "monitor"
+    ]
+  },
+  {
+    "id": "TF-238",
+    "question": "Enterprise module structure?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "module",
+      "structure"
+    ]
+  },
+  {
+    "id": "TF-239",
+    "question": "Multi-subscription deployment?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "multi",
+      "subscription",
+      "deployment"
+    ]
+  },
+  {
+    "id": "TF-240",
+    "question": "Multi-region deployment?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "multi",
+      "region",
+      "deployment"
+    ]
+  },
+  {
+    "id": "TF-241",
+    "question": "Multi-environment deployment?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "multi",
+      "environment",
+      "deployment"
+    ]
+  },
+  {
+    "id": "TF-242",
+    "question": "Naming conventions?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "naming",
+      "conventions"
+    ]
+  },
+  {
+    "id": "TF-243",
+    "question": "Resource tagging?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "resource",
+      "tagging"
+    ]
+  },
+  {
+    "id": "TF-244",
+    "question": "Secrets management?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "secrets",
+      "management"
+    ]
+  },
+  {
+    "id": "TF-245",
+    "question": "Key Vault integration?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "key",
+      "vault",
+      "integration"
+    ]
+  },
+  {
+    "id": "TF-246",
+    "question": "CI/CD integration?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "ci",
+      "cd",
+      "integration"
+    ]
+  },
+  {
+    "id": "TF-247",
+    "question": "Git branching strategy?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "git",
+      "branching",
+      "strategy"
+    ]
+  },
+  {
+    "id": "TF-248",
+    "question": "Pull request workflow?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "pull",
+      "request",
+      "workflow"
+    ]
+  },
+  {
+    "id": "TF-249",
+    "question": "Terraform Cloud?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "cloud"
+    ]
+  },
+  {
+    "id": "TF-250",
+    "question": "Terraform Enterprise?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform"
+    ]
+  },
+  {
+    "id": "TF-251",
+    "question": "Sentinel Policies?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "sentinel",
+      "policies"
+    ]
+  },
+  {
+    "id": "TF-252",
+    "question": "Policy as Code?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "policy",
+      "as",
+      "code"
+    ]
+  },
+  {
+    "id": "TF-253",
+    "question": "Cost estimation?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "cost",
+      "estimation"
+    ]
+  },
+  {
+    "id": "TF-254",
+    "question": "Drift detection?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "drift",
+      "detection"
+    ]
+  },
+  {
+    "id": "TF-255",
+    "question": "Compliance?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "compliance"
+    ]
+  },
+  {
+    "id": "TF-256",
+    "question": "Team collaboration?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "team",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "TF-257",
+    "question": "Large-scale Terraform repositories?",
+    "difficulty": "Advanced",
+    "tags": [
+      "enterprise",
+      "terraform",
+      "large",
+      "scale"
+    ]
+  },
+  {
+    "id": "TF-258",
+    "question": "Terraform in Azure DevOps?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "terraform",
+      "in",
+      "azure"
+    ]
+  },
+  {
+    "id": "TF-259",
+    "question": "Terraform in GitHub Actions?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "terraform",
+      "in",
+      "github"
+    ]
+  },
+  {
+    "id": "TF-260",
+    "question": "Terraform in Jenkins?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "terraform",
+      "in",
+      "jenkins"
+    ]
+  },
+  {
+    "id": "TF-261",
+    "question": "Terraform in GitLab?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "terraform",
+      "in",
+      "gitlab"
+    ]
+  },
+  {
+    "id": "TF-262",
+    "question": "Pipeline stages?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "pipeline",
+      "stages"
+    ]
+  },
+  {
+    "id": "TF-263",
+    "question": "Plan approval?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "plan",
+      "approval"
+    ]
+  },
+  {
+    "id": "TF-264",
+    "question": "Apply approval?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "apply",
+      "approval"
+    ]
+  },
+  {
+    "id": "TF-265",
+    "question": "Secure pipelines?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "secure",
+      "pipelines"
+    ]
+  },
+  {
+    "id": "TF-266",
+    "question": "Remote backend authentication?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "remote",
+      "backend",
+      "authentication"
+    ]
+  },
+  {
+    "id": "TF-267",
+    "question": "Service Principal authentication?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "service",
+      "principal",
+      "authentication"
+    ]
+  },
+  {
+    "id": "TF-268",
+    "question": "OIDC authentication?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "oidc",
+      "authentication"
+    ]
+  },
+  {
+    "id": "TF-269",
+    "question": "Secret handling?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "secret",
+      "handling"
+    ]
+  },
+  {
+    "id": "TF-270",
+    "question": "Pipeline optimization?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "pipeline",
+      "optimization"
+    ]
+  },
+  {
+    "id": "TF-271",
+    "question": "Parallel deployments?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "parallel",
+      "deployments"
+    ]
+  },
+  {
+    "id": "TF-272",
+    "question": "Rollback strategy?",
+    "difficulty": "Advanced",
+    "tags": [
+      "ci",
+      "cd",
+      "rollback",
+      "strategy"
+    ]
+  },
+  {
+    "id": "TF-273",
+    "question": "Secrets in Terraform?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "secrets",
+      "in",
+      "terraform"
+    ]
+  },
+  {
+    "id": "TF-274",
+    "question": "Sensitive outputs?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "sensitive",
+      "outputs"
+    ]
+  },
+  {
+    "id": "TF-275",
+    "question": "Backend encryption?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "backend",
+      "encryption"
+    ]
+  },
+  {
+    "id": "TF-276",
+    "question": "Least privilege?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "least",
+      "privilege"
+    ]
+  },
+  {
+    "id": "TF-277",
+    "question": "Service Principals?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "service",
+      "principals"
+    ]
+  },
+  {
+    "id": "TF-278",
+    "question": "Managed Identity?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "managed",
+      "identity"
+    ]
+  },
+  {
+    "id": "TF-279",
+    "question": "Vault integration?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "vault",
+      "integration"
+    ]
+  },
+  {
+    "id": "TF-280",
+    "question": "Secrets rotation?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "secrets",
+      "rotation"
+    ]
+  },
+  {
+    "id": "TF-281",
+    "question": "Image scanning?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "image",
+      "scanning"
+    ]
+  },
+  {
+    "id": "TF-282",
+    "question": "Policy enforcement?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "policy",
+      "enforcement"
+    ]
+  },
+  {
+    "id": "TF-283",
+    "question": "Security best practices?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "TF-284",
+    "question": "Common mistakes?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "common",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "TF-285",
+    "question": "Debug Terraform?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "debug",
+      "terraform"
+    ]
+  },
+  {
+    "id": "TF-286",
+    "question": "TF_LOG?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "tf",
+      "log"
+    ]
+  },
+  {
+    "id": "TF-287",
+    "question": "Debug provider errors?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "debug",
+      "provider",
+      "errors"
+    ]
+  },
+  {
+    "id": "TF-288",
+    "question": "Validate syntax?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "validate",
+      "syntax"
+    ]
+  },
+  {
+    "id": "TF-289",
+    "question": "Formatting issues?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "formatting",
+      "issues"
+    ]
+  },
+  {
+    "id": "TF-290",
+    "question": "State inconsistencies?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "state",
+      "inconsistencies"
+    ]
+  },
+  {
+    "id": "TF-291",
+    "question": "Backend failures?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "backend",
+      "failures"
+    ]
+  },
+  {
+    "id": "TF-292",
+    "question": "Locked state?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "locked",
+      "state"
+    ]
+  },
+  {
+    "id": "TF-293",
+    "question": "Failed apply?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "failed",
+      "apply"
+    ]
+  },
+  {
+    "id": "TF-294",
+    "question": "Partial apply?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "partial",
+      "apply"
+    ]
+  },
+  {
+    "id": "TF-295",
+    "question": "Destroy failures?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "destroy",
+      "failures"
+    ]
+  },
+  {
+    "id": "TF-296",
+    "question": "Dependency cycles?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "dependency",
+      "cycles"
+    ]
+  },
+  {
+    "id": "TF-297",
+    "question": "Circular references?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "circular",
+      "references"
+    ]
+  },
+  {
+    "id": "TF-298",
+    "question": "Import failures?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "import",
+      "failures"
+    ]
+  },
+  {
+    "id": "TF-299",
+    "question": "Drift troubleshooting?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "drift"
+    ]
+  },
+  {
+    "id": "TF-300",
+    "question": "Authentication failures?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "authentication",
+      "failures"
+    ]
+  },
+  {
+    "id": "TF-301",
+    "question": "Azure API throttling?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "azure",
+      "api",
+      "throttling"
+    ]
+  },
+  {
+    "id": "TF-302",
+    "question": "Timeout errors?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "timeout",
+      "errors"
+    ]
+  },
+  {
+    "id": "TF-303",
+    "question": "Plan differences?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "plan",
+      "differences"
+    ]
+  },
+  {
+    "id": "TF-304",
+    "question": "Unknown values?",
+    "difficulty": "Advanced",
+    "tags": [
+      "debugging",
+      "troubleshooting",
+      "unknown",
+      "values"
+    ]
+  },
+  {
+    "id": "TF-305",
+    "question": "Repository structure?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "repository",
+      "structure"
+    ]
+  },
+  {
+    "id": "TF-306",
+    "question": "Module design?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "module",
+      "design"
+    ]
+  },
+  {
+    "id": "TF-307",
+    "question": "Variable management?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "variable",
+      "management"
+    ]
+  },
+  {
+    "id": "TF-308",
+    "question": "State management?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "state",
+      "management"
+    ]
+  },
+  {
+    "id": "TF-309",
+    "question": "Workspace strategy?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "workspace",
+      "strategy"
+    ]
+  },
+  {
+    "id": "TF-310",
+    "question": "Tagging strategy?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "tagging",
+      "strategy"
+    ]
+  },
+  {
+    "id": "TF-311",
+    "question": "Version pinning?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "version",
+      "pinning"
+    ]
+  },
+  {
+    "id": "TF-312",
+    "question": "Provider pinning?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "provider",
+      "pinning"
+    ]
+  },
+  {
+    "id": "TF-313",
+    "question": "Backend strategy?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "backend",
+      "strategy"
+    ]
+  },
+  {
+    "id": "TF-314",
+    "question": "Secret management?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "secret",
+      "management"
+    ]
+  },
+  {
+    "id": "TF-315",
+    "question": "Code reviews?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "code",
+      "reviews"
+    ]
+  },
+  {
+    "id": "TF-316",
+    "question": "Documentation?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "documentation"
+    ]
+  },
+  {
+    "id": "TF-317",
+    "question": "Testing?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "testing"
+    ]
+  },
+  {
+    "id": "TF-318",
+    "question": "Upgrade strategy?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "upgrade",
+      "strategy"
+    ]
+  },
+  {
+    "id": "TF-319",
+    "question": "Avoid hardcoding?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "avoid",
+      "hardcoding"
+    ]
+  },
+  {
+    "id": "TF-320",
+    "question": "Resource organization?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "resource",
+      "organization"
+    ]
+  },
+  {
+    "id": "TF-321",
+    "question": "Reusability?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "reusability"
+    ]
+  },
+  {
+    "id": "TF-322",
+    "question": "Maintainability?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "maintainability"
+    ]
+  },
+  {
+    "id": "TF-323",
+    "question": "Enterprise recommendations?",
+    "difficulty": "Advanced",
+    "tags": [
+      "best",
+      "practices",
+      "enterprise",
+      "recommendations"
+    ]
+  },
+  {
+    "id": "TF-324",
+    "question": "How do you handle a Terraform resource that already exists without recreating it?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-325",
+    "question": "How do you deploy only a specific virtual machine when your Terraform configuration contains many resources?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-326",
+    "question": "How do you create multiple Azure Key Vaults and corresponding Azure SQL Servers using a foreach loop in Terraform?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-327",
+    "question": "How do you manage backend configuration across multiple Terraform workspaces?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-328",
+    "question": "What are Terraform meta-arguments? Explain their use with Azure examples?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "what",
+      "are",
+      "terraform"
+    ]
+  },
+  {
+    "id": "TF-329",
+    "question": "What is the difference between a Terraform data source and terraform import?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "what",
+      "is",
+      "the"
+    ]
+  },
+  {
+    "id": "TF-330",
+    "question": "How would you continue writing Terraform code if the remote backend state is locked?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-331",
+    "question": "How do you manage Terraform deployments across Development, Testing, and Production environments?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-332",
+    "question": "If all Azure resources are deleted but the Terraform state file still exists, how would you recover?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "if",
+      "all",
+      "azure"
+    ]
+  },
+  {
+    "id": "TF-333",
+    "question": "How do you troubleshoot syntax errors in Terraform configuration files?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-334",
+    "question": "How do you organize and call separate Terraform modules for Azure Cosmos DB and Azure API Management from the main configuration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-335",
+    "question": "What is the Terraform lifecycle meta-argument and when would you use it?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "your",
+      "questions",
+      "what",
+      "is",
+      "the"
+    ]
+  },
+  {
+    "id": "TF-336",
+    "question": "A resource was deleted manually in Azure. How do you reconcile Terraform state?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "a",
+      "resource",
+      "was"
+    ]
+  },
+  {
+    "id": "TF-337",
+    "question": "Your Terraform apply fails halfway through. What steps do you take?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "your",
+      "terraform",
+      "apply"
+    ]
+  },
+  {
+    "id": "TF-338",
+    "question": "Two engineers try to run terraform apply simultaneously. What happens?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "two",
+      "engineers",
+      "try"
+    ]
+  },
+  {
+    "id": "TF-339",
+    "question": "Your remote state is accidentally deleted. How would you recover?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "your",
+      "remote",
+      "state"
+    ]
+  },
+  {
+    "id": "TF-340",
+    "question": "Your state file becomes corrupted. What options do you have?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "your",
+      "state",
+      "file"
+    ]
+  },
+  {
+    "id": "TF-341",
+    "question": "How would you migrate Terraform state from local storage to Azure Storage?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-342",
+    "question": "How would you split a monolithic Terraform project into reusable modules?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-343",
+    "question": "How would you safely rename a resource without destroying and recreating it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-344",
+    "question": "How would you migrate an Azure resource from one module to another while preserving state?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-345",
+    "question": "A provider upgrade introduces breaking changes. How would you handle the upgrade?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "a",
+      "provider",
+      "upgrade"
+    ]
+  },
+  {
+    "id": "TF-346",
+    "question": "How would you deploy resources across multiple Azure subscriptions from the same configuration?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-347",
+    "question": "How would you authenticate Terraform securely in Azure DevOps without storing secrets?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-348",
+    "question": "How would you manage environment-specific values for Dev, Test, and Production?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-349",
+    "question": "How would you ensure only approved Terraform plans are applied in production?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-350",
+    "question": "How would you prevent accidental deletion of critical Azure resources?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-351",
+    "question": "How would you deploy hundreds of similar resources efficiently?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-352",
+    "question": "How would you detect and remediate infrastructure drift?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-353",
+    "question": "How would you structure a Terraform repository for a large enterprise with multiple teams?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-354",
+    "question": "How would you debug intermittent provider authentication failures?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "TF-355",
+    "question": "Describe a production Terraform issue you encountered, how you diagnosed it, the root cause, and the preventive measures you implemented?",
+    "difficulty": "Advanced",
+    "tags": [
+      "advanced",
+      "scenario",
+      "describe",
+      "a",
+      "production"
+    ]
   }
 ]
