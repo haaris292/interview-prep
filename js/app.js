@@ -1,43 +1,43 @@
 let allTopics = [];
 
-/*
-==========================================
-Initialize
-==========================================
-*/
+document.addEventListener("DOMContentLoaded", init);
 
-document.addEventListener("DOMContentLoaded", () => {
-
-    loadTopics();
-
-});
-
-/*
-==========================================
-Load Topics
-==========================================
-*/
-
-async function loadTopics() {
+async function init() {
 
     try {
 
         const response = await fetch("data/index.json");
 
-        if (!response.ok) {
+        allTopics = await response.json();
 
-            throw new Error("Unable to load index.json");
+        // Load each topic file and count questions
+        for (const topic of allTopics) {
+
+            try {
+
+                const res = await fetch("data/" + topic.file);
+
+                const questions = await res.json();
+
+                topic.questions = questions.length;
+
+            }
+
+            catch {
+
+                topic.questions = 0;
+
+            }
 
         }
 
-        allTopics = await response.json();
-
         // Sort alphabetically
+
         allTopics.sort((a, b) =>
             a.title.localeCompare(b.title)
         );
 
-        updateStats(allTopics);
+        updateStats();
 
         renderTopics(allTopics);
 
@@ -49,27 +49,9 @@ async function loadTopics() {
 
         console.error(error);
 
-        document.getElementById("topics").innerHTML = `
-
-            <div class="question-card">
-
-                <h2>Unable to load topics</h2>
-
-                <p>${error.message}</p>
-
-            </div>
-
-        `;
-
     }
 
 }
-
-/*
-==========================================
-Render Cards
-==========================================
-*/
 
 function renderTopics(topics) {
 
@@ -83,30 +65,29 @@ function renderTopics(topics) {
 
 <div class="card">
 
-    <div class="icon">
+<div class="icon">
 
-        ${topic.icon}
+${topic.icon}
 
-    </div>
+</div>
 
-    <h2>
+<h2>
 
-        ${topic.title}
+${topic.title}
 
-    </h2>
+</h2>
 
-    <p>
+<p>
 
-        ${topic.questions} Questions
+${topic.questions} Questions
 
-    </p>
+</p>
 
-    <button
-        onclick="openTopic('${topic.file}','${escapeQuotes(topic.title)}')">
+<button onclick="openTopic('${topic.file}','${escapeQuotes(topic.title)}')">
 
-        Open Questions →
+Open Questions →
 
-    </button>
+</button>
 
 </div>
 
@@ -116,51 +97,35 @@ function renderTopics(topics) {
 
 }
 
-/*
-==========================================
-Statistics
-==========================================
-*/
+function updateStats() {
 
-function updateStats(topics) {
+    document.getElementById("topicCount").textContent =
+        allTopics.length;
 
-    document.getElementById("topicCount").innerText =
-        topics.length;
+    const total =
+        allTopics.reduce((sum, topic) => sum + topic.questions, 0);
 
-    const totalQuestions =
-        topics.reduce((sum, topic) => {
-
-            return sum + topic.questions;
-
-        }, 0);
-
-    document.getElementById("questionCount").innerText =
-        totalQuestions;
+    document.getElementById("questionCount").textContent =
+        total;
 
 }
 
-/*
-==========================================
-Search
-==========================================
-*/
-
 function initializeSearch() {
 
-    const searchBox =
+    const search =
         document.getElementById("searchTopics");
 
-    searchBox.addEventListener("input", () => {
+    search.addEventListener("input", () => {
 
-        const search =
-            searchBox.value.toLowerCase().trim();
+        const value =
+            search.value.toLowerCase();
 
         const filtered =
             allTopics.filter(topic =>
 
                 topic.title
                     .toLowerCase()
-                    .includes(search)
+                    .includes(value)
 
             );
 
@@ -170,27 +135,12 @@ function initializeSearch() {
 
 }
 
-/*
-==========================================
-Open Topic
-==========================================
-*/
-
 function openTopic(file, title) {
 
-    const url =
-
+    window.location.href =
         `topic.html?file=${encodeURIComponent(file)}&title=${encodeURIComponent(title)}`;
 
-    window.location.href = url;
-
 }
-
-/*
-==========================================
-Utility
-==========================================
-*/
 
 function escapeQuotes(text) {
 
