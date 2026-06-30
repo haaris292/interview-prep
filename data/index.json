@@ -21,6 +21,13 @@
         "questions": 10
     },
     {
+        "id": "grc ",
+        "title": "Governance Risk Compliance GRC",
+        "icon": "🌍",
+        "file": "grc.json",
+        "questions": 10
+    },
+    {
         "id": "kubernetes",
         "title": "Kubernetes / AKS",
         "icon": "☸️",

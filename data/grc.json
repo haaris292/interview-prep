@@ -1,0 +1,3801 @@
+[
+  {
+    "id": "GRC-001",
+    "question": "GRC Fundamentals?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "grc",
+      "fundamentals"
+    ]
+  },
+  {
+    "id": "GRC-002",
+    "question": "What is Governance, Risk, and Compliance (GRC)?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "is",
+      "governance"
+    ]
+  },
+  {
+    "id": "GRC-003",
+    "question": "Why do organizations implement GRC?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "why",
+      "do",
+      "organizations"
+    ]
+  },
+  {
+    "id": "GRC-004",
+    "question": "What problems does GRC solve?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "problems",
+      "does"
+    ]
+  },
+  {
+    "id": "GRC-005",
+    "question": "What are the three pillars of GRC?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "are",
+      "the"
+    ]
+  },
+  {
+    "id": "GRC-006",
+    "question": "What is governance?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "is",
+      "governance"
+    ]
+  },
+  {
+    "id": "GRC-007",
+    "question": "What is risk management?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "is",
+      "risk"
+    ]
+  },
+  {
+    "id": "GRC-008",
+    "question": "What is compliance?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "is",
+      "compliance"
+    ]
+  },
+  {
+    "id": "GRC-009",
+    "question": "Difference between governance, risk, and compliance?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "difference",
+      "between",
+      "governance"
+    ]
+  },
+  {
+    "id": "GRC-010",
+    "question": "Why is GRC important in cybersecurity?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "why",
+      "is",
+      "grc"
+    ]
+  },
+  {
+    "id": "GRC-011",
+    "question": "Explain the GRC lifecycle?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "explain",
+      "the",
+      "grc"
+    ]
+  },
+  {
+    "id": "GRC-012",
+    "question": "What is enterprise risk management (ERM)?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "is",
+      "enterprise"
+    ]
+  },
+  {
+    "id": "GRC-013",
+    "question": "What are organizational policies?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "are",
+      "organizational"
+    ]
+  },
+  {
+    "id": "GRC-014",
+    "question": "What are standards?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "are",
+      "standards"
+    ]
+  },
+  {
+    "id": "GRC-015",
+    "question": "What are procedures?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "are",
+      "procedures"
+    ]
+  },
+  {
+    "id": "GRC-016",
+    "question": "What are guidelines?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "are",
+      "guidelines"
+    ]
+  },
+  {
+    "id": "GRC-017",
+    "question": "Difference between policy, standard, procedure, and guideline?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "difference",
+      "between",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-018",
+    "question": "What is due diligence?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "is",
+      "due"
+    ]
+  },
+  {
+    "id": "GRC-019",
+    "question": "What is due care?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "is",
+      "due"
+    ]
+  },
+  {
+    "id": "GRC-020",
+    "question": "What is accountability in GRC?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "is",
+      "accountability"
+    ]
+  },
+  {
+    "id": "GRC-021",
+    "question": "What is corporate governance?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general",
+      "what",
+      "is",
+      "corporate"
+    ]
+  },
+  {
+    "id": "GRC-022",
+    "question": "What is IT governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "what",
+      "is",
+      "it"
+    ]
+  },
+  {
+    "id": "GRC-023",
+    "question": "Why is IT governance important?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "why",
+      "is",
+      "it"
+    ]
+  },
+  {
+    "id": "GRC-024",
+    "question": "Governance vs Management?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "vs",
+      "management"
+    ]
+  },
+  {
+    "id": "GRC-025",
+    "question": "What are governance controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "what",
+      "are"
+    ]
+  },
+  {
+    "id": "GRC-026",
+    "question": "What is an IT governance framework?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "what",
+      "is",
+      "an"
+    ]
+  },
+  {
+    "id": "GRC-027",
+    "question": "Explain COBIT?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "explain",
+      "cobit"
+    ]
+  },
+  {
+    "id": "GRC-028",
+    "question": "Explain ITIL?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "explain",
+      "itil"
+    ]
+  },
+  {
+    "id": "GRC-029",
+    "question": "What are governance objectives?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "what",
+      "are"
+    ]
+  },
+  {
+    "id": "GRC-030",
+    "question": "Governance committees?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "committees"
+    ]
+  },
+  {
+    "id": "GRC-031",
+    "question": "Security governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "security"
+    ]
+  },
+  {
+    "id": "GRC-032",
+    "question": "Cloud governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "cloud"
+    ]
+  },
+  {
+    "id": "GRC-033",
+    "question": "Data governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "data"
+    ]
+  },
+  {
+    "id": "GRC-034",
+    "question": "Identity governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "identity"
+    ]
+  },
+  {
+    "id": "GRC-035",
+    "question": "AI governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "ai"
+    ]
+  },
+  {
+    "id": "GRC-036",
+    "question": "Governance metrics?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "metrics"
+    ]
+  },
+  {
+    "id": "GRC-037",
+    "question": "Governance KPIs?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "kpis"
+    ]
+  },
+  {
+    "id": "GRC-038",
+    "question": "Governance maturity?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "maturity"
+    ]
+  },
+  {
+    "id": "GRC-039",
+    "question": "Governance models?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "models"
+    ]
+  },
+  {
+    "id": "GRC-040",
+    "question": "Governance documentation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "documentation"
+    ]
+  },
+  {
+    "id": "GRC-041",
+    "question": "Governance best practices?",
+    "difficulty": "Beginner",
+    "tags": [
+      "governance",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "GRC-042",
+    "question": "What is risk?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "GRC-043",
+    "question": "Risk vs Threat?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "vs",
+      "threat"
+    ]
+  },
+  {
+    "id": "GRC-044",
+    "question": "Risk vs Vulnerability?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "vs",
+      "vulnerability"
+    ]
+  },
+  {
+    "id": "GRC-045",
+    "question": "Risk vs Issue?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "vs",
+      "issue"
+    ]
+  },
+  {
+    "id": "GRC-046",
+    "question": "Risk appetite?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "appetite"
+    ]
+  },
+  {
+    "id": "GRC-047",
+    "question": "Risk tolerance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "tolerance"
+    ]
+  },
+  {
+    "id": "GRC-048",
+    "question": "Risk acceptance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "acceptance"
+    ]
+  },
+  {
+    "id": "GRC-049",
+    "question": "Risk avoidance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "avoidance"
+    ]
+  },
+  {
+    "id": "GRC-050",
+    "question": "Risk mitigation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "mitigation"
+    ]
+  },
+  {
+    "id": "GRC-051",
+    "question": "Risk transfer?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "transfer"
+    ]
+  },
+  {
+    "id": "GRC-052",
+    "question": "Risk register?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "register"
+    ]
+  },
+  {
+    "id": "GRC-053",
+    "question": "Risk assessment?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "assessment"
+    ]
+  },
+  {
+    "id": "GRC-054",
+    "question": "Risk analysis?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "analysis"
+    ]
+  },
+  {
+    "id": "GRC-055",
+    "question": "Qualitative risk assessment?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "qualitative",
+      "assessment"
+    ]
+  },
+  {
+    "id": "GRC-056",
+    "question": "Quantitative risk assessment?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "quantitative",
+      "assessment"
+    ]
+  },
+  {
+    "id": "GRC-057",
+    "question": "Inherent risk?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "inherent"
+    ]
+  },
+  {
+    "id": "GRC-058",
+    "question": "Residual risk?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "residual"
+    ]
+  },
+  {
+    "id": "GRC-059",
+    "question": "Risk scoring?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "scoring"
+    ]
+  },
+  {
+    "id": "GRC-060",
+    "question": "Risk matrix?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "matrix"
+    ]
+  },
+  {
+    "id": "GRC-061",
+    "question": "Risk likelihood?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "likelihood"
+    ]
+  },
+  {
+    "id": "GRC-062",
+    "question": "Risk impact?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "impact"
+    ]
+  },
+  {
+    "id": "GRC-063",
+    "question": "Risk ownership?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "ownership"
+    ]
+  },
+  {
+    "id": "GRC-064",
+    "question": "Risk treatment?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "treatment"
+    ]
+  },
+  {
+    "id": "GRC-065",
+    "question": "Risk prioritization?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "prioritization"
+    ]
+  },
+  {
+    "id": "GRC-066",
+    "question": "Risk monitoring?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "GRC-067",
+    "question": "Risk reporting?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "reporting"
+    ]
+  },
+  {
+    "id": "GRC-068",
+    "question": "Key Risk Indicators (KRIs)?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "key",
+      "indicators"
+    ]
+  },
+  {
+    "id": "GRC-069",
+    "question": "Enterprise risk management?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "enterprise"
+    ]
+  },
+  {
+    "id": "GRC-070",
+    "question": "Operational risk?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "operational"
+    ]
+  },
+  {
+    "id": "GRC-071",
+    "question": "Technology risk?",
+    "difficulty": "Beginner",
+    "tags": [
+      "risk",
+      "management",
+      "technology"
+    ]
+  },
+  {
+    "id": "GRC-072",
+    "question": "Why is compliance important?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "why",
+      "is"
+    ]
+  },
+  {
+    "id": "GRC-073",
+    "question": "Compliance lifecycle?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "GRC-074",
+    "question": "Regulatory compliance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "regulatory"
+    ]
+  },
+  {
+    "id": "GRC-075",
+    "question": "Internal compliance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "internal"
+    ]
+  },
+  {
+    "id": "GRC-076",
+    "question": "External compliance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "external"
+    ]
+  },
+  {
+    "id": "GRC-077",
+    "question": "Compliance controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "controls"
+    ]
+  },
+  {
+    "id": "GRC-078",
+    "question": "Compliance audits?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "audits"
+    ]
+  },
+  {
+    "id": "GRC-079",
+    "question": "Compliance monitoring?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "GRC-080",
+    "question": "Compliance reporting?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "reporting"
+    ]
+  },
+  {
+    "id": "GRC-081",
+    "question": "Compliance evidence?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "evidence"
+    ]
+  },
+  {
+    "id": "GRC-082",
+    "question": "Continuous compliance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "continuous"
+    ]
+  },
+  {
+    "id": "GRC-083",
+    "question": "Compliance gaps?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "gaps"
+    ]
+  },
+  {
+    "id": "GRC-084",
+    "question": "Compliance remediation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "remediation"
+    ]
+  },
+  {
+    "id": "GRC-085",
+    "question": "Compliance exceptions?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "exceptions"
+    ]
+  },
+  {
+    "id": "GRC-086",
+    "question": "Compliance automation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "automation"
+    ]
+  },
+  {
+    "id": "GRC-087",
+    "question": "Compliance documentation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "documentation"
+    ]
+  },
+  {
+    "id": "GRC-088",
+    "question": "Compliance ownership?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "ownership"
+    ]
+  },
+  {
+    "id": "GRC-089",
+    "question": "Compliance metrics?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "metrics"
+    ]
+  },
+  {
+    "id": "GRC-090",
+    "question": "Compliance best practices?",
+    "difficulty": "Beginner",
+    "tags": [
+      "compliance",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "GRC-091",
+    "question": "What is a security control?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "GRC-092",
+    "question": "Types of security controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "types",
+      "of"
+    ]
+  },
+  {
+    "id": "GRC-093",
+    "question": "Administrative controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "administrative"
+    ]
+  },
+  {
+    "id": "GRC-094",
+    "question": "Technical controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "technical"
+    ]
+  },
+  {
+    "id": "GRC-095",
+    "question": "Physical controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "physical"
+    ]
+  },
+  {
+    "id": "GRC-096",
+    "question": "Preventive controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "preventive"
+    ]
+  },
+  {
+    "id": "GRC-097",
+    "question": "Detective controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "detective"
+    ]
+  },
+  {
+    "id": "GRC-098",
+    "question": "Corrective controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "corrective"
+    ]
+  },
+  {
+    "id": "GRC-099",
+    "question": "Compensating controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "compensating"
+    ]
+  },
+  {
+    "id": "GRC-100",
+    "question": "Directive controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "directive"
+    ]
+  },
+  {
+    "id": "GRC-101",
+    "question": "Deterrent controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "deterrent"
+    ]
+  },
+  {
+    "id": "GRC-102",
+    "question": "Recovery controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "recovery"
+    ]
+  },
+  {
+    "id": "GRC-103",
+    "question": "Access controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "access"
+    ]
+  },
+  {
+    "id": "GRC-104",
+    "question": "Change controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "change"
+    ]
+  },
+  {
+    "id": "GRC-105",
+    "question": "Configuration controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "configuration"
+    ]
+  },
+  {
+    "id": "GRC-106",
+    "question": "Encryption controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "encryption"
+    ]
+  },
+  {
+    "id": "GRC-107",
+    "question": "Network controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "network"
+    ]
+  },
+  {
+    "id": "GRC-108",
+    "question": "Endpoint controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "endpoint"
+    ]
+  },
+  {
+    "id": "GRC-109",
+    "question": "Cloud controls?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "cloud"
+    ]
+  },
+  {
+    "id": "GRC-110",
+    "question": "Security baselines?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security",
+      "controls",
+      "baselines"
+    ]
+  },
+  {
+    "id": "GRC-111",
+    "question": "What is ISO 27001?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "what",
+      "is",
+      "iso"
+    ]
+  },
+  {
+    "id": "GRC-112",
+    "question": "Explain ISO 27002?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "iso"
+    ]
+  },
+  {
+    "id": "GRC-113",
+    "question": "Explain ISO 27701?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "iso"
+    ]
+  },
+  {
+    "id": "GRC-114",
+    "question": "Explain NIST CSF?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "nist",
+      "csf"
+    ]
+  },
+  {
+    "id": "GRC-115",
+    "question": "Explain NIST 800-53?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "nist"
+    ]
+  },
+  {
+    "id": "GRC-116",
+    "question": "Explain NIST RMF?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "nist",
+      "rmf"
+    ]
+  },
+  {
+    "id": "GRC-117",
+    "question": "Explain CIS Controls?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "cis",
+      "controls"
+    ]
+  },
+  {
+    "id": "GRC-118",
+    "question": "Explain SOC 2?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "soc"
+    ]
+  },
+  {
+    "id": "GRC-119",
+    "question": "Explain PCI DSS?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "pci",
+      "dss"
+    ]
+  },
+  {
+    "id": "GRC-120",
+    "question": "Explain HIPAA?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "hipaa"
+    ]
+  },
+  {
+    "id": "GRC-121",
+    "question": "Explain GDPR?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "gdpr"
+    ]
+  },
+  {
+    "id": "GRC-122",
+    "question": "Explain CCPA?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "ccpa"
+    ]
+  },
+  {
+    "id": "GRC-123",
+    "question": "Explain SOX?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "sox"
+    ]
+  },
+  {
+    "id": "GRC-124",
+    "question": "Explain FedRAMP?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "fedramp"
+    ]
+  },
+  {
+    "id": "GRC-125",
+    "question": "Explain CSA CCM?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "csa",
+      "ccm"
+    ]
+  },
+  {
+    "id": "GRC-126",
+    "question": "Explain COSO?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "coso"
+    ]
+  },
+  {
+    "id": "GRC-127",
+    "question": "Explain HITRUST?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "explain",
+      "hitrust"
+    ]
+  },
+  {
+    "id": "GRC-128",
+    "question": "Compare ISO 27001 vs NIST?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "security",
+      "frameworks",
+      "compare",
+      "iso",
+      "vs"
+    ]
+  },
+  {
+    "id": "GRC-129",
+    "question": "What is an ISMS?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "what",
+      "is",
+      "an"
+    ]
+  },
+  {
+    "id": "GRC-130",
+    "question": "Annex A controls?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "annex",
+      "a",
+      "controls"
+    ]
+  },
+  {
+    "id": "GRC-131",
+    "question": "Statement of Applicability?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "statement",
+      "of",
+      "applicability"
+    ]
+  },
+  {
+    "id": "GRC-132",
+    "question": "Internal audit?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "internal",
+      "audit"
+    ]
+  },
+  {
+    "id": "GRC-133",
+    "question": "External audit?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "external",
+      "audit"
+    ]
+  },
+  {
+    "id": "GRC-134",
+    "question": "Certification process?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "certification",
+      "process"
+    ]
+  },
+  {
+    "id": "GRC-135",
+    "question": "Risk treatment plan?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "risk",
+      "treatment",
+      "plan"
+    ]
+  },
+  {
+    "id": "GRC-136",
+    "question": "Continuous improvement?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "continuous",
+      "improvement"
+    ]
+  },
+  {
+    "id": "GRC-137",
+    "question": "Management review?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "management",
+      "review"
+    ]
+  },
+  {
+    "id": "GRC-138",
+    "question": "Document control?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "document",
+      "control"
+    ]
+  },
+  {
+    "id": "GRC-139",
+    "question": "Asset inventory?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "asset",
+      "inventory"
+    ]
+  },
+  {
+    "id": "GRC-140",
+    "question": "Security objectives?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "security",
+      "objectives"
+    ]
+  },
+  {
+    "id": "GRC-141",
+    "question": "Corrective actions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "corrective",
+      "actions"
+    ]
+  },
+  {
+    "id": "GRC-142",
+    "question": "ISO audit preparation?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "iso",
+      "audit",
+      "preparation"
+    ]
+  },
+  {
+    "id": "GRC-143",
+    "question": "NIST Cybersecurity Framework?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "cybersecurity",
+      "framework"
+    ]
+  },
+  {
+    "id": "GRC-144",
+    "question": "Identify function?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "identify",
+      "function"
+    ]
+  },
+  {
+    "id": "GRC-145",
+    "question": "Protect function?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "protect",
+      "function"
+    ]
+  },
+  {
+    "id": "GRC-146",
+    "question": "Detect function?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "detect",
+      "function"
+    ]
+  },
+  {
+    "id": "GRC-147",
+    "question": "Respond function?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "respond",
+      "function"
+    ]
+  },
+  {
+    "id": "GRC-148",
+    "question": "Recover function?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "recover",
+      "function"
+    ]
+  },
+  {
+    "id": "GRC-149",
+    "question": "NIST Risk Management Framework?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "risk",
+      "management"
+    ]
+  },
+  {
+    "id": "GRC-150",
+    "question": "Security categorization?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "security",
+      "categorization"
+    ]
+  },
+  {
+    "id": "GRC-151",
+    "question": "Security controls?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "security",
+      "controls"
+    ]
+  },
+  {
+    "id": "GRC-152",
+    "question": "Authorization?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "authorization"
+    ]
+  },
+  {
+    "id": "GRC-153",
+    "question": "Continuous monitoring?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "continuous",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "GRC-154",
+    "question": "POA&M?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "poa",
+      "m"
+    ]
+  },
+  {
+    "id": "GRC-155",
+    "question": "Control families?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "control",
+      "families"
+    ]
+  },
+  {
+    "id": "GRC-156",
+    "question": "NIST implementation?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "implementation"
+    ]
+  },
+  {
+    "id": "GRC-157",
+    "question": "NIST audits?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nist",
+      "audits"
+    ]
+  },
+  {
+    "id": "GRC-158",
+    "question": "What is cloud governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "GRC-159",
+    "question": "Why cloud governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "why"
+    ]
+  },
+  {
+    "id": "GRC-160",
+    "question": "Cloud landing zones?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "landing",
+      "zones"
+    ]
+  },
+  {
+    "id": "GRC-161",
+    "question": "Azure Policy?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-162",
+    "question": "Azure Blueprints?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "blueprints"
+    ]
+  },
+  {
+    "id": "GRC-163",
+    "question": "Azure Management Groups?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "management",
+      "groups"
+    ]
+  },
+  {
+    "id": "GRC-164",
+    "question": "Azure RBAC?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "rbac"
+    ]
+  },
+  {
+    "id": "GRC-165",
+    "question": "Azure Resource Locks?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "resource",
+      "locks"
+    ]
+  },
+  {
+    "id": "GRC-166",
+    "question": "Azure Tags?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "tags"
+    ]
+  },
+  {
+    "id": "GRC-167",
+    "question": "Azure Cost Management?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "cost",
+      "management"
+    ]
+  },
+  {
+    "id": "GRC-168",
+    "question": "Azure Defender?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "defender"
+    ]
+  },
+  {
+    "id": "GRC-169",
+    "question": "Microsoft Defender for Cloud?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "microsoft",
+      "defender",
+      "for"
+    ]
+  },
+  {
+    "id": "GRC-170",
+    "question": "Azure Security Center?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "security",
+      "center"
+    ]
+  },
+  {
+    "id": "GRC-171",
+    "question": "Azure Monitor?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "monitor"
+    ]
+  },
+  {
+    "id": "GRC-172",
+    "question": "Azure Activity Logs?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "activity",
+      "logs"
+    ]
+  },
+  {
+    "id": "GRC-173",
+    "question": "Azure Resource Graph?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "resource",
+      "graph"
+    ]
+  },
+  {
+    "id": "GRC-174",
+    "question": "Azure Policy initiatives?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "azure",
+      "policy",
+      "initiatives"
+    ]
+  },
+  {
+    "id": "GRC-175",
+    "question": "AWS Organizations?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "aws",
+      "organizations"
+    ]
+  },
+  {
+    "id": "GRC-176",
+    "question": "AWS SCPs?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "aws",
+      "scps"
+    ]
+  },
+  {
+    "id": "GRC-177",
+    "question": "AWS Config?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "aws",
+      "config"
+    ]
+  },
+  {
+    "id": "GRC-178",
+    "question": "AWS Security Hub?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "aws",
+      "security",
+      "hub"
+    ]
+  },
+  {
+    "id": "GRC-179",
+    "question": "AWS IAM?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "aws",
+      "iam"
+    ]
+  },
+  {
+    "id": "GRC-180",
+    "question": "AWS CloudTrail?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "aws",
+      "cloudtrail"
+    ]
+  },
+  {
+    "id": "GRC-181",
+    "question": "GCP Organization Policies?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "gcp",
+      "organization",
+      "policies"
+    ]
+  },
+  {
+    "id": "GRC-182",
+    "question": "Cloud governance best practices?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "governance",
+      "best"
+    ]
+  },
+  {
+    "id": "GRC-183",
+    "question": "What is IAM?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "what",
+      "is",
+      "iam"
+    ]
+  },
+  {
+    "id": "GRC-184",
+    "question": "What is Identity Governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "GRC-185",
+    "question": "RBAC?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "rbac"
+    ]
+  },
+  {
+    "id": "GRC-186",
+    "question": "ABAC?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "abac"
+    ]
+  },
+  {
+    "id": "GRC-187",
+    "question": "PBAC?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "pbac"
+    ]
+  },
+  {
+    "id": "GRC-188",
+    "question": "Least privilege?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "least",
+      "privilege"
+    ]
+  },
+  {
+    "id": "GRC-189",
+    "question": "Segregation of Duties (SoD)?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "segregation",
+      "of",
+      "duties"
+    ]
+  },
+  {
+    "id": "GRC-190",
+    "question": "Privileged Access Management?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "privileged",
+      "management"
+    ]
+  },
+  {
+    "id": "GRC-191",
+    "question": "Identity lifecycle?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "GRC-192",
+    "question": "Joiner-Mover-Leaver?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "joiner",
+      "mover",
+      "leaver"
+    ]
+  },
+  {
+    "id": "GRC-193",
+    "question": "Access reviews?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "reviews"
+    ]
+  },
+  {
+    "id": "GRC-194",
+    "question": "Access certification?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "certification"
+    ]
+  },
+  {
+    "id": "GRC-195",
+    "question": "Role mining?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "role",
+      "mining"
+    ]
+  },
+  {
+    "id": "GRC-196",
+    "question": "Just-In-Time access?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "just",
+      "in",
+      "time"
+    ]
+  },
+  {
+    "id": "GRC-197",
+    "question": "Just Enough Access?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "just",
+      "enough"
+    ]
+  },
+  {
+    "id": "GRC-198",
+    "question": "MFA?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "mfa"
+    ]
+  },
+  {
+    "id": "GRC-199",
+    "question": "Conditional Access?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "conditional"
+    ]
+  },
+  {
+    "id": "GRC-200",
+    "question": "Identity federation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "federation"
+    ]
+  },
+  {
+    "id": "GRC-201",
+    "question": "SSO?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "sso"
+    ]
+  },
+  {
+    "id": "GRC-202",
+    "question": "Service principals?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "service",
+      "principals"
+    ]
+  },
+  {
+    "id": "GRC-203",
+    "question": "Managed identities?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "managed",
+      "identities"
+    ]
+  },
+  {
+    "id": "GRC-204",
+    "question": "Secrets management?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "secrets",
+      "management"
+    ]
+  },
+  {
+    "id": "GRC-205",
+    "question": "PIM?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "pim"
+    ]
+  },
+  {
+    "id": "GRC-206",
+    "question": "Identity audits?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "audits"
+    ]
+  },
+  {
+    "id": "GRC-207",
+    "question": "Identity governance best practices?",
+    "difficulty": "Beginner",
+    "tags": [
+      "identity",
+      "access",
+      "governance",
+      "best"
+    ]
+  },
+  {
+    "id": "GRC-208",
+    "question": "What is third-party risk?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "GRC-209",
+    "question": "Vendor risk assessment?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "vendor",
+      "risk",
+      "assessment"
+    ]
+  },
+  {
+    "id": "GRC-210",
+    "question": "Supplier security reviews?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "supplier",
+      "security",
+      "reviews"
+    ]
+  },
+  {
+    "id": "GRC-211",
+    "question": "Vendor questionnaires?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "vendor",
+      "questionnaires"
+    ]
+  },
+  {
+    "id": "GRC-212",
+    "question": "Security ratings?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "security",
+      "ratings"
+    ]
+  },
+  {
+    "id": "GRC-213",
+    "question": "SOC reports?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "soc",
+      "reports"
+    ]
+  },
+  {
+    "id": "GRC-214",
+    "question": "Penetration testing reports?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "penetration",
+      "testing",
+      "reports"
+    ]
+  },
+  {
+    "id": "GRC-215",
+    "question": "Contractual security requirements?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "contractual",
+      "security",
+      "requirements"
+    ]
+  },
+  {
+    "id": "GRC-216",
+    "question": "Vendor onboarding?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "vendor",
+      "onboarding"
+    ]
+  },
+  {
+    "id": "GRC-217",
+    "question": "Vendor offboarding?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "vendor",
+      "offboarding"
+    ]
+  },
+  {
+    "id": "GRC-218",
+    "question": "Vendor monitoring?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "vendor",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "GRC-219",
+    "question": "Critical vendors?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "critical",
+      "vendors"
+    ]
+  },
+  {
+    "id": "GRC-220",
+    "question": "Vendor audits?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "vendor",
+      "audits"
+    ]
+  },
+  {
+    "id": "GRC-221",
+    "question": "Supply chain attacks?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "supply",
+      "chain",
+      "attacks"
+    ]
+  },
+  {
+    "id": "GRC-222",
+    "question": "Third-party governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "third",
+      "party",
+      "governance"
+    ]
+  },
+  {
+    "id": "GRC-223",
+    "question": "What is an audit?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "what",
+      "is",
+      "an"
+    ]
+  },
+  {
+    "id": "GRC-224",
+    "question": "Compliance audit?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "compliance"
+    ]
+  },
+  {
+    "id": "GRC-225",
+    "question": "Security audit?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "security"
+    ]
+  },
+  {
+    "id": "GRC-226",
+    "question": "Evidence collection?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "evidence",
+      "collection"
+    ]
+  },
+  {
+    "id": "GRC-227",
+    "question": "Audit findings?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "findings"
+    ]
+  },
+  {
+    "id": "GRC-228",
+    "question": "Audit observations?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "observations"
+    ]
+  },
+  {
+    "id": "GRC-229",
+    "question": "Audit remediation?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "remediation"
+    ]
+  },
+  {
+    "id": "GRC-230",
+    "question": "Audit closure?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "closure"
+    ]
+  },
+  {
+    "id": "GRC-231",
+    "question": "Audit readiness?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "readiness"
+    ]
+  },
+  {
+    "id": "GRC-232",
+    "question": "Audit planning?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "planning"
+    ]
+  },
+  {
+    "id": "GRC-233",
+    "question": "Audit sampling?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "sampling"
+    ]
+  },
+  {
+    "id": "GRC-234",
+    "question": "Control testing?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "control",
+      "testing"
+    ]
+  },
+  {
+    "id": "GRC-235",
+    "question": "Audit reporting?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "reporting"
+    ]
+  },
+  {
+    "id": "GRC-236",
+    "question": "Audit documentation?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "documentation"
+    ]
+  },
+  {
+    "id": "GRC-237",
+    "question": "Walkthrough?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "walkthrough"
+    ]
+  },
+  {
+    "id": "GRC-238",
+    "question": "Interview techniques?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "interview",
+      "techniques"
+    ]
+  },
+  {
+    "id": "GRC-239",
+    "question": "Audit trails?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "trails"
+    ]
+  },
+  {
+    "id": "GRC-240",
+    "question": "Continuous auditing?",
+    "difficulty": "Advanced",
+    "tags": [
+      "audit",
+      "continuous",
+      "auditing"
+    ]
+  },
+  {
+    "id": "GRC-241",
+    "question": "Information Security Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "information",
+      "security",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-242",
+    "question": "Password Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "password",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-243",
+    "question": "Acceptable Use Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "acceptable",
+      "use",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-244",
+    "question": "Remote Access Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "remote",
+      "access",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-245",
+    "question": "Data Classification Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "data",
+      "classification",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-246",
+    "question": "Backup Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "backup",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-247",
+    "question": "Disaster Recovery Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "disaster",
+      "recovery",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-248",
+    "question": "Incident Response Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "incident",
+      "response",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-249",
+    "question": "Change Management Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "change",
+      "management",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-250",
+    "question": "Vendor Management Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "vendor",
+      "management",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-251",
+    "question": "Encryption Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "encryption",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-252",
+    "question": "Secure Development Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "secure",
+      "development",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-253",
+    "question": "BYOD Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "byod",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-254",
+    "question": "Asset Management Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "policies",
+      "documentation",
+      "asset",
+      "management",
+      "policy"
+    ]
+  },
+  {
+    "id": "GRC-255",
+    "question": "Business Continuity?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity"
+    ]
+  },
+  {
+    "id": "GRC-256",
+    "question": "Disaster Recovery?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "disaster",
+      "recovery"
+    ]
+  },
+  {
+    "id": "GRC-257",
+    "question": "BIA?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "bia"
+    ]
+  },
+  {
+    "id": "GRC-258",
+    "question": "RTO?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "rto"
+    ]
+  },
+  {
+    "id": "GRC-259",
+    "question": "RPO?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "rpo"
+    ]
+  },
+  {
+    "id": "GRC-260",
+    "question": "Backup strategies?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "backup",
+      "strategies"
+    ]
+  },
+  {
+    "id": "GRC-261",
+    "question": "DR testing?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "dr",
+      "testing"
+    ]
+  },
+  {
+    "id": "GRC-262",
+    "question": "Crisis management?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "crisis",
+      "management"
+    ]
+  },
+  {
+    "id": "GRC-263",
+    "question": "Recovery planning?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "recovery",
+      "planning"
+    ]
+  },
+  {
+    "id": "GRC-264",
+    "question": "High Availability?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "high",
+      "availability"
+    ]
+  },
+  {
+    "id": "GRC-265",
+    "question": "Resilience?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "resilience"
+    ]
+  },
+  {
+    "id": "GRC-266",
+    "question": "Tabletop exercises?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "tabletop",
+      "exercises"
+    ]
+  },
+  {
+    "id": "GRC-267",
+    "question": "Failover?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "failover"
+    ]
+  },
+  {
+    "id": "GRC-268",
+    "question": "Failback?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "failback"
+    ]
+  },
+  {
+    "id": "GRC-269",
+    "question": "BCP governance?",
+    "difficulty": "Advanced",
+    "tags": [
+      "business",
+      "continuity",
+      "bcp",
+      "governance"
+    ]
+  },
+  {
+    "id": "GRC-270",
+    "question": "Incident response lifecycle?",
+    "difficulty": "Beginner",
+    "tags": [
+      "incident",
+      "response",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "GRC-271",
+    "question": "Incident classification?",
+    "difficulty": "Beginner",
+    "tags": [
+      "incident",
+      "response",
+      "classification"
+    ]
+  },
+  {
+    "id": "GRC-272",
+    "question": "Severity levels?",
+    "difficulty": "Beginner",
+    "tags": [
+      "incident",
+      "response",
+      "severity",
+      "levels"
+    ]
+  },
+  {
+    "id": "GRC-273",
+    "question": "Escalation matrix?",
+    "difficulty": "Beginner",
+    "tags": [
+      "incident",
+      "response",
+      "escalation",
+      "matrix"
+    ]
+  },
+  {
+    "id": "GRC-274",
+    "question": "Root cause analysis?",
+    "difficulty": "Beginner",
+    "tags": [
+      "incident",
+      "response",
+      "root",
+      "cause",
+      "analysis"
+    ]
+  },
+  {
+    "id": "GRC-275",
+    "question": "Lessons learned?",
+    "difficulty": "Beginner",
+    "tags": [
+      "incident",
+      "response",
+      "lessons",
+      "learned"
+    ]
+  },
+  {
+    "id": "GRC-276",
+    "question": "Regulatory reporting?",
+    "difficulty": "Beginner",
+    "tags": [
+      "incident",
+      "response",
+      "regulatory",
+      "reporting"
+    ]
+  },
+  {
+    "id": "GRC-277",
+    "question": "Data breach notification?",
+    "difficulty": "Beginner",
+    "tags": [
+      "incident",
+      "response",
+      "data",
+      "breach",
+      "notification"
+    ]
+  },
+  {
+    "id": "GRC-278",
+    "question": "Incident documentation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "incident",
+      "response",
+      "documentation"
+    ]
+  },
+  {
+    "id": "GRC-279",
+    "question": "Security operations governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "incident",
+      "response",
+      "security",
+      "operations",
+      "governance"
+    ]
+  },
+  {
+    "id": "GRC-280",
+    "question": "Shift Left Security?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "shift",
+      "left",
+      "security"
+    ]
+  },
+  {
+    "id": "GRC-281",
+    "question": "Secure SDLC?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "secure",
+      "sdlc"
+    ]
+  },
+  {
+    "id": "GRC-282",
+    "question": "Infrastructure as Code governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "infrastructure",
+      "as",
+      "code"
+    ]
+  },
+  {
+    "id": "GRC-283",
+    "question": "Terraform compliance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "terraform",
+      "compliance"
+    ]
+  },
+  {
+    "id": "GRC-284",
+    "question": "Policy as Code?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "policy",
+      "as",
+      "code"
+    ]
+  },
+  {
+    "id": "GRC-285",
+    "question": "Open Policy Agent?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "open",
+      "policy",
+      "agent"
+    ]
+  },
+  {
+    "id": "GRC-286",
+    "question": "Sentinel?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "sentinel"
+    ]
+  },
+  {
+    "id": "GRC-287",
+    "question": "Checkov?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "checkov"
+    ]
+  },
+  {
+    "id": "GRC-288",
+    "question": "tfsec?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "tfsec"
+    ]
+  },
+  {
+    "id": "GRC-289",
+    "question": "SAST?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "sast"
+    ]
+  },
+  {
+    "id": "GRC-290",
+    "question": "DAST?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "dast"
+    ]
+  },
+  {
+    "id": "GRC-291",
+    "question": "Dependency scanning?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "dependency",
+      "scanning"
+    ]
+  },
+  {
+    "id": "GRC-292",
+    "question": "Container security?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "container",
+      "security"
+    ]
+  },
+  {
+    "id": "GRC-293",
+    "question": "CI/CD governance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "ci",
+      "cd"
+    ]
+  },
+  {
+    "id": "GRC-294",
+    "question": "Software supply chain security?",
+    "difficulty": "Beginner",
+    "tags": [
+      "devsecops",
+      "governance",
+      "software",
+      "supply",
+      "chain"
+    ]
+  },
+  {
+    "id": "GRC-295",
+    "question": "KPIs vs KRIs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "metrics",
+      "reporting",
+      "kpis",
+      "vs",
+      "kris"
+    ]
+  },
+  {
+    "id": "GRC-296",
+    "question": "Compliance dashboards?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "metrics",
+      "reporting",
+      "compliance",
+      "dashboards"
+    ]
+  },
+  {
+    "id": "GRC-297",
+    "question": "Risk dashboards?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "metrics",
+      "reporting",
+      "risk",
+      "dashboards"
+    ]
+  },
+  {
+    "id": "GRC-298",
+    "question": "Executive reporting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "metrics",
+      "reporting",
+      "executive"
+    ]
+  },
+  {
+    "id": "GRC-299",
+    "question": "Board reporting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "metrics",
+      "reporting",
+      "board"
+    ]
+  },
+  {
+    "id": "GRC-300",
+    "question": "Audit metrics?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "metrics",
+      "reporting",
+      "audit"
+    ]
+  },
+  {
+    "id": "GRC-301",
+    "question": "Security scorecards?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "metrics",
+      "reporting",
+      "security",
+      "scorecards"
+    ]
+  },
+  {
+    "id": "GRC-302",
+    "question": "Compliance maturity?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "metrics",
+      "reporting",
+      "compliance",
+      "maturity"
+    ]
+  },
+  {
+    "id": "GRC-303",
+    "question": "Risk metrics?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "metrics",
+      "reporting",
+      "risk"
+    ]
+  },
+  {
+    "id": "GRC-304",
+    "question": "Microsoft Purview?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "microsoft",
+      "purview"
+    ]
+  },
+  {
+    "id": "GRC-305",
+    "question": "Microsoft Sentinel?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "microsoft",
+      "sentinel"
+    ]
+  },
+  {
+    "id": "GRC-306",
+    "question": "ServiceNow GRC?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "servicenow",
+      "grc"
+    ]
+  },
+  {
+    "id": "GRC-307",
+    "question": "RSA Archer?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "rsa",
+      "archer"
+    ]
+  },
+  {
+    "id": "GRC-308",
+    "question": "OneTrust?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "onetrust"
+    ]
+  },
+  {
+    "id": "GRC-309",
+    "question": "AuditBoard?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "auditboard"
+    ]
+  },
+  {
+    "id": "GRC-310",
+    "question": "LogicGate?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "logicgate"
+    ]
+  },
+  {
+    "id": "GRC-311",
+    "question": "Jira for GRC?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "jira",
+      "for",
+      "grc"
+    ]
+  },
+  {
+    "id": "GRC-312",
+    "question": "Prisma Cloud?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "prisma",
+      "cloud"
+    ]
+  },
+  {
+    "id": "GRC-313",
+    "question": "Wiz?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "wiz"
+    ]
+  },
+  {
+    "id": "GRC-314",
+    "question": "Tenable?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "tools",
+      "tenable"
+    ]
+  },
+  {
+    "id": "GRC-315",
+    "question": "GDPR?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "gdpr"
+    ]
+  },
+  {
+    "id": "GRC-316",
+    "question": "HIPAA?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "hipaa"
+    ]
+  },
+  {
+    "id": "GRC-317",
+    "question": "PCI DSS?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "pci",
+      "dss"
+    ]
+  },
+  {
+    "id": "GRC-318",
+    "question": "SOX?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "sox"
+    ]
+  },
+  {
+    "id": "GRC-319",
+    "question": "GLBA?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "glba"
+    ]
+  },
+  {
+    "id": "GRC-320",
+    "question": "CCPA?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "ccpa"
+    ]
+  },
+  {
+    "id": "GRC-321",
+    "question": "FedRAMP?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "fedramp"
+    ]
+  },
+  {
+    "id": "GRC-322",
+    "question": "FISMA?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "fisma"
+    ]
+  },
+  {
+    "id": "GRC-323",
+    "question": "NIS2?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "nis"
+    ]
+  },
+  {
+    "id": "GRC-324",
+    "question": "DORA?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "dora"
+    ]
+  },
+  {
+    "id": "GRC-325",
+    "question": "ISO 22301?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "iso"
+    ]
+  },
+  {
+    "id": "GRC-326",
+    "question": "ISO 20000?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "iso"
+    ]
+  },
+  {
+    "id": "GRC-327",
+    "question": "ISO 31000?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "iso"
+    ]
+  },
+  {
+    "id": "GRC-328",
+    "question": "CSA STAR?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "csa",
+      "star"
+    ]
+  },
+  {
+    "id": "GRC-329",
+    "question": "SOC 1 vs SOC 2?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "regulatory",
+      "standards",
+      "soc",
+      "vs"
+    ]
+  },
+  {
+    "id": "GRC-330",
+    "question": "A critical production server is non-compliant. What would you do?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "critical",
+      "production"
+    ]
+  },
+  {
+    "id": "GRC-331",
+    "question": "A developer requests Global Administrator access. How would you handle it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "developer",
+      "requests"
+    ]
+  },
+  {
+    "id": "GRC-332",
+    "question": "An audit finds several high-risk issues. What are your next steps?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "an",
+      "audit",
+      "finds"
+    ]
+  },
+  {
+    "id": "GRC-333",
+    "question": "A vendor refuses to complete your security questionnaire. How would you proceed?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "vendor",
+      "refuses"
+    ]
+  },
+  {
+    "id": "GRC-334",
+    "question": "You discover hundreds of Azure resources without tags. How would you remediate the issue?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "you",
+      "discover",
+      "hundreds"
+    ]
+  },
+  {
+    "id": "GRC-335",
+    "question": "Your organization has no documented security policies. Where would you begin?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "your",
+      "organization",
+      "has"
+    ]
+  },
+  {
+    "id": "GRC-336",
+    "question": "A business unit wants to bypass a mandatory security control to meet a deadline. How would you respond?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "business",
+      "unit"
+    ]
+  },
+  {
+    "id": "GRC-337",
+    "question": "You identify critical infrastructure drift from approved configurations. What actions would you take?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "you",
+      "identify",
+      "critical"
+    ]
+  },
+  {
+    "id": "GRC-338",
+    "question": "An Azure subscription is deployed outside governance standards. How would you bring it into compliance?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "an",
+      "azure",
+      "subscription"
+    ]
+  },
+  {
+    "id": "GRC-339",
+    "question": "A department stores customer data without encryption. What risks exist, and how would you address them?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "department",
+      "stores"
+    ]
+  },
+  {
+    "id": "GRC-340",
+    "question": "Users have accumulated excessive permissions over several years. How would you conduct an access review?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "users",
+      "have",
+      "accumulated"
+    ]
+  },
+  {
+    "id": "GRC-341",
+    "question": "A cloud environment contains public storage accounts. How would you assess and remediate the risk?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "cloud",
+      "environment"
+    ]
+  },
+  {
+    "id": "GRC-342",
+    "question": "An ISO 27001 surveillance audit is scheduled in one month. How would you prepare?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "an",
+      "iso",
+      "surveillance"
+    ]
+  },
+  {
+    "id": "GRC-343",
+    "question": "A PCI DSS audit identifies missing logging controls. What remediation plan would you propose?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "pci",
+      "dss"
+    ]
+  },
+  {
+    "id": "GRC-344",
+    "question": "An executive asks for the organization's current cyber risk posture. How would you present it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "an",
+      "executive",
+      "asks"
+    ]
+  },
+  {
+    "id": "GRC-345",
+    "question": "Multiple business units disagree on ownership of a critical security risk. How would you resolve it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "multiple",
+      "business",
+      "units"
+    ]
+  },
+  {
+    "id": "GRC-346",
+    "question": "How would you implement a cloud governance framework for a company migrating from on-premises to Azure?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "GRC-347",
+    "question": "How would you build a GRC program from scratch for a startup preparing for SOC 2 and ISO 27001 certification?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "GRC-348",
+    "question": "Describe a security or compliance issue you managed, the root cause, your remediation approach, and the long-term preventive controls you implemented?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "describe",
+      "a",
+      "security"
+    ]
+  },
+  {
+    "id": "GRC-349",
+    "question": "If a regulator requests evidence that only authorized users can access sensitive systems, what documentation, controls, and evidence would you provide?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "if",
+      "a",
+      "regulator"
+    ]
+  },
+  {
+    "id": "GRC-350",
+    "question": "Describe a time you disagreed with a business stakeholder about a security requirement?",
+    "difficulty": "Advanced",
+    "tags": [
+      "behavioral",
+      "leadership",
+      "describe",
+      "a",
+      "time"
+    ]
+  },
+  {
+    "id": "GRC-351",
+    "question": "How do you balance business objectives with compliance requirements?",
+    "difficulty": "Advanced",
+    "tags": [
+      "behavioral",
+      "leadership",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "GRC-352",
+    "question": "How do you handle resistance to new governance controls?",
+    "difficulty": "Advanced",
+    "tags": [
+      "behavioral",
+      "leadership",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "GRC-353",
+    "question": "Tell me about a difficult audit you participated in?",
+    "difficulty": "Advanced",
+    "tags": [
+      "behavioral",
+      "leadership",
+      "tell",
+      "me",
+      "about"
+    ]
+  },
+  {
+    "id": "GRC-354",
+    "question": "How do you prioritize multiple high-risk findings with limited resources?",
+    "difficulty": "Advanced",
+    "tags": [
+      "behavioral",
+      "leadership",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "GRC-355",
+    "question": "Describe a time you influenced senior leadership to accept a security recommendation?",
+    "difficulty": "Advanced",
+    "tags": [
+      "behavioral",
+      "leadership",
+      "describe",
+      "a",
+      "time"
+    ]
+  },
+  {
+    "id": "GRC-356",
+    "question": "How do you communicate technical risks to non-technical executives?",
+    "difficulty": "Advanced",
+    "tags": [
+      "behavioral",
+      "leadership",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "GRC-357",
+    "question": "How do you build a culture of compliance across an organization?",
+    "difficulty": "Advanced",
+    "tags": [
+      "behavioral",
+      "leadership",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "GRC-358",
+    "question": "Describe a major governance initiative you led?",
+    "difficulty": "Advanced",
+    "tags": [
+      "behavioral",
+      "leadership",
+      "describe",
+      "a",
+      "major"
+    ]
+  },
+  {
+    "id": "GRC-359",
+    "question": "Why do you want to work in Governance, Risk, and Compliance?",
+    "difficulty": "Advanced",
+    "tags": [
+      "behavioral",
+      "leadership",
+      "why",
+      "do",
+      "you"
+    ]
+  }
+]
