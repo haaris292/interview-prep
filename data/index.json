@@ -103,6 +103,13 @@
         "icon": "📊",
         "file": "architecture.json",
         "questions": 18
+    },
+        {
+        "id": "scenario-based",
+        "title": "Scenario Based",
+        "icon": "📊",
+        "file": "scenario-based.json",
+        "questions": 18
     }
 
 ]

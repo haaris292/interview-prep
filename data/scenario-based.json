@@ -1,0 +1,1050 @@
+[
+  {
+    "id": "SCN-001",
+    "question": "A production application suddenly starts returning 500 errors, but infrastructure metrics look normal. How would you investigate?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-002",
+    "question": "CPU usage on your Kubernetes nodes is low, but applications are experiencing slow response times. What would you check?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "SCN-003",
+    "question": "Users report intermittent failures accessing an application, but you cannot reproduce the issue. How would you approach the investigation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-004",
+    "question": "A service works correctly internally but is unreachable from the internet. What components would you verify first?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-005",
+    "question": "Multiple alerts are triggered simultaneously after a deployment. How would you determine the root cause?",
+    "difficulty": "Advanced",
+    "tags": [
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-006",
+    "question": "A production pod keeps restarting every few minutes. What would be your troubleshooting process?",
+    "difficulty": "Advanced",
+    "tags": [
+      "troubleshooting",
+      "pod"
+    ]
+  },
+  {
+    "id": "SCN-007",
+    "question": "A database suddenly becomes the bottleneck during peak traffic. How would you identify the cause?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "id": "SCN-008",
+    "question": "DNS resolution is failing for some services but not others. How would you isolate the problem?",
+    "difficulty": "Beginner",
+    "tags": [
+      "dns"
+    ]
+  },
+  {
+    "id": "SCN-009",
+    "question": "An application works in one availability zone but fails in another. What could cause this?",
+    "difficulty": "Advanced",
+    "tags": [
+      "availability"
+    ]
+  },
+  {
+    "id": "SCN-010",
+    "question": "A customer reports slow performance only during business hours. How would you investigate?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "performance"
+    ]
+  },
+  {
+    "id": "SCN-011",
+    "question": "Your application is expected to handle 10x more traffic next year. How would you prepare the cloud architecture?",
+    "difficulty": "Advanced",
+    "tags": [
+      "cloud",
+      "architecture"
+    ]
+  },
+  {
+    "id": "SCN-012",
+    "question": "A business application requires 99.99% availability. How would you design the infrastructure?",
+    "difficulty": "Advanced",
+    "tags": [
+      "availability"
+    ]
+  },
+  {
+    "id": "SCN-013",
+    "question": "A workload contains both stateless and stateful components. How would you architect them differently?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-014",
+    "question": "Your organization wants to move from a monolithic application to microservices. What cloud services would you introduce?",
+    "difficulty": "Advanced",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-015",
+    "question": "You need to design a disaster recovery strategy with an RPO of 15 minutes and an RTO of 30 minutes. How would you achieve it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-016",
+    "question": "How would you design a multi-region architecture for a customer-facing application?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture"
+    ]
+  },
+  {
+    "id": "SCN-017",
+    "question": "A customer wants to migrate to the cloud without changing the application. What migration strategy would you recommend?",
+    "difficulty": "Advanced",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-018",
+    "question": "How would you design a secure landing zone for a new business unit?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-019",
+    "question": "Your application uses both VMs and containers. How would you decide where each workload should run?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-020",
+    "question": "A legacy application cannot be containerized. How would you modernize it gradually?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-021",
+    "question": "Pods are stuck in Pending state. How would you troubleshoot?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "pod"
+    ]
+  },
+  {
+    "id": "SCN-022",
+    "question": "Pods are healthy, but traffic is not reaching them. What would you investigate?",
+    "difficulty": "Advanced",
+    "tags": [
+      "pod"
+    ]
+  },
+  {
+    "id": "SCN-023",
+    "question": "A deployment succeeds, but the new version is unavailable. How would you debug it?",
+    "difficulty": "Beginner",
+    "tags": [
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-024",
+    "question": "Cluster autoscaler is not adding nodes even though pods remain unscheduled. What could be wrong?",
+    "difficulty": "Advanced",
+    "tags": [
+      "pod"
+    ]
+  },
+  {
+    "id": "SCN-025",
+    "question": "Kubernetes is consuming much more memory than expected. How would you identify the cause?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "SCN-026",
+    "question": "A node becomes NotReady. What would you check first?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-027",
+    "question": "One namespace is consuming most of the cluster resources. How would you prevent this?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-028",
+    "question": "Applications require zero-downtime deployments. Which Kubernetes features would you use?",
+    "difficulty": "Beginner",
+    "tags": [
+      "kubernetes",
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-029",
+    "question": "A Secret was accidentally exposed. What steps would you take?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-030",
+    "question": "Your etcd storage is growing rapidly. How would you investigate?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-031",
+    "question": "Multiple engineers are modifying the same Terraform project. How would you avoid conflicts?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform"
+    ]
+  },
+  {
+    "id": "SCN-032",
+    "question": "Terraform state becomes corrupted. How would you recover?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform"
+    ]
+  },
+  {
+    "id": "SCN-033",
+    "question": "Someone manually modified cloud resources outside Terraform. How would you reconcile the environment?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform",
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-034",
+    "question": "Your Terraform plan shows hundreds of unexpected changes. What would you do?",
+    "difficulty": "Advanced",
+    "tags": [
+      "terraform"
+    ]
+  },
+  {
+    "id": "SCN-035",
+    "question": "Different environments require slightly different configurations. How would you organize the code?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-036",
+    "question": "A Terraform apply failed halfway through. How would you recover?",
+    "difficulty": "Advanced",
+    "tags": [
+      "terraform"
+    ]
+  },
+  {
+    "id": "SCN-037",
+    "question": "You inherit Terraform code with no documentation. How would you understand and improve it?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform"
+    ]
+  },
+  {
+    "id": "SCN-038",
+    "question": "How would you safely upgrade Terraform provider versions across multiple environments?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform"
+    ]
+  },
+  {
+    "id": "SCN-039",
+    "question": "Sensitive values are currently stored in Terraform variables. How would you secure them?",
+    "difficulty": "Beginner",
+    "tags": [
+      "terraform"
+    ]
+  },
+  {
+    "id": "SCN-040",
+    "question": "Multiple teams share Terraform modules. How would you manage module versioning?",
+    "difficulty": "Advanced",
+    "tags": [
+      "terraform"
+    ]
+  },
+  {
+    "id": "SCN-041",
+    "question": "A deployment passes all tests but fails in production. What additional checks would you introduce?",
+    "difficulty": "Advanced",
+    "tags": [
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-042",
+    "question": "Pipeline execution time has doubled over the last few months. How would you optimize it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-043",
+    "question": "Developers frequently merge broken code into the main branch. How would you improve the workflow?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-044",
+    "question": "A deployment partially succeeds, leaving production in an inconsistent state. How would you prevent this?",
+    "difficulty": "Advanced",
+    "tags": [
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-045",
+    "question": "One stage in the pipeline fails randomly. How would you investigate?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-046",
+    "question": "How would you implement progressive delivery in your deployment pipeline?",
+    "difficulty": "Beginner",
+    "tags": [
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-047",
+    "question": "How would you deploy database schema changes with minimal downtime?",
+    "difficulty": "Advanced",
+    "tags": [
+      "database"
+    ]
+  },
+  {
+    "id": "SCN-048",
+    "question": "Your pipeline depends on external services that are frequently unavailable. How would you improve reliability?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-049",
+    "question": "How would you secure secrets used during pipeline execution?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-050",
+    "question": "How would you ensure deployment consistency across development, staging, and production?",
+    "difficulty": "Advanced",
+    "tags": [
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-051",
+    "question": "CPU, memory, and disk metrics all look normal, but users still experience latency. What would you investigate?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-052",
+    "question": "You have thousands of alerts every day. How would you reduce alert fatigue?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-053",
+    "question": "Management wants Service Level Objectives (SLOs). How would you define them?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-054",
+    "question": "What metrics would you monitor for a Kubernetes cluster?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "SCN-055",
+    "question": "How would you determine whether an alert should be warning or critical?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-056",
+    "question": "A dashboard looks healthy, but customers are reporting failures. How would you investigate?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-057",
+    "question": "How would you improve observability for distributed microservices?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-058",
+    "question": "Which Golden Signals would you monitor for a web application?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-059",
+    "question": "How would you trace a request across multiple microservices?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-060",
+    "question": "What metrics would indicate that autoscaling is not working properly?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-061",
+    "question": "Two applications in different VNets cannot communicate. How would you troubleshoot?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-062",
+    "question": "An application is timing out only when accessing external APIs. What would you check?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-063",
+    "question": "How would you troubleshoot intermittent packet loss in the cloud?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-064",
+    "question": "A load balancer is healthy, but users cannot access the application. What would you verify?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-065",
+    "question": "Traffic between services is unencrypted. How would you secure it?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-066",
+    "question": "You need to expose an internal application securely to partners. How would you design it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-067",
+    "question": "How would you troubleshoot asymmetric routing?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-068",
+    "question": "A firewall rule change caused an outage. How would you quickly identify the issue?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-069",
+    "question": "Private endpoints are configured, but traffic still goes through the public internet. Why?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-070",
+    "question": "Your VPN connection experiences intermittent disconnects. How would you troubleshoot?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-071",
+    "question": "A developer accidentally committed cloud credentials to GitHub. What would you do?",
+    "difficulty": "Advanced",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-072",
+    "question": "Your organization wants least-privilege access everywhere. How would you implement it?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-073",
+    "question": "A security audit found overly permissive IAM roles. How would you remediate them?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "id": "SCN-074",
+    "question": "Containers are running as root users. How would you improve security?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "id": "SCN-075",
+    "question": "How would you securely rotate secrets without application downtime?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-076",
+    "question": "A vulnerability is discovered in a base Docker image. What actions would you take?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-077",
+    "question": "Developers require temporary production access. How would you manage it securely?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-078",
+    "question": "How would you enforce encryption across all storage services?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-079",
+    "question": "Security wants all cloud resources to comply with company policies automatically. How would you implement this?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "security"
+    ]
+  },
+  {
+    "id": "SCN-080",
+    "question": "How would you detect unauthorized configuration changes in production?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-081",
+    "question": "Compute costs doubled over the last quarter. How would you investigate?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-082",
+    "question": "Kubernetes costs continue increasing despite stable traffic. What would you check?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "SCN-083",
+    "question": "Developers provision resources and forget to delete them. How would you solve this?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-084",
+    "question": "How would you identify underutilized cloud resources?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-085",
+    "question": "Storage costs are increasing every month. What would you analyze?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-086",
+    "question": "Leadership wants a monthly cloud cost forecast. How would you provide it?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-087",
+    "question": "Reserved Instances or Savings Plans are available. How would you determine whether to purchase them?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-088",
+    "question": "Multiple environments remain running after business hours. How would you optimize costs?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-089",
+    "question": "How would you allocate cloud costs to individual business units?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-090",
+    "question": "A new service is expensive but business-critical. How would you optimize cost without affecting performance?",
+    "difficulty": "Beginner",
+    "tags": [
+      "performance"
+    ]
+  },
+  {
+    "id": "SCN-091",
+    "question": "A service repeatedly violates its SLA. How would you improve reliability?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-092",
+    "question": "How would you define Service Level Indicators (SLIs) for an API platform?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-093",
+    "question": "Your error budget is exhausted halfway through the quarter. What actions would you take?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-094",
+    "question": "A recurring incident keeps happening every month. How would you eliminate it permanently?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-095",
+    "question": "Leadership wants fewer incidents, but engineering wants faster releases. How would you balance both?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-096",
+    "question": "How would you prioritize technical debt versus feature delivery?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-097",
+    "question": "An on-call engineer is overwhelmed with alerts. How would you improve the situation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-098",
+    "question": "How would you conduct a blameless postmortem after a major outage?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-099",
+    "question": "How would you measure operational maturity for an engineering team?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-100",
+    "question": "A service is highly reliable but very expensive to maintain. How would you improve efficiency?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-101",
+    "question": "Different teams are building infrastructure in different ways. How would you standardize the platform?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-102",
+    "question": "Your engineering teams have different deployment processes. How would you create a common platform?",
+    "difficulty": "Advanced",
+    "tags": [
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-103",
+    "question": "Developers frequently request infrastructure manually. How would you introduce self-service?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-104",
+    "question": "Multiple teams are using different monitoring tools. How would you consolidate observability?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-105",
+    "question": "How would you encourage developers to adopt Infrastructure as Code?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-106",
+    "question": "A platform upgrade affects hundreds of applications. How would you minimize risk?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-107",
+    "question": "How would you measure the success of a DevOps transformation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-108",
+    "question": "Teams are resistant to adopting GitOps. How would you drive adoption?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-109",
+    "question": "Leadership wants platform reliability metrics. Which KPIs would you present?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-110",
+    "question": "Your organization wants to improve developer productivity. What platform capabilities would you introduce?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-111",
+    "question": "After migrating workloads to the cloud, users complain about latency. How would you isolate whether the issue is network, compute, or application related?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "network"
+    ]
+  },
+  {
+    "id": "SCN-112",
+    "question": "Your cloud bills are rising, but the business is not seeing any clear value increase. How would you investigate the cost drivers?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-113",
+    "question": "A new cloud environment was created quickly for a project and now it lacks governance. What would you do first?",
+    "difficulty": "Advanced",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-114",
+    "question": "Security wants stricter access controls, but engineering teams need quick access for deployments. How would you design permissions?",
+    "difficulty": "Advanced",
+    "tags": [
+      "deployment",
+      "security"
+    ]
+  },
+  {
+    "id": "SCN-115",
+    "question": "You need to migrate an application that depends on on-premises systems. How would you plan the connectivity and cutover?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-116",
+    "question": "A cloud resource was accidentally deleted by a developer. How would you prevent this from happening again?",
+    "difficulty": "Advanced",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-117",
+    "question": "Your organization uses two cloud providers. How would you ensure consistency in naming conventions, monitoring, and deployments?",
+    "difficulty": "Beginner",
+    "tags": [
+      "cloud",
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-118",
+    "question": "A backup failed silently, and no one noticed until restore time. How would you improve backup validation and recovery readiness?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-119",
+    "question": "The team is making manual changes to cloud resources through the console. How would you transition them back to Infrastructure as Code (IaC)?",
+    "difficulty": "Advanced",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-120",
+    "question": "A critical service requires high availability across multiple regions. How would you design the failover strategy?",
+    "difficulty": "Advanced",
+    "tags": [
+      "availability"
+    ]
+  },
+  {
+    "id": "SCN-121",
+    "question": "Your deployment pipeline is working in staging but failing intermittently in production. How would you investigate the difference?",
+    "difficulty": "Advanced",
+    "tags": [
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-122",
+    "question": "A developer says the build is too slow and wants to bypass the pipeline. How would you respond?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-123",
+    "question": "Your team has multiple manual steps in deployment. Which step would you automate first and why?",
+    "difficulty": "Advanced",
+    "tags": [
+      "deployment"
+    ]
+  },
+  {
+    "id": "SCN-124",
+    "question": "Production logs show errors, but no one is sure whether the issue is code, infrastructure, or configuration. How would you start troubleshooting?",
+    "difficulty": "Advanced",
+    "tags": [
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "SCN-125",
+    "question": "A recent release caused downtime, but rollback also has risks. How would you decide the safest path?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-126",
+    "question": "Your cloud spend increased suddenly after a new release. What checks would you perform first?",
+    "difficulty": "Advanced",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": "SCN-127",
+    "question": "A critical security scan in the pipeline is blocking releases. How would you balance speed and security?",
+    "difficulty": "Beginner",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "id": "SCN-128",
+    "question": "Different teams are using different versions of the same tool. How would you standardize the environment?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-129",
+    "question": "Your monitoring tool shows alerts during peak traffic. How would you decide whether it is a real incident or noise?",
+    "difficulty": "Advanced",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "id": "SCN-130",
+    "question": "Leadership wants faster releases, but the team is worried about stability. How would you improve both?",
+    "difficulty": "Beginner",
+    "tags": [
+      "general"
+    ]
+  }
+]
