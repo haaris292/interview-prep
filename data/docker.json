@@ -1,0 +1,1358 @@
+[
+  {
+    "id": "DOCKER-001",
+    "question": "What is Docker?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-002",
+    "question": "Why was Docker created?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "why",
+      "was"
+    ]
+  },
+  {
+    "id": "DOCKER-003",
+    "question": "What problems does Docker solve?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "problems",
+      "does"
+    ]
+  },
+  {
+    "id": "DOCKER-004",
+    "question": "What is containerization?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is",
+      "containerization"
+    ]
+  },
+  {
+    "id": "DOCKER-005",
+    "question": "What is a container?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "DOCKER-006",
+    "question": "What is a Docker image?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "DOCKER-007",
+    "question": "What is Docker Engine?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-008",
+    "question": "What is Docker Desktop?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-009",
+    "question": "What is Docker CE vs Docker EE?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-010",
+    "question": "How does Docker work internally?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "how",
+      "does"
+    ]
+  },
+  {
+    "id": "DOCKER-011",
+    "question": "What are the major components of Docker?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "are",
+      "the"
+    ]
+  },
+  {
+    "id": "DOCKER-012",
+    "question": "What is Docker daemon (dockerd)?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-013",
+    "question": "What is Docker CLI?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-014",
+    "question": "What is Docker Client?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-015",
+    "question": "What is Docker API?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-016",
+    "question": "What is container runtime?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is",
+      "container"
+    ]
+  },
+  {
+    "id": "DOCKER-017",
+    "question": "What is containerd?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is",
+      "containerd"
+    ]
+  },
+  {
+    "id": "DOCKER-018",
+    "question": "What is runc?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is",
+      "runc"
+    ]
+  },
+  {
+    "id": "DOCKER-019",
+    "question": "What is OCI?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "what",
+      "is",
+      "oci"
+    ]
+  },
+  {
+    "id": "DOCKER-020",
+    "question": "Docker architecture explained.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "architecture",
+      "explained"
+    ]
+  },
+  {
+    "id": "DOCKER-021",
+    "question": "Docker vs Virtual Machines.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "vs",
+      "virtual"
+    ]
+  },
+  {
+    "id": "DOCKER-022",
+    "question": "Docker vs LXC.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "vs",
+      "lxc"
+    ]
+  },
+  {
+    "id": "DOCKER-023",
+    "question": "Docker vs Podman.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "vs",
+      "podman"
+    ]
+  },
+  {
+    "id": "DOCKER-024",
+    "question": "Docker vs Kubernetes.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "vs",
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "DOCKER-025",
+    "question": "Docker vs Hyper-V containers.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "vs",
+      "hyper"
+    ]
+  },
+  {
+    "id": "DOCKER-026",
+    "question": "Advantages of Docker.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "advantages",
+      "of"
+    ]
+  },
+  {
+    "id": "DOCKER-027",
+    "question": "Limitations of Docker.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "limitations",
+      "of"
+    ]
+  },
+  {
+    "id": "DOCKER-028",
+    "question": "When should Docker not be used?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "when",
+      "should"
+    ]
+  },
+  {
+    "id": "DOCKER-029",
+    "question": "Real-world use cases of Docker.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "real",
+      "world",
+      "use"
+    ]
+  },
+  {
+    "id": "DOCKER-030",
+    "question": "Benefits of Docker in DevOps.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "fundamentals",
+      "benefits",
+      "of"
+    ]
+  },
+  {
+    "id": "DOCKER-031",
+    "question": "How is Docker installed?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "installation",
+      "how",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-032",
+    "question": "How do you verify Docker installation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "installation",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "DOCKER-033",
+    "question": "Docker Engine architecture.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "installation",
+      "engine",
+      "architecture"
+    ]
+  },
+  {
+    "id": "DOCKER-034",
+    "question": "Client-server architecture of Docker.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "installation",
+      "client",
+      "server",
+      "architecture"
+    ]
+  },
+  {
+    "id": "DOCKER-035",
+    "question": "What happens when you run a Docker command?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "installation",
+      "what",
+      "happens",
+      "when"
+    ]
+  },
+  {
+    "id": "DOCKER-036",
+    "question": "Where are Docker images stored?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "installation",
+      "where",
+      "are"
+    ]
+  },
+  {
+    "id": "DOCKER-037",
+    "question": "Where are containers stored?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "installation",
+      "where",
+      "are",
+      "containers"
+    ]
+  },
+  {
+    "id": "DOCKER-038",
+    "question": "Where are Docker volumes stored?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "installation",
+      "where",
+      "are"
+    ]
+  },
+  {
+    "id": "DOCKER-039",
+    "question": "How does Docker communicate with the daemon?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "installation",
+      "how",
+      "does"
+    ]
+  },
+  {
+    "id": "DOCKER-040",
+    "question": "Explain Docker lifecycle.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "installation",
+      "explain",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "DOCKER-041",
+    "question": "What is a Docker image?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "DOCKER-042",
+    "question": "How are Docker images created?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "how",
+      "are"
+    ]
+  },
+  {
+    "id": "DOCKER-043",
+    "question": "Image vs Container.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "image",
+      "vs",
+      "container"
+    ]
+  },
+  {
+    "id": "DOCKER-044",
+    "question": "Image vs Snapshot.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "image",
+      "vs",
+      "snapshot"
+    ]
+  },
+  {
+    "id": "DOCKER-045",
+    "question": "What is an image layer?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "what",
+      "is",
+      "an"
+    ]
+  },
+  {
+    "id": "DOCKER-046",
+    "question": "Why are Docker images layered?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "why",
+      "are"
+    ]
+  },
+  {
+    "id": "DOCKER-047",
+    "question": "How do image layers work?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "how",
+      "do",
+      "image"
+    ]
+  },
+  {
+    "id": "DOCKER-048",
+    "question": "What is Copy-on-Write?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "what",
+      "is",
+      "copy"
+    ]
+  },
+  {
+    "id": "DOCKER-049",
+    "question": "Immutable images.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "immutable"
+    ]
+  },
+  {
+    "id": "DOCKER-050",
+    "question": "Base images.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "base"
+    ]
+  },
+  {
+    "id": "DOCKER-051",
+    "question": "Parent images.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "parent"
+    ]
+  },
+  {
+    "id": "DOCKER-052",
+    "question": "Scratch image.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "scratch",
+      "image"
+    ]
+  },
+  {
+    "id": "DOCKER-053",
+    "question": "Official images.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "official"
+    ]
+  },
+  {
+    "id": "DOCKER-054",
+    "question": "Trusted images.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "trusted"
+    ]
+  },
+  {
+    "id": "DOCKER-055",
+    "question": "Image tags.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "image",
+      "tags"
+    ]
+  },
+  {
+    "id": "DOCKER-056",
+    "question": "Latest tag.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "latest",
+      "tag"
+    ]
+  },
+  {
+    "id": "DOCKER-057",
+    "question": "Semantic versioning of images.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "semantic",
+      "versioning",
+      "of"
+    ]
+  },
+  {
+    "id": "DOCKER-058",
+    "question": "How are image IDs generated?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "how",
+      "are",
+      "image"
+    ]
+  },
+  {
+    "id": "DOCKER-059",
+    "question": "Image digest.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "image",
+      "digest"
+    ]
+  },
+  {
+    "id": "DOCKER-060",
+    "question": "How do you inspect an image?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "DOCKER-061",
+    "question": "Image history.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "image",
+      "history"
+    ]
+  },
+  {
+    "id": "DOCKER-062",
+    "question": "Image metadata.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "image",
+      "metadata"
+    ]
+  },
+  {
+    "id": "DOCKER-063",
+    "question": "Export image.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "export",
+      "image"
+    ]
+  },
+  {
+    "id": "DOCKER-064",
+    "question": "Import image.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "import",
+      "image"
+    ]
+  },
+  {
+    "id": "DOCKER-065",
+    "question": "Save vs Export.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "save",
+      "vs",
+      "export"
+    ]
+  },
+  {
+    "id": "DOCKER-066",
+    "question": "Load vs Import.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "load",
+      "vs",
+      "import"
+    ]
+  },
+  {
+    "id": "DOCKER-067",
+    "question": "Pulling images.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "pulling"
+    ]
+  },
+  {
+    "id": "DOCKER-068",
+    "question": "Pushing images.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "pushing"
+    ]
+  },
+  {
+    "id": "DOCKER-069",
+    "question": "Removing images.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "removing"
+    ]
+  },
+  {
+    "id": "DOCKER-070",
+    "question": "Dangling images.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "images",
+      "dangling"
+    ]
+  },
+  {
+    "id": "DOCKER-071",
+    "question": "What is a container?",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "DOCKER-072",
+    "question": "Container lifecycle.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "DOCKER-073",
+    "question": "Running containers.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "running"
+    ]
+  },
+  {
+    "id": "DOCKER-074",
+    "question": "Stopped containers.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "stopped"
+    ]
+  },
+  {
+    "id": "DOCKER-075",
+    "question": "Paused containers.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "paused"
+    ]
+  },
+  {
+    "id": "DOCKER-076",
+    "question": "Restarted containers.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "restarted"
+    ]
+  },
+  {
+    "id": "DOCKER-077",
+    "question": "Container states.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "states"
+    ]
+  },
+  {
+    "id": "DOCKER-078",
+    "question": "Detached mode.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "detached",
+      "mode"
+    ]
+  },
+  {
+    "id": "DOCKER-079",
+    "question": "Interactive mode.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "interactive",
+      "mode"
+    ]
+  },
+  {
+    "id": "DOCKER-080",
+    "question": "Foreground vs Background.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "foreground",
+      "vs",
+      "background"
+    ]
+  },
+  {
+    "id": "DOCKER-081",
+    "question": "Named containers.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "named"
+    ]
+  },
+  {
+    "id": "DOCKER-082",
+    "question": "Anonymous containers.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "anonymous"
+    ]
+  },
+  {
+    "id": "DOCKER-083",
+    "question": "Container IDs.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "ids"
+    ]
+  },
+  {
+    "id": "DOCKER-084",
+    "question": "Container hostname.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "hostname"
+    ]
+  },
+  {
+    "id": "DOCKER-085",
+    "question": "Restart policies.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "restart",
+      "policies"
+    ]
+  },
+  {
+    "id": "DOCKER-086",
+    "question": "Inspecting containers.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "inspecting"
+    ]
+  },
+  {
+    "id": "DOCKER-087",
+    "question": "Container metadata.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "metadata"
+    ]
+  },
+  {
+    "id": "DOCKER-088",
+    "question": "Container exit codes.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "exit",
+      "codes"
+    ]
+  },
+  {
+    "id": "DOCKER-089",
+    "question": "Container health.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "health"
+    ]
+  },
+  {
+    "id": "DOCKER-090",
+    "question": "Health checks.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "health",
+      "checks"
+    ]
+  },
+  {
+    "id": "DOCKER-091",
+    "question": "Container logs.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "logs"
+    ]
+  },
+  {
+    "id": "DOCKER-092",
+    "question": "Container stats.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "stats"
+    ]
+  },
+  {
+    "id": "DOCKER-093",
+    "question": "Container resource limits.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "resource",
+      "limits"
+    ]
+  },
+  {
+    "id": "DOCKER-094",
+    "question": "Container cleanup.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "container",
+      "cleanup"
+    ]
+  },
+  {
+    "id": "DOCKER-095",
+    "question": "Remove stopped containers.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "remove",
+      "stopped"
+    ]
+  },
+  {
+    "id": "DOCKER-096",
+    "question": "Pruning containers.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "pruning"
+    ]
+  },
+  {
+    "id": "DOCKER-097",
+    "question": "Difference between stop, kill and rm.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "difference",
+      "between",
+      "stop"
+    ]
+  },
+  {
+    "id": "DOCKER-098",
+    "question": "Attach vs Exec.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "attach",
+      "vs",
+      "exec"
+    ]
+  },
+  {
+    "id": "DOCKER-099",
+    "question": "Copy files from container.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "copy",
+      "files",
+      "from"
+    ]
+  },
+  {
+    "id": "DOCKER-100",
+    "question": "Copy files into container.",
+    "difficulty": "Beginner",
+    "tags": [
+      "docker",
+      "containers",
+      "copy",
+      "files",
+      "into"
+    ]
+  },
+  {
+    "id": "DOCKER-101",
+    "question": "Application works locally but fails inside Docker. How would you troubleshoot?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "application",
+      "works",
+      "locally"
+    ]
+  },
+  {
+    "id": "DOCKER-102",
+    "question": "Container exits immediately after starting. What could be the reasons?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "container",
+      "exits",
+      "immediately"
+    ]
+  },
+  {
+    "id": "DOCKER-103",
+    "question": "Docker build is taking too long. How would you optimize it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "docker",
+      "build",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-104",
+    "question": "Your image size is 2 GB. How would you reduce it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "your",
+      "image",
+      "size"
+    ]
+  },
+  {
+    "id": "DOCKER-105",
+    "question": "Container cannot connect to the database. What would you check?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "container",
+      "cannot",
+      "connect"
+    ]
+  },
+  {
+    "id": "DOCKER-106",
+    "question": "Two containers cannot communicate. How do you troubleshoot?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "two",
+      "containers",
+      "cannot"
+    ]
+  },
+  {
+    "id": "DOCKER-107",
+    "question": "Docker Compose services cannot resolve each other. Why?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "docker",
+      "compose",
+      "services"
+    ]
+  },
+  {
+    "id": "DOCKER-108",
+    "question": "Volume data is lost after restarting the container. Why?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "volume",
+      "data",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-109",
+    "question": "Container has internet access but cannot reach another container. Why?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "container",
+      "has",
+      "internet"
+    ]
+  },
+  {
+    "id": "DOCKER-110",
+    "question": "A port is already in use. How do you resolve it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "port",
+      "is"
+    ]
+  },
+  {
+    "id": "DOCKER-111",
+    "question": "Environment variables are not available inside the container. How do you debug?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "environment",
+      "variables",
+      "are"
+    ]
+  },
+  {
+    "id": "DOCKER-112",
+    "question": "Application works in docker run but fails in Docker Compose. Why?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "application",
+      "works",
+      "in"
+    ]
+  },
+  {
+    "id": "DOCKER-113",
+    "question": "Docker build cache is not being used. How do you investigate?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "docker",
+      "build",
+      "cache"
+    ]
+  },
+  {
+    "id": "DOCKER-114",
+    "question": "A bind mount isn't reflecting file changes. What could be wrong?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "bind",
+      "mount"
+    ]
+  },
+  {
+    "id": "DOCKER-115",
+    "question": "The container uses excessive CPU and memory. How would you investigate?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "the",
+      "container",
+      "uses"
+    ]
+  },
+  {
+    "id": "DOCKER-116",
+    "question": "The application runs as root. How would you secure it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "the",
+      "application",
+      "runs"
+    ]
+  },
+  {
+    "id": "DOCKER-117",
+    "question": "Docker image contains sensitive credentials. How would you fix it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "docker",
+      "image",
+      "contains"
+    ]
+  },
+  {
+    "id": "DOCKER-118",
+    "question": "The container restarts continuously. How do you debug it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "the",
+      "container",
+      "restarts"
+    ]
+  },
+  {
+    "id": "DOCKER-119",
+    "question": "Image pull fails from a private registry. What would you check?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "image",
+      "pull",
+      "fails"
+    ]
+  },
+  {
+    "id": "DOCKER-120",
+    "question": "How would you migrate a legacy application to Docker?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  }
+]
