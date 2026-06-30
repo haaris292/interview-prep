@@ -96,5 +96,13 @@
         "icon": "📊",
         "file": "data-engineering.json",
         "questions": 18
+    },
+        {
+        "id": "architecture",
+        "title": "Architecture",
+        "icon": "📊",
+        "file": "architecture.json",
+        "questions": 18
     }
+
 ]

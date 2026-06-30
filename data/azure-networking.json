@@ -1,0 +1,500 @@
+[
+{
+"id": "NW-001",
+"question": "Why are layered networking models needed, and what problems do they solve in modern network communication?",
+"difficulty": "Beginner",
+"tags": ["networking-models", "osi", "tcp-ip"]
+},
+{
+"id": "NW-002",
+"question": "Explain the OSI model and the primary responsibility of each layer.",
+"difficulty": "Beginner",
+"tags": ["osi", "networking-basics", "layers"]
+},
+{
+"id": "NW-003",
+"question": "How does the TCP/IP model map to the OSI model, and what are the key differences?",
+"difficulty": "Beginner",
+"tags": ["tcp-ip", "osi", "networking-models"]
+},
+{
+"id": "NW-004",
+"question": "At which OSI layers do TLS, DNS, and load balancers operate, and why?",
+"difficulty": "Intermediate",
+"tags": ["osi", "tls", "dns", "load-balancer"]
+},
+{
+"id": "NW-005",
+"question": "How would you troubleshoot a network issue systematically by working through the OSI layers?",
+"difficulty": "Intermediate",
+"tags": ["troubleshooting", "osi", "network-debugging"]
+},
+{
+"id": "NW-006",
+"question": "If a client request fails, how would you determine which network layer is responsible for the failure?",
+"difficulty": "Intermediate",
+"tags": ["troubleshooting", "osi", "incident-response"]
+},
+{
+"id": "NW-007",
+"question": "Provide a real-world cloud networking example that illustrates the role of each OSI layer.",
+"difficulty": "Intermediate",
+"tags": ["cloud-networking", "osi", "architecture"]
+},
+{
+"id": "NW-008",
+"question": "What are the key differences between TCP and UDP, and when would you choose one over the other?",
+"difficulty": "Beginner",
+"tags": ["tcp", "udp", "network-protocols"]
+},
+{
+"id": "NW-009",
+"question": "In which production scenarios would UDP be a better choice than TCP, and what trade-offs would you consider?",
+"difficulty": "Intermediate",
+"tags": ["udp", "tcp", "production"]
+},
+{
+"id": "NW-010",
+"question": "Explain the TCP three-way handshake and why it is required before data transmission begins.",
+"difficulty": "Beginner",
+"tags": ["tcp", "handshake", "networking-basics"]
+},
+{
+"id": "NW-011",
+"question": "Explain the TCP four-way connection termination process and why it differs from the connection establishment process.",
+"difficulty": "Intermediate",
+"tags": ["tcp", "connection-termination", "networking"]
+},
+{
+"id": "NW-012",
+"question": "What is TCP congestion control, and how does it improve network performance and reliability?",
+"difficulty": "Intermediate",
+"tags": ["tcp", "congestion-control", "performance"]
+},
+{
+"id": "NW-013",
+"question": "What is a SYN flood attack, and what techniques are commonly used to mitigate it in production environments?",
+"difficulty": "Advanced",
+"tags": ["tcp", "security", "syn-flood", "dos"]
+},
+{
+"id": "NW-014",
+"question": "What are TCP keepalive messages, and when should they be enabled?",
+"difficulty": "Intermediate",
+"tags": ["tcp", "keepalive", "connections"]
+},
+{
+"id": "NW-015",
+"question": "What is the TCP TIME_WAIT state, and why is it important for reliable network communication?",
+"difficulty": "Advanced",
+"tags": ["tcp", "time-wait", "connections"]
+},
+{
+"id": "NW-016",
+"question": "Compare HTTP/1.1, HTTP/2, and HTTP/3, highlighting their architectural differences and performance improvements.",
+"difficulty": "Intermediate",
+"tags": ["http", "http2", "http3", "performance"]
+},
+{
+"id": "NW-017",
+"question": "What are idempotent HTTP methods, and why are they important for retries and distributed systems?",
+"difficulty": "Intermediate",
+"tags": ["http", "rest", "idempotency"]
+},
+{
+"id": "NW-018",
+"question": "What is the difference between HTTP headers and the message body, and how are they used in requests and responses?",
+"difficulty": "Beginner",
+"tags": ["http", "headers", "http-body"]
+},
+{
+"id": "NW-019",
+"question": "What is HTTP connection pooling, and how does it improve application performance?",
+"difficulty": "Intermediate",
+"tags": ["http", "connection-pooling", "performance"]
+},
+{
+"id": "NW-020",
+"question": "Why is HTTP communication slower without persistent connections or keep-alive?",
+"difficulty": "Intermediate",
+"tags": ["http", "keep-alive", "performance"]
+},
+{
+"id": "NW-021",
+"question": "How would you troubleshoot a slow HTTPS API call in a production environment?",
+"difficulty": "Advanced",
+"tags": ["https", "tls", "performance", "troubleshooting"]
+},
+{
+"id": "NW-022",
+"question": "Describe the DNS resolution process from a client request to receiving the final IP address.",
+"difficulty": "Beginner",
+"tags": ["dns", "name-resolution", "networking"]
+},
+{
+"id": "NW-023",
+"question": "What is the difference between recursive and iterative DNS resolution?",
+"difficulty": "Intermediate",
+"tags": ["dns", "recursive-dns", "iterative-dns"]
+},
+{
+"id": "NW-024",
+"question": "Explain the purpose of A, AAAA, CNAME, MX, TXT, and NS DNS records.",
+"difficulty": "Beginner",
+"tags": ["dns", "dns-records", "networking"]
+},
+{
+"id": "NW-025",
+"question": "What is the difference between an A record and a CNAME record, and when should each be used?",
+"difficulty": "Beginner",
+"tags": ["dns", "a-record", "cname"]
+},
+{
+"id": "NW-026",
+"question": "How do DNS caching and TTL values affect performance, availability, and troubleshooting?",
+"difficulty": "Intermediate",
+"tags": ["dns", "ttl", "dns-cache"]
+},
+{
+"id": "NW-027",
+"question": "What is DNS propagation, and why can changes take time to become visible globally?",
+"difficulty": "Intermediate",
+"tags": ["dns", "propagation", "ttl"]
+},
+{
+"id": "NW-028",
+"question": "How does DNS-based load balancing work, and what are its limitations?",
+"difficulty": "Advanced",
+"tags": ["dns", "load-balancing", "high-availability"]
+},
+{
+"id": "NW-029",
+"question": "How would you troubleshoot a DNS resolution failure, and which tools would you use?",
+"difficulty": "Intermediate",
+"tags": ["dns", "dig", "nslookup", "troubleshooting"]
+},
+{
+"id": "NW-030",
+"question": "Compare Layer 4 and Layer 7 load balancers, including their advantages, limitations, and common use cases.",
+"difficulty": "Intermediate",
+"tags": ["load-balancer", "layer4", "layer7"]
+},
+{
+"id": "NW-031",
+"question": "What is a reverse proxy, and how does it differ from a forward proxy?",
+"difficulty": "Intermediate",
+"tags": ["reverse-proxy", "forward-proxy", "networking"]
+},
+{
+"id": "NW-032",
+"question": "Compare round robin, least connections, and hash-based load-balancing algorithms, and explain when each is appropriate.",
+"difficulty": "Intermediate",
+"tags": ["load-balancing", "algorithms", "traffic-management"]
+},
+{
+"id": "NW-033",
+"question": "What is session stickiness, and what are its benefits and drawbacks?",
+"difficulty": "Intermediate",
+"tags": ["load-balancer", "session-stickiness", "architecture"]
+},
+{
+"id": "NW-034",
+"question": "How do load balancers perform health checks, and what happens when a backend becomes unhealthy?",
+"difficulty": "Advanced",
+"tags": ["load-balancer", "health-checks", "high-availability"]
+},
+{
+"id": "NW-035",
+"question": "How do content delivery networks (CDNs) complement load balancers in modern architectures?",
+"difficulty": "Advanced",
+"tags": ["cdn", "load-balancer", "performance"]
+},
+{
+"id": "NW-036",
+"question": "How would you design a highly available load-balancing architecture for a production application?",
+"difficulty": "Advanced",
+"tags": ["load-balancer", "high-availability", "architecture"]
+},
+{
+"id": "NW-037",
+"question": "Compare NGINX, HAProxy, and cloud-native load balancers such as ALB and NLB, including typical use cases.",
+"difficulty": "Advanced",
+"tags": ["nginx", "haproxy", "alb", "nlb"]
+},
+{
+"id": "NW-038",
+"question": "What is CIDR notation, and why is it used in IP networking?",
+"difficulty": "Beginner",
+"tags": ["cidr", "ip-addressing", "networking"]
+},
+{
+"id": "NW-039",
+"question": "What is the difference between public and private IP addresses?",
+"difficulty": "Beginner",
+"tags": ["ip-addressing", "public-ip", "private-ip"]
+},
+{
+"id": "NW-040",
+"question": "What is subnetting, and why is it important in cloud and enterprise networks?",
+"difficulty": "Beginner",
+"tags": ["subnetting", "network-design", "cidr"]
+},
+{
+"id": "NW-041",
+"question": "Given a /16 network, how would you divide it into smaller subnets based on application requirements?",
+"difficulty": "Intermediate",
+"tags": ["subnetting", "cidr", "network-design"]
+},
+{
+"id": "NW-042",
+"question": "How many IP addresses are available in a /24 network, and how many are typically usable?",
+"difficulty": "Beginner",
+"tags": ["cidr", "subnetting", "ip-addressing"]
+},
+{
+"id": "NW-043",
+"question": "What is Network Address Translation (NAT), what are its common types, and when is each used?",
+"difficulty": "Intermediate",
+"tags": ["nat", "networking", "cloud"]
+},
+{
+"id": "NW-044",
+"question": "How would you design a secure and scalable virtual private cloud (VPC) network for a production workload?",
+"difficulty": "Advanced",
+"tags": ["vpc", "cloud-networking", "architecture"]
+},
+{
+"id": "NW-045",
+"question": "What are routing tables, and how do they determine packet forwarding in a network?",
+"difficulty": "Intermediate",
+"tags": ["routing", "routing-table", "networking"]
+},
+{
+"id": "NW-046",
+"question": "How would you design a highly available multi-tier application network across multiple availability zones?",
+"difficulty": "Advanced",
+"tags": ["network-design", "high-availability", "multi-tier"]
+},
+{
+"id": "NW-047",
+"question": "What is a firewall, and what are the different types commonly used in enterprise environments?",
+"difficulty": "Beginner",
+"tags": ["firewall", "security", "network-security"]
+},
+{
+"id": "NW-048",
+"question": "Compare stateful and stateless firewalls, including their advantages and trade-offs.",
+"difficulty": "Intermediate",
+"tags": ["firewall", "stateful", "stateless"]
+},
+{
+"id": "NW-049",
+"question": "How do security groups differ from network ACLs, and when should each be used?",
+"difficulty": "Intermediate",
+"tags": ["security-groups", "network-acl", "cloud-security"]
+},
+{
+"id": "NW-050",
+"question": "What is a VPN, and how does it provide secure connectivity?",
+"difficulty": "Beginner",
+"tags": ["vpn", "network-security", "remote-access"]
+},
+{
+"id": "NW-051",
+"question": "Compare site-to-site VPNs and client VPNs, including common use cases.",
+"difficulty": "Intermediate",
+"tags": ["vpn", "site-to-site", "client-vpn"]
+},
+{
+"id": "NW-052",
+"question": "Explain how IPsec secures network communication at a high level.",
+"difficulty": "Intermediate",
+"tags": ["ipsec", "vpn", "security"]
+},
+{
+"id": "NW-053",
+"question": "How would you secure a production VPC using network segmentation, firewalls, routing, and access controls?",
+"difficulty": "Advanced",
+"tags": ["vpc", "security", "cloud-networking", "architecture"]
+},
+{
+"id": "NW-054",
+"question": "What is Zero Trust networking, and how does it differ from traditional perimeter-based security?",
+"difficulty": "Advanced",
+"tags": ["zero-trust", "security", "networking"]
+},
+{
+"id": "NW-055",
+"question": "A service is reachable internally but not externally. How would you systematically troubleshoot the issue?",
+"difficulty": "Advanced",
+"tags": ["troubleshooting", "network-security", "incident-response"]
+},
+{
+"id": "NW-056",
+"question": "What is TLS, and why is it essential for securing network communication?",
+"difficulty": "Beginner",
+"tags": ["tls", "https", "security"]
+},
+{
+"id": "NW-057",
+"question": "Compare symmetric and asymmetric encryption, including where each is used during a TLS handshake.",
+"difficulty": "Intermediate",
+"tags": ["encryption", "tls", "cryptography"]
+},
+{
+"id": "NW-058",
+"question": "Explain the TLS handshake step by step, including key exchange, certificate validation, and session establishment.",
+"difficulty": "Advanced",
+"tags": ["tls", "handshake", "https", "security"]
+},
+{
+"id": "NW-059",
+"question": "What is a digital certificate, what role does a Certificate Authority play, and how is trust established?",
+"difficulty": "Intermediate",
+"tags": ["certificate", "certificate-authority", "tls"]
+},
+{
+"id": "NW-060",
+"question": "What is mutual TLS (mTLS), and when would you use it in production?",
+"difficulty": "Advanced",
+"tags": ["mtls", "tls", "security"]
+},
+{
+"id": "NW-061",
+"question": "What is certificate rotation, and why is automating it important in production environments?",
+"difficulty": "Advanced",
+"tags": ["certificate-rotation", "tls", "operations"]
+},
+{
+"id": "NW-062",
+"question": "What is forward secrecy, and why is it an important security property of modern TLS implementations?",
+"difficulty": "Advanced",
+"tags": ["forward-secrecy", "tls", "cryptography"]
+},
+{
+"id": "NW-063",
+"question": "How would you troubleshoot a TLS handshake failure in a production environment?",
+"difficulty": "Advanced",
+"tags": ["tls", "troubleshooting", "https"]
+},
+{
+"id": "NW-064",
+"question": "What are the common causes of SSL or TLS certificate mismatch errors, and how would you resolve them?",
+"difficulty": "Advanced",
+"tags": ["tls", "ssl", "certificate", "troubleshooting"]
+},
+{
+"id": "NW-065",
+"question": "Design a globally distributed application architecture that incorporates DNS, load balancers, and TLS termination.",
+"difficulty": "Advanced",
+"tags": ["system-design", "dns", "load-balancer", "tls"]
+},
+{
+"id": "NW-066",
+"question": "Where should TLS be terminated in a production architecture, and what trade-offs influence your decision?",
+"difficulty": "Advanced",
+"tags": ["tls", "architecture", "load-balancer"]
+},
+{
+"id": "NW-067",
+"question": "How would you monitor network latency, packet loss, and DNS failures in a production environment?",
+"difficulty": "Advanced",
+"tags": ["observability", "network-monitoring", "dns"]
+},
+{
+"id": "NW-068",
+"question": "What techniques would you use to reduce latency in distributed systems?",
+"difficulty": "Advanced",
+"tags": ["performance", "latency", "distributed-systems"]
+},
+{
+"id": "NW-069",
+"question": "Compare TCP and QUIC, including their performance characteristics and production trade-offs.",
+"difficulty": "Advanced",
+"tags": ["tcp", "quic", "performance"]
+},
+{
+"id": "NW-070",
+"question": "How do retry mechanisms interact with TCP and HTTP, and how do you prevent retry storms in distributed systems?",
+"difficulty": "Advanced",
+"tags": ["http", "tcp", "retries", "distributed-systems"]
+},
+{
+"id": "NW-071",
+"question": "What is exponential backoff, and why is it important when implementing retry strategies?",
+"difficulty": "Intermediate",
+"tags": ["retries", "exponential-backoff", "resilience"]
+},
+{
+"id": "NW-072",
+"question": "Users report intermittent request failures. How would you investigate and identify the root cause?",
+"difficulty": "Advanced",
+"tags": ["troubleshooting", "incident-response", "networking"]
+},
+{
+"id": "NW-073",
+"question": "A service experiences high latency between components. What possible causes would you investigate, and in what order?",
+"difficulty": "Advanced",
+"tags": ["latency", "performance", "troubleshooting"]
+},
+{
+"id": "NW-074",
+"question": "DNS resolution succeeds, but the client cannot establish a connection. What could cause this behavior?",
+"difficulty": "Advanced",
+"tags": ["dns", "connectivity", "troubleshooting"]
+},
+{
+"id": "NW-075",
+"question": "A TLS handshake times out. How would you systematically diagnose the issue?",
+"difficulty": "Advanced",
+"tags": ["tls", "handshake", "troubleshooting"]
+},
+{
+"id": "NW-076",
+"question": "A load balancer is returning HTTP 502 responses. What are the most common root causes, and how would you investigate them?",
+"difficulty": "Advanced",
+"tags": ["load-balancer", "http-502", "troubleshooting"]
+},
+{
+"id": "NW-077",
+"question": "How would you use tcpdump to troubleshoot network traffic issues in production?",
+"difficulty": "Intermediate",
+"tags": ["tcpdump", "network-debugging", "tooling"]
+},
+{
+"id": "NW-078",
+"question": "How would you use curl to inspect and troubleshoot HTTP or HTTPS responses?",
+"difficulty": "Intermediate",
+"tags": ["curl", "http", "tooling"]
+},
+{
+"id": "NW-079",
+"question": "How would you use dig and nslookup to troubleshoot DNS issues?",
+"difficulty": "Intermediate",
+"tags": ["dig", "nslookup", "dns", "tooling"]
+},
+{
+"id": "NW-080",
+"question": "How would you analyze load balancer logs to identify application or infrastructure issues?",
+"difficulty": "Advanced",
+"tags": ["load-balancer", "logs", "observability"]
+},
+{
+"id": "NW-081",
+"question": "Describe a networking outage you handled, including your troubleshooting approach, root cause analysis, and preventive actions.",
+"difficulty": "Advanced",
+"tags": ["behavioral", "incident-response", "networking"]
+},
+{
+"id": "NW-082",
+"question": "How do you design distributed systems to tolerate failures while maintaining availability and reliability?",
+"difficulty": "Advanced",
+"tags": ["system-design", "reliability", "high-availability"]
+},
+{
+"id": "NW-083",
+"question": "How do you evaluate trade-offs between cost, performance, and reliability when designing networking infrastructure?",
+"difficulty": "Advanced",
+"tags": ["architecture", "trade-offs", "performance", "cost-optimization"]
+}
+]

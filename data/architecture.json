@@ -1,0 +1,519 @@
+[
+{
+"id": "ARCH-001",
+"question": "How would you design a highly available web application, and what architectural decisions would you make to ensure reliability and scalability?",
+"difficulty": "Advanced",
+"tags": [
+"architecture",
+"high-availability",
+"system-design",
+"scalability"
+]
+},
+{
+"id": "ARCH-002",
+"question": "How would you design a system capable of handling one million users while maintaining performance, availability, and scalability?",
+"difficulty": "Advanced",
+"tags": [
+"system-design",
+"scalability",
+"capacity-planning",
+"architecture"
+]
+},
+{
+"id": "ARCH-003",
+"question": "How would you design a scalable API platform for high traffic, and what trade-offs would you consider?",
+"difficulty": "Advanced",
+"tags": [
+"api-design",
+"scalability",
+"architecture",
+"performance"
+]
+},
+{
+"id": "ARCH-004",
+"question": "How would you design a scalable and reliable file upload system similar to Google Drive?",
+"difficulty": "Advanced",
+"tags": [
+"file-storage",
+"system-design",
+"object-storage",
+"scalability"
+]
+},
+{
+"id": "ARCH-005",
+"question": "How would you design a real-time notification system that supports high throughput and low latency?",
+"difficulty": "Advanced",
+"tags": [
+"real-time",
+"notifications",
+"system-design",
+"scalability"
+]
+},
+{
+"id": "ARCH-006",
+"question": "How would you design an application to remain available if an entire availability zone becomes unavailable?",
+"difficulty": "Advanced",
+"tags": [
+"high-availability",
+"multi-az",
+"fault-tolerance",
+"architecture"
+]
+},
+{
+"id": "ARCH-007",
+"question": "How would you identify and resolve a database bottleneck in a production system?",
+"difficulty": "Advanced",
+"tags": [
+"database",
+"performance",
+"troubleshooting",
+"scalability"
+]
+},
+{
+"id": "ARCH-008",
+"question": "What techniques would you use to reduce application latency, and how would you evaluate their effectiveness?",
+"difficulty": "Advanced",
+"tags": [
+"performance",
+"latency",
+"optimization",
+"caching"
+]
+},
+{
+"id": "ARCH-009",
+"question": "How would you design and scale an application for global users while minimizing latency and ensuring high availability?",
+"difficulty": "Advanced",
+"tags": [
+"global-architecture",
+"scalability",
+"high-availability",
+"performance"
+]
+},
+{
+"id": "ARCH-010",
+"question": "When would you choose object storage instead of block storage, and what trade-offs would influence your decision?",
+"difficulty": "Intermediate",
+"tags": [
+"storage",
+"object-storage",
+"block-storage",
+"trade-offs"
+]
+},
+{
+"id": "ARCH-011",
+"question": "How do you decide between SQL and NoSQL databases, and what factors influence your choice?",
+"difficulty": "Intermediate",
+"tags": [
+"sql",
+"nosql",
+"database",
+"trade-offs"
+]
+},
+{
+"id": "ARCH-012",
+"question": "How do you decide between a monolithic architecture and microservices for a new application?",
+"difficulty": "Intermediate",
+"tags": [
+"monolith",
+"microservices",
+"architecture",
+"trade-offs"
+]
+},
+{
+"id": "ARCH-013",
+"question": "When would you choose managed cloud services instead of self-hosted solutions, and what trade-offs would you consider?",
+"difficulty": "Intermediate",
+"tags": [
+"managed-services",
+"self-hosted",
+"cloud",
+"trade-offs"
+]
+},
+{
+"id": "ARCH-014",
+"question": "How would you design a system to achieve 99.99% availability?",
+"difficulty": "Advanced",
+"tags": [
+"high-availability",
+"sla",
+"architecture",
+"reliability"
+]
+},
+{
+"id": "ARCH-015",
+"question": "What are Recovery Time Objective (RTO) and Recovery Point Objective (RPO), and how would you apply them in a real-world disaster recovery strategy?",
+"difficulty": "Intermediate",
+"tags": [
+"rto",
+"rpo",
+"disaster-recovery",
+"business-continuity"
+]
+},
+{
+"id": "ARCH-016",
+"question": "What are the differences between active-active and active-passive architectures, and when would you choose each approach?",
+"difficulty": "Intermediate",
+"tags": [
+"active-active",
+"active-passive",
+"high-availability",
+"architecture"
+]
+},
+{
+"id": "ARCH-017",
+"question": "How would you recover from a complete regional failure while minimizing downtime and data loss?",
+"difficulty": "Advanced",
+"tags": [
+"disaster-recovery",
+"multi-region",
+"high-availability",
+"failover"
+]
+},
+{
+"id": "ARCH-018",
+"question": "How would you detect, contain, and recover from data corruption in a production environment?",
+"difficulty": "Advanced",
+"tags": [
+"data-integrity",
+"disaster-recovery",
+"backup",
+"incident-response"
+]
+},
+{
+"id": "ARCH-019",
+"question": "How would you secure a cloud application end-to-end from infrastructure to application layer?",
+"difficulty": "Advanced",
+"tags": [
+"security",
+"cloud",
+"architecture",
+"best-practices"
+]
+},
+{
+"id": "ARCH-020",
+"question": "How does Identity and Access Management (IAM) integrate with cloud services to enforce secure access control?",
+"difficulty": "Intermediate",
+"tags": [
+"iam",
+"security",
+"access-control",
+"cloud"
+]
+},
+{
+"id": "ARCH-021",
+"question": "How would you secure APIs against common threats while maintaining usability and performance?",
+"difficulty": "Advanced",
+"tags": [
+"api-security",
+"authentication",
+"authorization",
+"security"
+]
+},
+{
+"id": "ARCH-022",
+"question": "What is zero trust architecture, and how would you implement it in an enterprise environment?",
+"difficulty": "Advanced",
+"tags": [
+"zero-trust",
+"security",
+"architecture",
+"enterprise"
+]
+},
+{
+"id": "ARCH-023",
+"question": "What encryption strategies would you use to protect data at rest and in transit in a cloud environment?",
+"difficulty": "Intermediate",
+"tags": [
+"encryption",
+"security",
+"data-protection",
+"cloud"
+]
+},
+{
+"id": "ARCH-024",
+"question": "How would you design and manage secrets securely across applications and infrastructure?",
+"difficulty": "Intermediate",
+"tags": [
+"secret-management",
+"security",
+"devops",
+"best-practices"
+]
+},
+{
+"id": "ARCH-025",
+"question": "How would you design a virtual private cloud (VPC) for a three-tier application architecture?",
+"difficulty": "Advanced",
+"tags": [
+"vpc",
+"networking",
+"three-tier",
+"architecture"
+]
+},
+{
+"id": "ARCH-026",
+"question": "How would you enable secure communication between services in a distributed application?",
+"difficulty": "Advanced",
+"tags": [
+"service-communication",
+"network-security",
+"microservices",
+"architecture"
+]
+},
+{
+"id": "ARCH-027",
+"question": "How would a private subnet application securely access the internet while remaining isolated from inbound traffic?",
+"difficulty": "Intermediate",
+"tags": [
+"private-subnet",
+"networking",
+"nat",
+"security"
+]
+},
+{
+"id": "ARCH-028",
+"question": "How would you design secure and reliable communication between multiple cloud regions?",
+"difficulty": "Advanced",
+"tags": [
+"multi-region",
+"networking",
+"high-availability",
+"security"
+]
+},
+{
+"id": "ARCH-029",
+"question": "Can you explain how DNS resolution works and how it affects application availability and performance?",
+"difficulty": "Intermediate",
+"tags": [
+"dns",
+"networking",
+"performance",
+"availability"
+]
+},
+{
+"id": "ARCH-030",
+"question": "How do routing decisions influence application performance, security, and reliability in cloud environments?",
+"difficulty": "Intermediate",
+"tags": [
+"routing",
+"networking",
+"cloud",
+"architecture"
+]
+},
+{
+"id": "ARCH-031",
+"question": "How would you design hybrid connectivity between on-premises infrastructure and the cloud using technologies such as VPN or Direct Connect?",
+"difficulty": "Advanced",
+"tags": [
+"hybrid-cloud",
+"vpn",
+"direct-connect",
+"networking"
+]
+},
+{
+"id": "ARCH-032",
+"question": "How would you scale a read-heavy application while maintaining performance and consistency?",
+"difficulty": "Advanced",
+"tags": [
+"read-scaling",
+"database",
+"performance",
+"architecture"
+]
+},
+{
+"id": "ARCH-033",
+"question": "How do caching, content delivery networks (CDNs), load balancing, auto scaling, and database sharding improve scalability and performance?",
+"difficulty": "Advanced",
+"tags": [
+"caching",
+"cdn",
+"load-balancing",
+"database-sharding"
+]
+},
+{
+"id": "ARCH-034",
+"question": "How would you reduce cloud infrastructure costs without compromising performance, reliability, or security?",
+"difficulty": "Advanced",
+"tags": [
+"cost-optimization",
+"cloud",
+"architecture",
+"trade-offs"
+]
+},
+{
+"id": "ARCH-035",
+"question": "How would you investigate a production system that meets performance requirements but has unexpectedly high infrastructure costs?",
+"difficulty": "Advanced",
+"tags": [
+"cost-optimization",
+"production",
+"troubleshooting",
+"cloud"
+]
+},
+{
+"id": "ARCH-036",
+"question": "Can you describe a major production incident you handled, including the root cause, resolution, and lessons learned?",
+"difficulty": "Advanced",
+"tags": [
+"incident-response",
+"production",
+"troubleshooting",
+"experience"
+]
+},
+{
+"id": "ARCH-037",
+"question": "How would you troubleshoot an application that is responding slowly even though CPU utilization remains low?",
+"difficulty": "Advanced",
+"tags": [
+"performance",
+"troubleshooting",
+"production",
+"diagnostics"
+]
+},
+{
+"id": "ARCH-038",
+"question": "How would you investigate and resolve intermittent request failures in a production environment?",
+"difficulty": "Advanced",
+"tags": [
+"troubleshooting",
+"production",
+"incident-response",
+"debugging"
+]
+},
+{
+"id": "ARCH-039",
+"question": "How would you design a reliable and secure CI/CD pipeline for enterprise applications?",
+"difficulty": "Advanced",
+"tags": [
+"ci-cd",
+"devops",
+"automation",
+"security"
+]
+},
+{
+"id": "ARCH-040",
+"question": "How would you manage infrastructure as code at scale while maintaining consistency, governance, and collaboration?",
+"difficulty": "Advanced",
+"tags": [
+"infrastructure-as-code",
+"terraform",
+"governance",
+"automation"
+]
+},
+{
+"id": "ARCH-041",
+"question": "How would you design a deployment strategy that supports safe rollbacks with minimal downtime?",
+"difficulty": "Advanced",
+"tags": [
+"deployment",
+"rollback",
+"devops",
+"availability"
+]
+},
+{
+"id": "ARCH-042",
+"question": "What are the differences between OLTP and OLAP systems, and when would you use each?",
+"difficulty": "Beginner",
+"tags": [
+"oltp",
+"olap",
+"data-architecture",
+"databases"
+]
+},
+{
+"id": "ARCH-043",
+"question": "What are the differences between a data lake and a data warehouse, and when is each appropriate?",
+"difficulty": "Intermediate",
+"tags": [
+"data-lake",
+"data-warehouse",
+"analytics",
+"data-architecture"
+]
+},
+{
+"id": "ARCH-044",
+"question": "How do you decide between streaming and batch data processing for a given business requirement?",
+"difficulty": "Intermediate",
+"tags": [
+"stream-processing",
+"batch-processing",
+"data-architecture",
+"trade-offs"
+]
+},
+{
+"id": "ARCH-045",
+"question": "When designing a system, how do you gather and clarify functional and non-functional requirements before proposing an architecture?",
+"difficulty": "Advanced",
+"tags": [
+"requirements",
+"system-design",
+"architecture",
+"stakeholder-management"
+]
+},
+{
+"id": "ARCH-046",
+"question": "How do you justify architectural decisions by balancing scalability, security, availability, cost, and business requirements?",
+"difficulty": "Advanced",
+"tags": [
+"architecture",
+"trade-offs",
+"decision-making",
+"business-alignment"
+]
+},
+{
+"id": "ARCH-047",
+"question": "How would you explain a complex system architecture to both technical and non-technical business stakeholders?",
+"difficulty": "Intermediate",
+"tags": [
+"communication",
+"architecture",
+"stakeholder-management",
+"leadership"
+]
+}
+]
