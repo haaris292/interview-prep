@@ -496,5 +496,3919 @@
 "question": "How do you evaluate trade-offs between cost, performance, and reliability when designing networking infrastructure?",
 "difficulty": "Advanced",
 "tags": ["architecture", "trade-offs", "performance", "cost-optimization"]
-}
+},
+
+  {
+    "id": "AZNET-001",
+    "question": "What is Azure Virtual Network (VNet)?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-002",
+    "question": "Why do we need VNets in Azure?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "why",
+      "do",
+      "we"
+    ]
+  },
+  {
+    "id": "AZNET-003",
+    "question": "How does an Azure VNet compare to a traditional on-premises network?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "how",
+      "does",
+      "an"
+    ]
+  },
+  {
+    "id": "AZNET-004",
+    "question": "What are the components of a VNet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "what",
+      "are",
+      "the"
+    ]
+  },
+  {
+    "id": "AZNET-005",
+    "question": "What resources can be deployed inside a VNet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "what",
+      "resources",
+      "can"
+    ]
+  },
+  {
+    "id": "AZNET-006",
+    "question": "Can Azure PaaS services be integrated with VNets?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "can",
+      "paas"
+    ]
+  },
+  {
+    "id": "AZNET-007",
+    "question": "What are the default limits of a VNet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "what",
+      "are",
+      "the"
+    ]
+  },
+  {
+    "id": "AZNET-008",
+    "question": "Can a VNet span multiple Availability Zones?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "can",
+      "a",
+      "vnet"
+    ]
+  },
+  {
+    "id": "AZNET-009",
+    "question": "Can a VNet span multiple Azure regions?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "can",
+      "a",
+      "vnet"
+    ]
+  },
+  {
+    "id": "AZNET-010",
+    "question": "What happens if you delete a VNet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "what",
+      "happens",
+      "if"
+    ]
+  },
+  {
+    "id": "AZNET-011",
+    "question": "How is Azure networking different from AWS VPC networking?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "how",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-012",
+    "question": "What are the best practices when designing Azure VNets?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "what",
+      "are",
+      "the"
+    ]
+  },
+  {
+    "id": "AZNET-013",
+    "question": "How do VNets provide isolation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "how",
+      "do",
+      "vnets"
+    ]
+  },
+  {
+    "id": "AZNET-014",
+    "question": "What is software-defined networking (SDN) in Azure?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "what",
+      "is",
+      "software"
+    ]
+  },
+  {
+    "id": "AZNET-015",
+    "question": "What Azure resources require a VNet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "what",
+      "resources"
+    ]
+  },
+  {
+    "id": "AZNET-016",
+    "question": "Which Azure resources do not require a VNet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "which",
+      "resources"
+    ]
+  },
+  {
+    "id": "AZNET-017",
+    "question": "Can you resize a VNet after deployment?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "can",
+      "you",
+      "resize"
+    ]
+  },
+  {
+    "id": "AZNET-018",
+    "question": "What happens when a VNet address space changes?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "what",
+      "happens",
+      "when"
+    ]
+  },
+  {
+    "id": "AZNET-019",
+    "question": "How do VNets communicate internally?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "how",
+      "do",
+      "vnets"
+    ]
+  },
+  {
+    "id": "AZNET-020",
+    "question": "What are the default routes inside a VNet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "networking",
+      "what",
+      "are",
+      "the"
+    ]
+  },
+  {
+    "id": "AZNET-021",
+    "question": "What is an address space in Azure?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "what",
+      "is",
+      "an"
+    ]
+  },
+  {
+    "id": "AZNET-022",
+    "question": "How do you choose an address space for a VNet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-023",
+    "question": "Why is CIDR important in Azure networking?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "why",
+      "is",
+      "cidr"
+    ]
+  },
+  {
+    "id": "AZNET-024",
+    "question": "What CIDR ranges are recommended?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "what",
+      "cidr",
+      "ranges"
+    ]
+  },
+  {
+    "id": "AZNET-025",
+    "question": "What private IP ranges are supported?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "what",
+      "private",
+      "ip"
+    ]
+  },
+  {
+    "id": "AZNET-026",
+    "question": "Can two VNets have overlapping address spaces?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "can",
+      "two",
+      "vnets"
+    ]
+  },
+  {
+    "id": "AZNET-027",
+    "question": "Why are overlapping address spaces problematic?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "why",
+      "are",
+      "overlapping"
+    ]
+  },
+  {
+    "id": "AZNET-028",
+    "question": "What happens if address spaces overlap during peering?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "what",
+      "happens",
+      "if"
+    ]
+  },
+  {
+    "id": "AZNET-029",
+    "question": "Can you modify address spaces after deployment?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "can",
+      "you",
+      "modify"
+    ]
+  },
+  {
+    "id": "AZNET-030",
+    "question": "How do address space changes affect existing resources?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "how",
+      "do"
+    ]
+  },
+  {
+    "id": "AZNET-031",
+    "question": "How do you calculate subnet sizes?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-032",
+    "question": "How many usable IPs are available in Azure subnets?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "how",
+      "many",
+      "usable"
+    ]
+  },
+  {
+    "id": "AZNET-033",
+    "question": "Why does Azure reserve five IP addresses in every subnet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "why",
+      "does",
+      "azure"
+    ]
+  },
+  {
+    "id": "AZNET-034",
+    "question": "How do you design IP addressing for enterprise environments?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-035",
+    "question": "How do you avoid IP exhaustion?",
+    "difficulty": "Beginner",
+    "tags": [
+      "address",
+      "spaces",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-036",
+    "question": "What is a subnet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "AZNET-037",
+    "question": "Why are subnets required?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "why",
+      "are"
+    ]
+  },
+  {
+    "id": "AZNET-038",
+    "question": "How do subnets improve security?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "how",
+      "do"
+    ]
+  },
+  {
+    "id": "AZNET-039",
+    "question": "How do subnets improve scalability?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "how",
+      "do"
+    ]
+  },
+  {
+    "id": "AZNET-040",
+    "question": "Can a subnet span Availability Zones?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "can",
+      "a",
+      "subnet"
+    ]
+  },
+  {
+    "id": "AZNET-041",
+    "question": "Can resources from different tiers share a subnet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "can",
+      "resources",
+      "from"
+    ]
+  },
+  {
+    "id": "AZNET-042",
+    "question": "What are delegated subnets?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "what",
+      "are",
+      "delegated"
+    ]
+  },
+  {
+    "id": "AZNET-043",
+    "question": "Why are delegated subnets required?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "why",
+      "are",
+      "delegated"
+    ]
+  },
+  {
+    "id": "AZNET-044",
+    "question": "Which Azure services require subnet delegation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "which",
+      "services"
+    ]
+  },
+  {
+    "id": "AZNET-045",
+    "question": "What are service endpoints?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "what",
+      "are",
+      "service"
+    ]
+  },
+  {
+    "id": "AZNET-046",
+    "question": "What is subnet delegation vs service endpoints?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "what",
+      "is",
+      "subnet"
+    ]
+  },
+  {
+    "id": "AZNET-047",
+    "question": "Can subnet size be changed?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "can",
+      "subnet",
+      "size"
+    ]
+  },
+  {
+    "id": "AZNET-048",
+    "question": "Can you shrink a subnet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "can",
+      "you",
+      "shrink"
+    ]
+  },
+  {
+    "id": "AZNET-049",
+    "question": "What happens if a subnet runs out of IP addresses?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "what",
+      "happens",
+      "if"
+    ]
+  },
+  {
+    "id": "AZNET-050",
+    "question": "Can multiple NSGs be attached to one subnet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "can",
+      "multiple",
+      "nsgs"
+    ]
+  },
+  {
+    "id": "AZNET-051",
+    "question": "Can multiple route tables be attached?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "can",
+      "multiple",
+      "route"
+    ]
+  },
+  {
+    "id": "AZNET-052",
+    "question": "What is the smallest subnet Azure supports?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "what",
+      "is",
+      "the"
+    ]
+  },
+  {
+    "id": "AZNET-053",
+    "question": "What are reserved IP addresses?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "what",
+      "are",
+      "reserved"
+    ]
+  },
+  {
+    "id": "AZNET-054",
+    "question": "How do subnet priorities affect routing?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "how",
+      "do",
+      "subnet"
+    ]
+  },
+  {
+    "id": "AZNET-055",
+    "question": "What is subnet isolation?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "subnets",
+      "what",
+      "is",
+      "subnet"
+    ]
+  },
+  {
+    "id": "AZNET-056",
+    "question": "What is a Network Interface Card (NIC)?",
+    "difficulty": "Beginner",
+    "tags": [
+      "network",
+      "interfaces",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "AZNET-057",
+    "question": "Can one VM have multiple NICs?",
+    "difficulty": "Beginner",
+    "tags": [
+      "network",
+      "interfaces",
+      "can",
+      "one",
+      "vm"
+    ]
+  },
+  {
+    "id": "AZNET-058",
+    "question": "Why would a VM require multiple NICs?",
+    "difficulty": "Beginner",
+    "tags": [
+      "network",
+      "interfaces",
+      "why",
+      "would",
+      "a"
+    ]
+  },
+  {
+    "id": "AZNET-059",
+    "question": "Can one NIC belong to multiple VNets?",
+    "difficulty": "Beginner",
+    "tags": [
+      "network",
+      "interfaces",
+      "can",
+      "one",
+      "nic"
+    ]
+  },
+  {
+    "id": "AZNET-060",
+    "question": "Can one NIC have multiple IPs?",
+    "difficulty": "Beginner",
+    "tags": [
+      "network",
+      "interfaces",
+      "can",
+      "one",
+      "nic"
+    ]
+  },
+  {
+    "id": "AZNET-061",
+    "question": "Difference between Primary and Secondary NIC?",
+    "difficulty": "Beginner",
+    "tags": [
+      "network",
+      "interfaces",
+      "difference",
+      "between",
+      "primary"
+    ]
+  },
+  {
+    "id": "AZNET-062",
+    "question": "Difference between Primary and Secondary IP?",
+    "difficulty": "Beginner",
+    "tags": [
+      "network",
+      "interfaces",
+      "difference",
+      "between",
+      "primary"
+    ]
+  },
+  {
+    "id": "AZNET-063",
+    "question": "Can you move a NIC between VNets?",
+    "difficulty": "Beginner",
+    "tags": [
+      "network",
+      "interfaces",
+      "can",
+      "you",
+      "move"
+    ]
+  },
+  {
+    "id": "AZNET-064",
+    "question": "How do NSGs apply to NICs?",
+    "difficulty": "Beginner",
+    "tags": [
+      "network",
+      "interfaces",
+      "how",
+      "do",
+      "nsgs"
+    ]
+  },
+  {
+    "id": "AZNET-065",
+    "question": "Which takes precedence—Subnet NSG or NIC NSG?",
+    "difficulty": "Beginner",
+    "tags": [
+      "network",
+      "interfaces",
+      "which",
+      "takes",
+      "precedence"
+    ]
+  },
+  {
+    "id": "AZNET-066",
+    "question": "Difference between Public and Private IP?",
+    "difficulty": "Beginner",
+    "tags": [
+      "public",
+      "and",
+      "difference",
+      "between"
+    ]
+  },
+  {
+    "id": "AZNET-067",
+    "question": "Static vs Dynamic Public IP?",
+    "difficulty": "Beginner",
+    "tags": [
+      "public",
+      "and",
+      "static",
+      "vs",
+      "dynamic"
+    ]
+  },
+  {
+    "id": "AZNET-068",
+    "question": "Static vs Dynamic Private IP?",
+    "difficulty": "Beginner",
+    "tags": [
+      "public",
+      "and",
+      "static",
+      "vs",
+      "dynamic"
+    ]
+  },
+  {
+    "id": "AZNET-069",
+    "question": "Basic vs Standard Public IP?",
+    "difficulty": "Beginner",
+    "tags": [
+      "public",
+      "and",
+      "basic",
+      "vs",
+      "standard"
+    ]
+  },
+  {
+    "id": "AZNET-070",
+    "question": "Public IP SKU differences?",
+    "difficulty": "Beginner",
+    "tags": [
+      "public",
+      "and",
+      "ip",
+      "sku"
+    ]
+  },
+  {
+    "id": "AZNET-071",
+    "question": "Can multiple VMs share one Public IP?",
+    "difficulty": "Beginner",
+    "tags": [
+      "public",
+      "and",
+      "can",
+      "multiple",
+      "vms"
+    ]
+  },
+  {
+    "id": "AZNET-072",
+    "question": "Can a VM have multiple Public IPs?",
+    "difficulty": "Beginner",
+    "tags": [
+      "public",
+      "and",
+      "can",
+      "a",
+      "vm"
+    ]
+  },
+  {
+    "id": "AZNET-073",
+    "question": "Can a VM operate without Public IP?",
+    "difficulty": "Beginner",
+    "tags": [
+      "public",
+      "and",
+      "can",
+      "a",
+      "vm"
+    ]
+  },
+  {
+    "id": "AZNET-074",
+    "question": "Best practices for Public IP assignment?",
+    "difficulty": "Beginner",
+    "tags": [
+      "public",
+      "and",
+      "best",
+      "practices",
+      "for"
+    ]
+  },
+  {
+    "id": "AZNET-075",
+    "question": "What is IP Prefix?",
+    "difficulty": "Beginner",
+    "tags": [
+      "public",
+      "and",
+      "what",
+      "is",
+      "ip"
+    ]
+  },
+  {
+    "id": "AZNET-076",
+    "question": "What is VNet Peering?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-077",
+    "question": "Why use VNet Peering?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "why",
+      "use"
+    ]
+  },
+  {
+    "id": "AZNET-078",
+    "question": "Benefits of Peering?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "benefits",
+      "of"
+    ]
+  },
+  {
+    "id": "AZNET-079",
+    "question": "Local vs Global Peering?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "local",
+      "vs",
+      "global"
+    ]
+  },
+  {
+    "id": "AZNET-080",
+    "question": "How does Global VNet Peering work?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "how",
+      "does",
+      "global"
+    ]
+  },
+  {
+    "id": "AZNET-081",
+    "question": "Can peering occur across subscriptions?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "can",
+      "occur"
+    ]
+  },
+  {
+    "id": "AZNET-082",
+    "question": "Can peering occur across tenants?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "can",
+      "occur"
+    ]
+  },
+  {
+    "id": "AZNET-083",
+    "question": "What is gateway transit?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "what",
+      "is",
+      "gateway"
+    ]
+  },
+  {
+    "id": "AZNET-084",
+    "question": "What is remote gateway?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "what",
+      "is",
+      "remote"
+    ]
+  },
+  {
+    "id": "AZNET-085",
+    "question": "What is forwarded traffic?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "what",
+      "is",
+      "forwarded"
+    ]
+  },
+  {
+    "id": "AZNET-086",
+    "question": "Can overlapping VNets be peered?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "can",
+      "overlapping",
+      "vnets"
+    ]
+  },
+  {
+    "id": "AZNET-087",
+    "question": "Does peering introduce latency?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "does",
+      "introduce"
+    ]
+  },
+  {
+    "id": "AZNET-088",
+    "question": "Is peering transitive?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "is",
+      "transitive"
+    ]
+  },
+  {
+    "id": "AZNET-089",
+    "question": "Why isn't VNet Peering transitive?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "why",
+      "isn",
+      "t"
+    ]
+  },
+  {
+    "id": "AZNET-090",
+    "question": "How do you enable transitive communication?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-091",
+    "question": "What happens when peering is deleted?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "what",
+      "happens",
+      "when"
+    ]
+  },
+  {
+    "id": "AZNET-092",
+    "question": "Can peering be one-way?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "can",
+      "be"
+    ]
+  },
+  {
+    "id": "AZNET-093",
+    "question": "Can multiple peerings exist?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "can",
+      "multiple",
+      "peerings"
+    ]
+  },
+  {
+    "id": "AZNET-094",
+    "question": "What is hub-and-spoke peering?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "what",
+      "is",
+      "hub"
+    ]
+  },
+  {
+    "id": "AZNET-095",
+    "question": "What are peering limits?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "what",
+      "are"
+    ]
+  },
+  {
+    "id": "AZNET-096",
+    "question": "Can NSGs block peered traffic?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "can",
+      "nsgs",
+      "block"
+    ]
+  },
+  {
+    "id": "AZNET-097",
+    "question": "Can UDRs affect peering?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "can",
+      "udrs",
+      "affect"
+    ]
+  },
+  {
+    "id": "AZNET-098",
+    "question": "Can Azure Firewall inspect peered traffic?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "can",
+      "azure",
+      "firewall"
+    ]
+  },
+  {
+    "id": "AZNET-099",
+    "question": "How is routing handled over peering?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "how",
+      "is",
+      "routing"
+    ]
+  },
+  {
+    "id": "AZNET-100",
+    "question": "Peering vs VPN?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vnet",
+      "peering",
+      "vs",
+      "vpn"
+    ]
+  },
+  {
+    "id": "AZNET-101",
+    "question": "What is Hub-Spoke Architecture?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-102",
+    "question": "Why is Hub-Spoke widely used?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "why",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-103",
+    "question": "Advantages of Hub-Spoke?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "advantages",
+      "of"
+    ]
+  },
+  {
+    "id": "AZNET-104",
+    "question": "Components of Hub-Spoke?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "components",
+      "of"
+    ]
+  },
+  {
+    "id": "AZNET-105",
+    "question": "What resides in the Hub?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "what",
+      "resides",
+      "in"
+    ]
+  },
+  {
+    "id": "AZNET-106",
+    "question": "What resides in the Spokes?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "what",
+      "resides",
+      "in"
+    ]
+  },
+  {
+    "id": "AZNET-107",
+    "question": "How does traffic flow?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "how",
+      "does",
+      "traffic"
+    ]
+  },
+  {
+    "id": "AZNET-108",
+    "question": "What is Gateway Transit?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "what",
+      "is",
+      "gateway"
+    ]
+  },
+  {
+    "id": "AZNET-109",
+    "question": "What is Forced Tunneling?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "what",
+      "is",
+      "forced"
+    ]
+  },
+  {
+    "id": "AZNET-110",
+    "question": "Why centralize Azure Firewall?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "why",
+      "centralize",
+      "azure"
+    ]
+  },
+  {
+    "id": "AZNET-111",
+    "question": "Why centralize VPN Gateway?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "why",
+      "centralize",
+      "vpn"
+    ]
+  },
+  {
+    "id": "AZNET-112",
+    "question": "Why centralize DNS?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "why",
+      "centralize",
+      "dns"
+    ]
+  },
+  {
+    "id": "AZNET-113",
+    "question": "What are drawbacks of Hub-Spoke?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "what",
+      "are",
+      "drawbacks"
+    ]
+  },
+  {
+    "id": "AZNET-114",
+    "question": "Hub-Spoke vs Mesh?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "spoke",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-115",
+    "question": "Hub-Spoke vs Virtual WAN?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "spoke",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-116",
+    "question": "Multiple Hub Architecture?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "multiple",
+      "architecture"
+    ]
+  },
+  {
+    "id": "AZNET-117",
+    "question": "Multi-region Hub-Spoke?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "multi",
+      "region"
+    ]
+  },
+  {
+    "id": "AZNET-118",
+    "question": "Multi-subscription Hub-Spoke?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "multi",
+      "subscription"
+    ]
+  },
+  {
+    "id": "AZNET-119",
+    "question": "Multi-tenant Hub-Spoke?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "multi",
+      "tenant"
+    ]
+  },
+  {
+    "id": "AZNET-120",
+    "question": "Best practices for Hub-Spoke?",
+    "difficulty": "Advanced",
+    "tags": [
+      "hub",
+      "and",
+      "best",
+      "practices",
+      "for"
+    ]
+  },
+  {
+    "id": "AZNET-121",
+    "question": "How does Azure routing work?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "how",
+      "does",
+      "azure"
+    ]
+  },
+  {
+    "id": "AZNET-122",
+    "question": "What are System Routes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "what",
+      "are",
+      "system"
+    ]
+  },
+  {
+    "id": "AZNET-123",
+    "question": "What are User Defined Routes (UDRs)?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "what",
+      "are",
+      "user"
+    ]
+  },
+  {
+    "id": "AZNET-124",
+    "question": "What are BGP Routes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "what",
+      "are",
+      "bgp"
+    ]
+  },
+  {
+    "id": "AZNET-125",
+    "question": "Route precedence?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "route",
+      "precedence"
+    ]
+  },
+  {
+    "id": "AZNET-126",
+    "question": "Longest Prefix Match?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "longest",
+      "prefix",
+      "match"
+    ]
+  },
+  {
+    "id": "AZNET-127",
+    "question": "What is Forced Tunneling?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "what",
+      "is",
+      "forced"
+    ]
+  },
+  {
+    "id": "AZNET-128",
+    "question": "What is Internet Route?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "what",
+      "is",
+      "internet"
+    ]
+  },
+  {
+    "id": "AZNET-129",
+    "question": "Default Route?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "default",
+      "route"
+    ]
+  },
+  {
+    "id": "AZNET-130",
+    "question": "Blackhole Route?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "blackhole",
+      "route"
+    ]
+  },
+  {
+    "id": "AZNET-131",
+    "question": "Null Route?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "null",
+      "route"
+    ]
+  },
+  {
+    "id": "AZNET-132",
+    "question": "Can multiple route tables exist?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "can",
+      "multiple",
+      "route"
+    ]
+  },
+  {
+    "id": "AZNET-133",
+    "question": "Can UDR override system routes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "can",
+      "udr",
+      "override"
+    ]
+  },
+  {
+    "id": "AZNET-134",
+    "question": "What happens if routes conflict?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "what",
+      "happens",
+      "if"
+    ]
+  },
+  {
+    "id": "AZNET-135",
+    "question": "Route propagation?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "route",
+      "propagation"
+    ]
+  },
+  {
+    "id": "AZNET-136",
+    "question": "Disable route propagation?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "disable",
+      "route",
+      "propagation"
+    ]
+  },
+  {
+    "id": "AZNET-137",
+    "question": "UDR limitations?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "udr",
+      "limitations"
+    ]
+  },
+  {
+    "id": "AZNET-138",
+    "question": "Service Tags in routes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "service",
+      "tags",
+      "in"
+    ]
+  },
+  {
+    "id": "AZNET-139",
+    "question": "Routing across peered VNets?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "across",
+      "peered"
+    ]
+  },
+  {
+    "id": "AZNET-140",
+    "question": "Troubleshooting routing?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "routing",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "AZNET-141",
+    "question": "What is an NSG?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "what",
+      "is",
+      "an"
+    ]
+  },
+  {
+    "id": "AZNET-142",
+    "question": "Why use NSGs?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "why",
+      "use",
+      "nsgs"
+    ]
+  },
+  {
+    "id": "AZNET-143",
+    "question": "How do NSGs work?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "how",
+      "do",
+      "nsgs"
+    ]
+  },
+  {
+    "id": "AZNET-144",
+    "question": "NSG processing order?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "processing",
+      "order"
+    ]
+  },
+  {
+    "id": "AZNET-145",
+    "question": "Stateful vs Stateless?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "stateful",
+      "vs",
+      "stateless"
+    ]
+  },
+  {
+    "id": "AZNET-146",
+    "question": "Default NSG rules?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "default",
+      "rules"
+    ]
+  },
+  {
+    "id": "AZNET-147",
+    "question": "Custom rules?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "custom",
+      "rules"
+    ]
+  },
+  {
+    "id": "AZNET-148",
+    "question": "Priority?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "priority"
+    ]
+  },
+  {
+    "id": "AZNET-149",
+    "question": "Direction?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "direction"
+    ]
+  },
+  {
+    "id": "AZNET-150",
+    "question": "Service Tags?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "service",
+      "tags"
+    ]
+  },
+  {
+    "id": "AZNET-151",
+    "question": "Application Security Groups?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "application",
+      "security",
+      "groups"
+    ]
+  },
+  {
+    "id": "AZNET-152",
+    "question": "NSG Flow Logs?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "flow",
+      "logs"
+    ]
+  },
+  {
+    "id": "AZNET-153",
+    "question": "Subnet NSG vs NIC NSG?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "subnet",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-154",
+    "question": "Can NSGs inspect application traffic?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "can",
+      "nsgs",
+      "inspect"
+    ]
+  },
+  {
+    "id": "AZNET-155",
+    "question": "NSG limitations?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "limitations"
+    ]
+  },
+  {
+    "id": "AZNET-156",
+    "question": "NSG best practices?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "AZNET-157",
+    "question": "Troubleshooting NSGs?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "troubleshooting",
+      "nsgs"
+    ]
+  },
+  {
+    "id": "AZNET-158",
+    "question": "Common NSG mistakes?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "common",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "AZNET-159",
+    "question": "Effective Security Rules?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "effective",
+      "security",
+      "rules"
+    ]
+  },
+  {
+    "id": "AZNET-160",
+    "question": "NSG diagnostics?",
+    "difficulty": "Advanced",
+    "tags": [
+      "nsg",
+      "network",
+      "diagnostics"
+    ]
+  },
+  {
+    "id": "AZNET-161",
+    "question": "What is Azure Firewall?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-162",
+    "question": "Azure Firewall vs NSG?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-163",
+    "question": "Azure Firewall vs NVA?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-164",
+    "question": "DNAT?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "dnat"
+    ]
+  },
+  {
+    "id": "AZNET-165",
+    "question": "SNAT?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "snat"
+    ]
+  },
+  {
+    "id": "AZNET-166",
+    "question": "Application Rules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "application",
+      "rules"
+    ]
+  },
+  {
+    "id": "AZNET-167",
+    "question": "Network Rules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "network",
+      "rules"
+    ]
+  },
+  {
+    "id": "AZNET-168",
+    "question": "Threat Intelligence Mode?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "threat",
+      "intelligence",
+      "mode"
+    ]
+  },
+  {
+    "id": "AZNET-169",
+    "question": "Firewall Policy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "policy"
+    ]
+  },
+  {
+    "id": "AZNET-170",
+    "question": "Firewall Manager?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "manager"
+    ]
+  },
+  {
+    "id": "AZNET-171",
+    "question": "Forced Tunneling?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "forced",
+      "tunneling"
+    ]
+  },
+  {
+    "id": "AZNET-172",
+    "question": "Firewall Zones?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "zones"
+    ]
+  },
+  {
+    "id": "AZNET-173",
+    "question": "Firewall Scaling?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "scaling"
+    ]
+  },
+  {
+    "id": "AZNET-174",
+    "question": "Firewall Logging?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "logging"
+    ]
+  },
+  {
+    "id": "AZNET-175",
+    "question": "Firewall High Availability?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "high",
+      "availability"
+    ]
+  },
+  {
+    "id": "AZNET-176",
+    "question": "Firewall Premium?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "premium"
+    ]
+  },
+  {
+    "id": "AZNET-177",
+    "question": "TLS Inspection?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "tls",
+      "inspection"
+    ]
+  },
+  {
+    "id": "AZNET-178",
+    "question": "IDPS?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "idps"
+    ]
+  },
+  {
+    "id": "AZNET-179",
+    "question": "Firewall diagnostics?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "diagnostics"
+    ]
+  },
+  {
+    "id": "AZNET-180",
+    "question": "Best practices?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "firewall",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "AZNET-181",
+    "question": "What is Azure Load Balancer?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-182",
+    "question": "Internal vs External Load Balancer?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "internal",
+      "vs",
+      "external"
+    ]
+  },
+  {
+    "id": "AZNET-183",
+    "question": "Basic vs Standard Load Balancer?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "basic",
+      "vs",
+      "standard"
+    ]
+  },
+  {
+    "id": "AZNET-184",
+    "question": "Health Probes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "health",
+      "probes"
+    ]
+  },
+  {
+    "id": "AZNET-185",
+    "question": "Backend Pools?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "backend",
+      "pools"
+    ]
+  },
+  {
+    "id": "AZNET-186",
+    "question": "Frontend IP?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "frontend",
+      "ip"
+    ]
+  },
+  {
+    "id": "AZNET-187",
+    "question": "Load Balancing Rules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "balancing",
+      "rules"
+    ]
+  },
+  {
+    "id": "AZNET-188",
+    "question": "Inbound NAT Rules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "inbound",
+      "nat",
+      "rules"
+    ]
+  },
+  {
+    "id": "AZNET-189",
+    "question": "HA Ports?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "ha",
+      "ports"
+    ]
+  },
+  {
+    "id": "AZNET-190",
+    "question": "Session Persistence?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "session",
+      "persistence"
+    ]
+  },
+  {
+    "id": "AZNET-191",
+    "question": "Outbound Rules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "outbound",
+      "rules"
+    ]
+  },
+  {
+    "id": "AZNET-192",
+    "question": "Zone Redundant?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "zone",
+      "redundant"
+    ]
+  },
+  {
+    "id": "AZNET-193",
+    "question": "Multiple Frontends?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "multiple",
+      "frontends"
+    ]
+  },
+  {
+    "id": "AZNET-194",
+    "question": "Load Balancer limitations?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "balancer",
+      "limitations"
+    ]
+  },
+  {
+    "id": "AZNET-195",
+    "question": "Load Balancer vs Application Gateway?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "balancer",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-196",
+    "question": "Load Balancer vs Traffic Manager?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "balancer",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-197",
+    "question": "Layer 4 vs Layer 7?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "layer",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-198",
+    "question": "Health probe failures?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "health",
+      "probe",
+      "failures"
+    ]
+  },
+  {
+    "id": "AZNET-199",
+    "question": "Troubleshooting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "AZNET-200",
+    "question": "Best practices?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "load",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "AZNET-201",
+    "question": "What is Application Gateway?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-202",
+    "question": "Layer 7 Load Balancer?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "layer",
+      "load",
+      "balancer"
+    ]
+  },
+  {
+    "id": "AZNET-203",
+    "question": "WAF?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "waf"
+    ]
+  },
+  {
+    "id": "AZNET-204",
+    "question": "SSL Termination?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "ssl",
+      "termination"
+    ]
+  },
+  {
+    "id": "AZNET-205",
+    "question": "End-to-End SSL?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "end",
+      "to"
+    ]
+  },
+  {
+    "id": "AZNET-206",
+    "question": "URL Routing?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "url",
+      "routing"
+    ]
+  },
+  {
+    "id": "AZNET-207",
+    "question": "Path-based Routing?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "path",
+      "based",
+      "routing"
+    ]
+  },
+  {
+    "id": "AZNET-208",
+    "question": "Rewrite Rules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "rewrite",
+      "rules"
+    ]
+  },
+  {
+    "id": "AZNET-209",
+    "question": "Cookie Affinity?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "cookie",
+      "affinity"
+    ]
+  },
+  {
+    "id": "AZNET-210",
+    "question": "Autoscaling?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "autoscaling"
+    ]
+  },
+  {
+    "id": "AZNET-211",
+    "question": "Health Probes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "health",
+      "probes"
+    ]
+  },
+  {
+    "id": "AZNET-212",
+    "question": "Multi-site Hosting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "multi",
+      "site",
+      "hosting"
+    ]
+  },
+  {
+    "id": "AZNET-213",
+    "question": "AGIC?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "agic"
+    ]
+  },
+  {
+    "id": "AZNET-214",
+    "question": "Application Gateway vs Load Balancer?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-215",
+    "question": "WAF Policies?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "waf",
+      "policies"
+    ]
+  },
+  {
+    "id": "AZNET-216",
+    "question": "Backend Pools?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "backend",
+      "pools"
+    ]
+  },
+  {
+    "id": "AZNET-217",
+    "question": "Listener?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "listener"
+    ]
+  },
+  {
+    "id": "AZNET-218",
+    "question": "Routing Rules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "routing",
+      "rules"
+    ]
+  },
+  {
+    "id": "AZNET-219",
+    "question": "Troubleshooting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "AZNET-220",
+    "question": "Best practices?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "application",
+      "gateway",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "AZNET-221",
+    "question": "Azure DNS vs Private DNS?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-222",
+    "question": "Private DNS Zones?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "private",
+      "zones"
+    ]
+  },
+  {
+    "id": "AZNET-223",
+    "question": "Auto Registration?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "auto",
+      "registration"
+    ]
+  },
+  {
+    "id": "AZNET-224",
+    "question": "DNS Resolution in VNet?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "resolution",
+      "in"
+    ]
+  },
+  {
+    "id": "AZNET-225",
+    "question": "DNS Forwarding?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "forwarding"
+    ]
+  },
+  {
+    "id": "AZNET-226",
+    "question": "Custom DNS?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "custom"
+    ]
+  },
+  {
+    "id": "AZNET-227",
+    "question": "Azure DNS Resolver?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "resolver"
+    ]
+  },
+  {
+    "id": "AZNET-228",
+    "question": "Conditional Forwarding?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "conditional",
+      "forwarding"
+    ]
+  },
+  {
+    "id": "AZNET-229",
+    "question": "Split Horizon DNS?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "split",
+      "horizon"
+    ]
+  },
+  {
+    "id": "AZNET-230",
+    "question": "Hybrid DNS?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "AZNET-231",
+    "question": "Private Endpoint DNS?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "private",
+      "endpoint"
+    ]
+  },
+  {
+    "id": "AZNET-232",
+    "question": "DNS Peering?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "peering"
+    ]
+  },
+  {
+    "id": "AZNET-233",
+    "question": "DNS across VNets?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "across",
+      "vnets"
+    ]
+  },
+  {
+    "id": "AZNET-234",
+    "question": "DNS troubleshooting?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "AZNET-235",
+    "question": "Best practices?",
+    "difficulty": "Beginner",
+    "tags": [
+      "azure",
+      "dns",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "AZNET-236",
+    "question": "What is Azure Private Link?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "what",
+      "is",
+      "azure"
+    ]
+  },
+  {
+    "id": "AZNET-237",
+    "question": "Why use Private Link?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "why",
+      "use"
+    ]
+  },
+  {
+    "id": "AZNET-238",
+    "question": "Private Endpoint?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "endpoint"
+    ]
+  },
+  {
+    "id": "AZNET-239",
+    "question": "Service Endpoint?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "service",
+      "endpoint"
+    ]
+  },
+  {
+    "id": "AZNET-240",
+    "question": "Difference between Private Link and Service Endpoint?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "difference",
+      "between"
+    ]
+  },
+  {
+    "id": "AZNET-241",
+    "question": "DNS with Private Endpoint?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "dns",
+      "with"
+    ]
+  },
+  {
+    "id": "AZNET-242",
+    "question": "Security advantages?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "security",
+      "advantages"
+    ]
+  },
+  {
+    "id": "AZNET-243",
+    "question": "Limitations?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "limitations"
+    ]
+  },
+  {
+    "id": "AZNET-244",
+    "question": "Multi-region support?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "multi",
+      "region",
+      "support"
+    ]
+  },
+  {
+    "id": "AZNET-245",
+    "question": "Private Link Service?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "service"
+    ]
+  },
+  {
+    "id": "AZNET-246",
+    "question": "Approval workflow?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "approval",
+      "workflow"
+    ]
+  },
+  {
+    "id": "AZNET-247",
+    "question": "Cross-subscription?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "cross",
+      "subscription"
+    ]
+  },
+  {
+    "id": "AZNET-248",
+    "question": "Cross-tenant?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "cross",
+      "tenant"
+    ]
+  },
+  {
+    "id": "AZNET-249",
+    "question": "Routing?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "routing"
+    ]
+  },
+  {
+    "id": "AZNET-250",
+    "question": "Troubleshooting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "private",
+      "link",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "AZNET-251",
+    "question": "What is NAT Gateway?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nat",
+      "gateway",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-252",
+    "question": "Why use NAT Gateway?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nat",
+      "gateway",
+      "why",
+      "use"
+    ]
+  },
+  {
+    "id": "AZNET-253",
+    "question": "NAT Gateway vs Public IP?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nat",
+      "gateway",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-254",
+    "question": "NAT Gateway vs Azure Firewall?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nat",
+      "gateway",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-255",
+    "question": "SNAT Port Exhaustion?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nat",
+      "gateway",
+      "snat",
+      "port",
+      "exhaustion"
+    ]
+  },
+  {
+    "id": "AZNET-256",
+    "question": "Scaling?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nat",
+      "gateway",
+      "scaling"
+    ]
+  },
+  {
+    "id": "AZNET-257",
+    "question": "Multiple Public IPs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nat",
+      "gateway",
+      "multiple",
+      "public",
+      "ips"
+    ]
+  },
+  {
+    "id": "AZNET-258",
+    "question": "IP Prefix?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nat",
+      "gateway",
+      "ip",
+      "prefix"
+    ]
+  },
+  {
+    "id": "AZNET-259",
+    "question": "Subnet association?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nat",
+      "gateway",
+      "subnet",
+      "association"
+    ]
+  },
+  {
+    "id": "AZNET-260",
+    "question": "Troubleshooting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "nat",
+      "gateway",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "AZNET-261",
+    "question": "What is Azure VPN Gateway?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "what",
+      "is",
+      "azure"
+    ]
+  },
+  {
+    "id": "AZNET-262",
+    "question": "Route-based vs Policy-based VPN?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "route",
+      "based",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-263",
+    "question": "Site-to-Site VPN?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "site",
+      "to"
+    ]
+  },
+  {
+    "id": "AZNET-264",
+    "question": "Point-to-Site VPN?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "point",
+      "to",
+      "site"
+    ]
+  },
+  {
+    "id": "AZNET-265",
+    "question": "VNet-to-VNet VPN?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "vnet",
+      "to"
+    ]
+  },
+  {
+    "id": "AZNET-266",
+    "question": "VPN Gateway SKUs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "skus"
+    ]
+  },
+  {
+    "id": "AZNET-267",
+    "question": "Active-Active?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "active"
+    ]
+  },
+  {
+    "id": "AZNET-268",
+    "question": "BGP?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "bgp"
+    ]
+  },
+  {
+    "id": "AZNET-269",
+    "question": "IPSec?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "ipsec"
+    ]
+  },
+  {
+    "id": "AZNET-270",
+    "question": "IKEv2?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "ikev"
+    ]
+  },
+  {
+    "id": "AZNET-271",
+    "question": "VPN Gateway scaling?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "scaling"
+    ]
+  },
+  {
+    "id": "AZNET-272",
+    "question": "VPN redundancy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "redundancy"
+    ]
+  },
+  {
+    "id": "AZNET-273",
+    "question": "Throughput limits?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "throughput",
+      "limits"
+    ]
+  },
+  {
+    "id": "AZNET-274",
+    "question": "Gateway subnet?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "subnet"
+    ]
+  },
+  {
+    "id": "AZNET-275",
+    "question": "Troubleshooting VPN?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "vpn",
+      "gateway",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "AZNET-276",
+    "question": "What is ExpressRoute?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-277",
+    "question": "ExpressRoute vs VPN?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "vs",
+      "vpn"
+    ]
+  },
+  {
+    "id": "AZNET-278",
+    "question": "Benefits?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "benefits"
+    ]
+  },
+  {
+    "id": "AZNET-279",
+    "question": "Peering types?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "peering",
+      "types"
+    ]
+  },
+  {
+    "id": "AZNET-280",
+    "question": "Microsoft Peering?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "microsoft",
+      "peering"
+    ]
+  },
+  {
+    "id": "AZNET-281",
+    "question": "Private Peering?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "private",
+      "peering"
+    ]
+  },
+  {
+    "id": "AZNET-282",
+    "question": "Public Peering?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "public",
+      "peering"
+    ]
+  },
+  {
+    "id": "AZNET-283",
+    "question": "FastPath?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "fastpath"
+    ]
+  },
+  {
+    "id": "AZNET-284",
+    "question": "Global Reach?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "global",
+      "reach"
+    ]
+  },
+  {
+    "id": "AZNET-285",
+    "question": "ExpressRoute Gateway?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "gateway"
+    ]
+  },
+  {
+    "id": "AZNET-286",
+    "question": "Redundancy?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "redundancy"
+    ]
+  },
+  {
+    "id": "AZNET-287",
+    "question": "High Availability?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "high",
+      "availability"
+    ]
+  },
+  {
+    "id": "AZNET-288",
+    "question": "ExpressRoute Direct?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "direct"
+    ]
+  },
+  {
+    "id": "AZNET-289",
+    "question": "ExpressRoute Circuit?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "circuit"
+    ]
+  },
+  {
+    "id": "AZNET-290",
+    "question": "Troubleshooting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "expressroute",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "AZNET-291",
+    "question": "What is Azure Bastion?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "bastion",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "AZNET-292",
+    "question": "Benefits?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "bastion",
+      "benefits"
+    ]
+  },
+  {
+    "id": "AZNET-293",
+    "question": "Bastion vs Jump Box?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "bastion",
+      "vs",
+      "jump"
+    ]
+  },
+  {
+    "id": "AZNET-294",
+    "question": "Bastion SKUs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "bastion",
+      "skus"
+    ]
+  },
+  {
+    "id": "AZNET-295",
+    "question": "Native Client Support?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "bastion",
+      "native",
+      "client",
+      "support"
+    ]
+  },
+  {
+    "id": "AZNET-296",
+    "question": "Shareable Links?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "bastion",
+      "shareable",
+      "links"
+    ]
+  },
+  {
+    "id": "AZNET-297",
+    "question": "Custom Ports?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "bastion",
+      "custom",
+      "ports"
+    ]
+  },
+  {
+    "id": "AZNET-298",
+    "question": "Session Recording?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "bastion",
+      "session",
+      "recording"
+    ]
+  },
+  {
+    "id": "AZNET-299",
+    "question": "Private-only Bastion?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "bastion",
+      "private",
+      "only"
+    ]
+  },
+  {
+    "id": "AZNET-300",
+    "question": "Best practices?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "azure",
+      "bastion",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "AZNET-301",
+    "question": "What is Azure Virtual WAN?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "virtual",
+      "wan",
+      "what",
+      "is",
+      "azure"
+    ]
+  },
+  {
+    "id": "AZNET-302",
+    "question": "Virtual WAN vs Hub-Spoke?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "virtual",
+      "wan",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-303",
+    "question": "Virtual Hub?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "virtual",
+      "wan",
+      "hub"
+    ]
+  },
+  {
+    "id": "AZNET-304",
+    "question": "Virtual WAN Routing?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "virtual",
+      "wan",
+      "routing"
+    ]
+  },
+  {
+    "id": "AZNET-305",
+    "question": "Secure Virtual Hub?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "virtual",
+      "wan",
+      "secure",
+      "hub"
+    ]
+  },
+  {
+    "id": "AZNET-306",
+    "question": "Branch Connectivity?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "virtual",
+      "wan",
+      "branch",
+      "connectivity"
+    ]
+  },
+  {
+    "id": "AZNET-307",
+    "question": "SD-WAN Integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "virtual",
+      "wan",
+      "sd",
+      "integration"
+    ]
+  },
+  {
+    "id": "AZNET-308",
+    "question": "ExpressRoute Integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "virtual",
+      "wan",
+      "expressroute",
+      "integration"
+    ]
+  },
+  {
+    "id": "AZNET-309",
+    "question": "VPN Integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "virtual",
+      "wan",
+      "vpn",
+      "integration"
+    ]
+  },
+  {
+    "id": "AZNET-310",
+    "question": "Best practices?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "virtual",
+      "wan",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "AZNET-311",
+    "question": "What is Azure Network Watcher?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "network",
+      "watcher",
+      "what",
+      "is",
+      "azure"
+    ]
+  },
+  {
+    "id": "AZNET-312",
+    "question": "IP Flow Verify?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "network",
+      "watcher",
+      "ip",
+      "flow",
+      "verify"
+    ]
+  },
+  {
+    "id": "AZNET-313",
+    "question": "Connection Troubleshoot?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "network",
+      "watcher",
+      "connection",
+      "troubleshoot"
+    ]
+  },
+  {
+    "id": "AZNET-314",
+    "question": "Next Hop?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "network",
+      "watcher",
+      "next",
+      "hop"
+    ]
+  },
+  {
+    "id": "AZNET-315",
+    "question": "Effective Routes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "network",
+      "watcher",
+      "effective",
+      "routes"
+    ]
+  },
+  {
+    "id": "AZNET-316",
+    "question": "Effective NSGs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "network",
+      "watcher",
+      "effective",
+      "nsgs"
+    ]
+  },
+  {
+    "id": "AZNET-317",
+    "question": "Packet Capture?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "network",
+      "watcher",
+      "packet",
+      "capture"
+    ]
+  },
+  {
+    "id": "AZNET-318",
+    "question": "Topology?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "network",
+      "watcher",
+      "topology"
+    ]
+  },
+  {
+    "id": "AZNET-319",
+    "question": "NSG Flow Logs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "network",
+      "watcher",
+      "nsg",
+      "flow",
+      "logs"
+    ]
+  },
+  {
+    "id": "AZNET-320",
+    "question": "Connection Monitor?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "network",
+      "watcher",
+      "connection",
+      "monitor"
+    ]
+  },
+  {
+    "id": "AZNET-321",
+    "question": "How do NSGs and Azure Firewall complement each other?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "networking",
+      "how",
+      "do",
+      "nsgs"
+    ]
+  },
+  {
+    "id": "AZNET-322",
+    "question": "Zero Trust networking in Azure?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "networking",
+      "zero",
+      "trust"
+    ]
+  },
+  {
+    "id": "AZNET-323",
+    "question": "Micro-segmentation?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "networking",
+      "micro",
+      "segmentation"
+    ]
+  },
+  {
+    "id": "AZNET-324",
+    "question": "Azure DDoS Protection?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "networking",
+      "ddos",
+      "protection"
+    ]
+  },
+  {
+    "id": "AZNET-325",
+    "question": "DDoS Standard vs Basic?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "networking",
+      "ddos",
+      "standard",
+      "vs"
+    ]
+  },
+  {
+    "id": "AZNET-326",
+    "question": "Service Tags?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "networking",
+      "service",
+      "tags"
+    ]
+  },
+  {
+    "id": "AZNET-327",
+    "question": "ASGs?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "networking",
+      "asgs"
+    ]
+  },
+  {
+    "id": "AZNET-328",
+    "question": "Private Endpoints?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "networking",
+      "private",
+      "endpoints"
+    ]
+  },
+  {
+    "id": "AZNET-329",
+    "question": "TLS inspection?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "networking",
+      "tls",
+      "inspection"
+    ]
+  },
+  {
+    "id": "AZNET-330",
+    "question": "Secure Hybrid Networking?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "networking",
+      "secure",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "AZNET-331",
+    "question": "VM cannot reach Internet. How do you troubleshoot?",
+    "difficulty": "Advanced",
+    "tags": [
+      "monitoring",
+      "troubleshooting",
+      "vm",
+      "cannot",
+      "reach"
+    ]
+  },
+  {
+    "id": "AZNET-332",
+    "question": "Your VM cannot access Azure Storage. How do you troubleshoot?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "your",
+      "vm",
+      "cannot"
+    ]
+  },
+  {
+    "id": "AZNET-333",
+    "question": "A peered VNet cannot communicate with another VNet. What would you check?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "peered",
+      "vnet"
+    ]
+  },
+  {
+    "id": "AZNET-334",
+    "question": "A spoke VNet cannot reach on-premises through the hub. What could be wrong?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "a",
+      "spoke",
+      "vnet"
+    ]
+  },
+  {
+    "id": "AZNET-335",
+    "question": "How would you migrate an enterprise network to Azure with minimal downtime?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-336",
+    "question": "You have overlapping address spaces across business units. How would you solve it?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "you",
+      "have",
+      "overlapping"
+    ]
+  },
+  {
+    "id": "AZNET-337",
+    "question": "How would you securely expose an internal application?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-338",
+    "question": "How would you connect hundreds of branch offices?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-339",
+    "question": "How would you isolate production from development?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-340",
+    "question": "How would you centralize network security?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-341",
+    "question": "How would you reduce Azure networking costs?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-342",
+    "question": "How would you troubleshoot intermittent packet loss?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-343",
+    "question": "How would you migrate from VPN Gateway to ExpressRoute?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-344",
+    "question": "How would you troubleshoot asymmetric routing?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-345",
+    "question": "How would you implement Zero Trust networking?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-346",
+    "question": "How would you secure PaaS services without public access?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-347",
+    "question": "How would you implement enterprise DNS?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-348",
+    "question": "How would you inspect east-west traffic?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-349",
+    "question": "How would you inspect north-south traffic?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-350",
+    "question": "How would you implement high availability across Azure regions?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "AZNET-351",
+    "question": "How would you architect networking for a global SaaS platform?",
+    "difficulty": "Advanced",
+    "tags": [
+      "scenario",
+      "based",
+      "how",
+      "would",
+      "you"
+    ]
+  }
 ]
