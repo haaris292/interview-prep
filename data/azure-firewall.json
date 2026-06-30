@@ -1,0 +1,152 @@
+[
+  {
+    "id": "AFW-001",
+    "question": "What is Azure Firewall, and why is it used?",
+    "difficulty": "Beginner",
+    "tags": ["azure-firewall", "network-security"]
+  },
+  {
+    "id": "AFW-002",
+    "question": "What are the key features of Azure Firewall?",
+    "difficulty": "Beginner",
+    "tags": ["features", "security"]
+  },
+  {
+    "id": "AFW-003",
+    "question": "How does Azure Firewall differ from a Network Security Group (NSG)?",
+    "difficulty": "Intermediate",
+    "tags": ["nsg", "comparison"]
+  },
+  {
+    "id": "AFW-004",
+    "question": "If you already have NSGs and User Defined Routes (UDRs), why would you still need Azure Firewall?",
+    "difficulty": "Intermediate",
+    "tags": ["nsg", "udr", "architecture"]
+  },
+  {
+    "id": "AFW-005",
+    "question": "What types of rules are supported by Azure Firewall?",
+    "difficulty": "Beginner",
+    "tags": ["network-rules", "application-rules", "nat-rules"]
+  },
+  {
+    "id": "AFW-006",
+    "question": "Explain the difference between Network Rules, Application Rules, and NAT Rules in Azure Firewall.",
+    "difficulty": "Intermediate",
+    "tags": ["network-rule", "application-rule", "nat-rule"]
+  },
+  {
+    "id": "AFW-007",
+    "question": "How does Azure Firewall process rule collections and rule collection groups?",
+    "difficulty": "Advanced",
+    "tags": ["rule-processing", "priority"]
+  },
+  {
+    "id": "AFW-008",
+    "question": "What are the different SKUs available for Azure Firewall?",
+    "difficulty": "Intermediate",
+    "tags": ["standard", "premium", "basic"]
+  },
+  {
+    "id": "AFW-009",
+    "question": "What additional capabilities are available in Azure Firewall Premium?",
+    "difficulty": "Intermediate",
+    "tags": ["premium", "tls-inspection", "ids", "ips"]
+  },
+  {
+    "id": "AFW-010",
+    "question": "How do you enable Intrusion Detection and Prevention System (IDPS) in Azure Firewall Premium?",
+    "difficulty": "Advanced",
+    "tags": ["idps", "premium", "security"]
+  },
+  {
+    "id": "AFW-011",
+    "question": "How do you implement URL filtering and web category filtering in Azure Firewall?",
+    "difficulty": "Advanced",
+    "tags": ["url-filtering", "web-categories"]
+  },
+  {
+    "id": "AFW-012",
+    "question": "How do you secure outbound internet traffic using Azure Firewall?",
+    "difficulty": "Intermediate",
+    "tags": ["egress", "internet"]
+  },
+  {
+    "id": "AFW-013",
+    "question": "How do you secure inbound traffic using Azure Firewall?",
+    "difficulty": "Intermediate",
+    "tags": ["ingress", "nat"]
+  },
+  {
+    "id": "AFW-014",
+    "question": "How does Azure Firewall integrate with a Hub-and-Spoke network architecture?",
+    "difficulty": "Intermediate",
+    "tags": ["hub-spoke", "architecture"]
+  },
+  {
+    "id": "AFW-015",
+    "question": "Where should Azure Firewall be placed in a Hub-and-Spoke topology?",
+    "difficulty": "Intermediate",
+    "tags": ["hub-spoke", "design"]
+  },
+  {
+    "id": "AFW-016",
+    "question": "How does Azure Firewall work together with Azure Front Door and Application Gateway?",
+    "difficulty": "Advanced",
+    "tags": ["front-door", "application-gateway", "architecture"]
+  },
+  {
+    "id": "AFW-017",
+    "question": "How do you route traffic through Azure Firewall using User Defined Routes (UDRs)?",
+    "difficulty": "Intermediate",
+    "tags": ["udr", "routing"]
+  },
+  {
+    "id": "AFW-018",
+    "question": "How do you monitor Azure Firewall logs and diagnostics?",
+    "difficulty": "Intermediate",
+    "tags": ["monitoring", "diagnostics", "log-analytics"]
+  },
+  {
+    "id": "AFW-019",
+    "question": "How can Azure Firewall logs be integrated with Microsoft Sentinel for threat detection?",
+    "difficulty": "Advanced",
+    "tags": ["sentinel", "siem", "security"]
+  },
+  {
+    "id": "AFW-020",
+    "question": "What are the limitations of Azure Firewall?",
+    "difficulty": "Intermediate",
+    "tags": ["limitations"]
+  },
+  {
+    "id": "AFW-021",
+    "question": "When would you choose a third-party Network Virtual Appliance (NVA) instead of Azure Firewall?",
+    "difficulty": "Advanced",
+    "tags": ["third-party", "nva", "comparison"]
+  },
+  {
+    "id": "AFW-022",
+    "question": "Compare Azure Firewall with third-party firewalls such as Palo Alto, Fortinet, and Check Point.",
+    "difficulty": "Advanced",
+    "tags": ["comparison", "palo-alto", "fortinet", "checkpoint"]
+  },
+  {
+    "id": "AFW-023",
+    "question": "How do you achieve high availability with Azure Firewall?",
+    "difficulty": "Intermediate",
+    "tags": ["high-availability", "availability-zones"]
+  },
+  {
+    "id": "AFW-024",
+    "question": "What are the best practices for designing a secure Azure Firewall deployment in an enterprise environment?",
+    "difficulty": "Advanced",
+    "tags": ["best-practices", "enterprise", "security"]
+  },
+  {
+    "id": "AFW-025",
+    "question": "How do you troubleshoot traffic that is unexpectedly blocked by Azure Firewall?",
+    "difficulty": "Advanced",
+    "tags": ["troubleshooting", "logs", "rules"]
+  }
+]

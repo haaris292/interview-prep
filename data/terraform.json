@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "How do you handle a Terraform resource that already exists without recreating it?",
+    "difficulty": "Intermediate",
+    "tags": ["state", "import"]
+  },
+  {
+    "id": 2,
+    "question": "How do you deploy only a specific virtual machine when your Terraform configuration contains many resources?",
+    "difficulty": "Intermediate",
+    "tags": ["target", "deployment"]
+  },
+  {
+    "id": 3,
+    "question": "How do you create multiple Azure Key Vaults and corresponding Azure SQL Servers using a foreach loop in Terraform?",
+    "difficulty": "Advanced",
+    "tags": ["foreach", "keyvault", "sql"]
+  },
+  {
+    "id": 4,
+    "question": "How do you manage backend configuration across multiple Terraform workspaces?",
+    "difficulty": "Advanced",
+    "tags": ["backend", "workspace"]
+  },
+  {
+    "id": 5,
+    "question": "What are Terraform meta-arguments? Explain their use with Azure examples.",
+    "difficulty": "Intermediate",
+    "tags": ["count", "foreach", "depends_on", "lifecycle"]
+  },
+  {
+    "id": 6,
+    "question": "What is the difference between a Terraform data source and terraform import?",
+    "difficulty": "Intermediate",
+    "tags": ["data-source", "import"]
+  },
+  {
+    "id": 7,
+    "question": "How would you continue writing Terraform code if the remote backend state is locked?",
+    "difficulty": "Advanced",
+    "tags": ["backend", "state-lock"]
+  },
+  {
+    "id": 8,
+    "question": "How do you manage Terraform deployments across Development, Testing, and Production environments?",
+    "difficulty": "Intermediate",
+    "tags": ["environments", "workspace"]
+  },
+  {
+    "id": 9,
+    "question": "If all Azure resources are deleted but the Terraform state file still exists, how would you recover?",
+    "difficulty": "Advanced",
+    "tags": ["state", "recovery"]
+  },
+  {
+    "id": 10,
+    "question": "How do you troubleshoot syntax errors in Terraform configuration files?",
+    "difficulty": "Beginner",
+    "tags": ["validate", "fmt"]
+  },
+  {
+    "id": 11,
+    "question": "When is terraform init required?",
+    "difficulty": "Beginner",
+    "tags": ["init"]
+  },
+  {
+    "id": 12,
+    "question": "How do you organize and call separate Terraform modules for Azure Cosmos DB and Azure API Management from the main configuration?",
+    "difficulty": "Intermediate",
+    "tags": ["modules"]
+  },
+  {
+    "id": 13,
+    "question": "Why do organizations use Terraform?",
+    "difficulty": "Beginner",
+    "tags": ["iac"]
+  },
+  {
+    "id": 14,
+    "question": "What is the Terraform lifecycle meta-argument and when would you use it?",
+    "difficulty": "Intermediate",
+    "tags": ["lifecycle"]
+  },
+  {
+    "id": 15,
+    "question": "What happens during terraform plan?",
+    "difficulty": "Beginner",
+    "tags": ["plan"]
+  }
+]

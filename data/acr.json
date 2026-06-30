@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ACR-001",
+    "question": "What is Azure Container Registry (ACR), and why is it used?",
+    "difficulty": "Beginner",
+    "tags": ["acr", "container", "registry"]
+  },
+  {
+    "id": "ACR-002",
+    "question": "What is the difference between Azure Container Registry (ACR) and Docker Hub?",
+    "difficulty": "Beginner",
+    "tags": ["acr", "dockerhub", "comparison"]
+  },
+  {
+    "id": "ACR-003",
+    "question": "How do you build a Docker image and push it to Azure Container Registry?",
+    "difficulty": "Beginner",
+    "tags": ["docker", "push", "image"]
+  },
+  {
+    "id": "ACR-004",
+    "question": "What Azure CLI commands are used to log in to Azure Container Registry and push an image?",
+    "difficulty": "Beginner",
+    "tags": ["azure-cli", "login", "push"]
+  },
+  {
+    "id": "ACR-005",
+    "question": "How do you pull a container image from Azure Container Registry into Azure Kubernetes Service (AKS)?",
+    "difficulty": "Intermediate",
+    "tags": ["aks", "pull", "image"]
+  },
+  {
+    "id": "ACR-006",
+    "question": "How do you authenticate Azure Kubernetes Service (AKS) with Azure Container Registry (ACR)?",
+    "difficulty": "Intermediate",
+    "tags": ["aks", "authentication", "managed-identity"]
+  },
+  {
+    "id": "ACR-007",
+    "question": "How do you secure Azure Container Registry from unauthorized image pushes and pulls?",
+    "difficulty": "Intermediate",
+    "tags": ["security", "rbac", "network"]
+  },
+  {
+    "id": "ACR-008",
+    "question": "What authentication methods are supported by Azure Container Registry?",
+    "difficulty": "Intermediate",
+    "tags": ["authentication", "service-principal", "managed-identity", "admin-user"]
+  },
+  {
+    "id": "ACR-009",
+    "question": "How do you implement Role-Based Access Control (RBAC) for Azure Container Registry?",
+    "difficulty": "Intermediate",
+    "tags": ["rbac", "roles", "permissions"]
+  },
+  {
+    "id": "ACR-010",
+    "question": "What are ACR Tasks, and when would you use them?",
+    "difficulty": "Intermediate",
+    "tags": ["acr-tasks", "automation", "build"]
+  },
+  {
+    "id": "ACR-011",
+    "question": "How do you automate Docker image builds using Azure Container Registry Tasks?",
+    "difficulty": "Intermediate",
+    "tags": ["automation", "build", "tasks"]
+  },
+  {
+    "id": "ACR-012",
+    "question": "What image tagging strategy do you recommend for production environments?",
+    "difficulty": "Intermediate",
+    "tags": ["tagging", "versioning", "best-practices"]
+  },
+  {
+    "id": "ACR-013",
+    "question": "How do you manage image versions and prevent the use of the latest tag in production?",
+    "difficulty": "Intermediate",
+    "tags": ["versioning", "latest", "best-practices"]
+  },
+  {
+    "id": "ACR-014",
+    "question": "How do you clean up old or unused images in Azure Container Registry?",
+    "difficulty": "Intermediate",
+    "tags": ["cleanup", "retention", "maintenance"]
+  },
+  {
+    "id": "ACR-015",
+    "question": "How do you enable image retention policies in Azure Container Registry?",
+    "difficulty": "Intermediate",
+    "tags": ["retention", "policy"]
+  },
+  {
+    "id": "ACR-016",
+    "question": "How do you scan container images for vulnerabilities before pushing them to Azure Container Registry?",
+    "difficulty": "Advanced",
+    "tags": ["security", "vulnerability", "image-scan"]
+  },
+  {
+    "id": "ACR-017",
+    "question": "Design a CI/CD pipeline that ensures only vulnerability-free container images are pushed to Azure Container Registry and deployed to AKS.",
+    "difficulty": "Advanced",
+    "tags": ["pipeline", "security", "devsecops", "aks"]
+  },
+  {
+    "id": "ACR-018",
+    "question": "Which container image scanning tools can be integrated with Azure DevOps pipelines before pushing images to ACR?",
+    "difficulty": "Advanced",
+    "tags": ["trivy", "microsoft-defender", "snyk", "security"]
+  },
+  {
+    "id": "ACR-019",
+    "question": "How do you prevent the deployment of vulnerable container images in an AKS environment?",
+    "difficulty": "Advanced",
+    "tags": ["aks", "admission-controller", "policy", "security"]
+  },
+  {
+    "id": "ACR-020",
+    "question": "What are the best practices for securing Azure Container Registry in enterprise environments?",
+    "difficulty": "Advanced",
+    "tags": ["best-practices", "private-endpoint", "rbac", "network-security"]
+  }
+]

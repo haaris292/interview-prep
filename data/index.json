@@ -1,0 +1,100 @@
+[
+    {
+        "id": "terraform",
+        "title": "Terraform",
+        "icon": "🌍",
+        "file": "terraform.json",
+        "questions": 15
+    },
+    {
+        "id": "azure-devops",
+        "title": "Azure DevOps",
+        "icon": "🚀",
+        "file": "azure-devops.json",
+        "questions": 25
+    },
+    {
+        "id": "docker",
+        "title": "Docker",
+        "icon": "🐳",
+        "file": "docker.json",
+        "questions": 10
+    },
+    {
+        "id": "kubernetes",
+        "title": "Kubernetes / AKS",
+        "icon": "☸️",
+        "file": "kubernetes.json",
+        "questions": 12
+    },
+    {
+        "id": "azure-networking",
+        "title": "Azure Networking",
+        "icon": "🌐",
+        "file": "azure-networking.json",
+        "questions": 15
+    },
+    {
+        "id": "azure-security",
+        "title": "Azure Security",
+        "icon": "🔐",
+        "file": "azure-security.json",
+        "questions": 12
+    },
+    {
+        "id": "azure-services",
+        "title": "Azure Services",
+        "icon": "☁️",
+        "file": "azure-services.json",
+        "questions": 20
+    },
+    {
+        "id": "azure-storage",
+        "title": "Azure Storage",
+        "icon": "💾",
+        "file": "azure-storage.json",
+        "questions": 5
+    },
+    {
+        "id": "azure-container-registry",
+        "title": "Azure Container Registry",
+        "icon": "📦",
+        "file": "azure-container-registry.json",
+        "questions": 20
+    },
+    {
+        "id": "azure-firewall",
+        "title": "Azure Firewall",
+        "icon": "🔥",
+        "file": "azure-firewall.json",
+        "questions": 25
+    },
+    {
+        "id": "azure-sql",
+        "title": "Azure SQL",
+        "icon": "🗄️",
+        "file": "azure-sql.json",
+        "questions": 10
+    },
+    {
+        "id": "git",
+        "title": "Git",
+        "icon": "🌳",
+        "file": "git.json",
+        "questions": 5
+    },
+    {
+        "id": "azure-devops-agents",
+        "title": "Azure DevOps Agents",
+        "icon": "🤖",
+        "file": "azure-devops-agents.json",
+        "questions": 5
+    },
+    {
+        "id": "data-engineering",
+        "title": "Data Engineering",
+        "icon": "📊",
+        "file": "data-engineering.json",
+        "questions": 18
+    }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ADO-001",
+    "question": "What is the difference between Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment?",
+    "difficulty": "Beginner",
+    "tags": ["ci", "cd", "devops"]
+  },
+  {
+    "id": "ADO-002",
+    "question": "Explain the complete Azure DevOps CI/CD workflow used in your project.",
+    "difficulty": "Intermediate",
+    "tags": ["workflow", "pipeline"]
+  },
+  {
+    "id": "ADO-003",
+    "question": "What is the structure of an Azure DevOps YAML pipeline?",
+    "difficulty": "Beginner",
+    "tags": ["yaml", "pipeline"]
+  },
+  {
+    "id": "ADO-004",
+    "question": "How do you create an Azure DevOps pipeline from scratch?",
+    "difficulty": "Beginner",
+    "tags": ["pipeline", "setup"]
+  },
+  {
+    "id": "ADO-005",
+    "question": "How are Azure DevOps YAML pipelines organized in a real-world project?",
+    "difficulty": "Intermediate",
+    "tags": ["yaml", "repository"]
+  },
+  {
+    "id": "ADO-006",
+    "question": "What are Azure DevOps pipeline templates, and why are they used?",
+    "difficulty": "Intermediate",
+    "tags": ["templates", "yaml"]
+  },
+  {
+    "id": "ADO-007",
+    "question": "What are Azure DevOps environments, and how are they used in deployment pipelines?",
+    "difficulty": "Intermediate",
+    "tags": ["environment", "deployment"]
+  },
+  {
+    "id": "ADO-008",
+    "question": "What is a Service Connection in Azure DevOps, and how do you configure one?",
+    "difficulty": "Intermediate",
+    "tags": ["service-connection", "authentication"]
+  },
+  {
+    "id": "ADO-009",
+    "question": "How do Azure DevOps pipelines work in a production environment?",
+    "difficulty": "Intermediate",
+    "tags": ["production", "deployment"]
+  },
+  {
+    "id": "ADO-010",
+    "question": "What are the different types of Azure DevOps pipelines?",
+    "difficulty": "Beginner",
+    "tags": ["build", "release", "yaml", "classic"]
+  },
+  {
+    "id": "ADO-011",
+    "question": "What is a Release Pipeline, and how does it differ from a Build Pipeline?",
+    "difficulty": "Intermediate",
+    "tags": ["release", "build"]
+  },
+  {
+    "id": "ADO-012",
+    "question": "What deployment strategies are supported in Azure DevOps?",
+    "difficulty": "Intermediate",
+    "tags": ["deployment", "strategy"]
+  },
+  {
+    "id": "ADO-013",
+    "question": "What is Blue-Green Deployment, and when would you use it?",
+    "difficulty": "Intermediate",
+    "tags": ["blue-green", "deployment"]
+  },
+  {
+    "id": "ADO-014",
+    "question": "How do you write a simple Azure DevOps YAML pipeline that prints 'Hello World'?",
+    "difficulty": "Beginner",
+    "tags": ["yaml", "example"]
+  },
+  {
+    "id": "ADO-015",
+    "question": "Where should secrets be stored in Azure DevOps pipelines?",
+    "difficulty": "Intermediate",
+    "tags": ["keyvault", "secret", "security"]
+  },
+  {
+    "id": "ADO-016",
+    "question": "What are Variable Groups in Azure DevOps, and when should you use them?",
+    "difficulty": "Intermediate",
+    "tags": ["variable-group", "variables"]
+  },
+  {
+    "id": "ADO-017",
+    "question": "What types of agents are available in Azure DevOps pipelines?",
+    "difficulty": "Beginner",
+    "tags": ["agent", "hosted", "self-hosted"]
+  },
+  {
+    "id": "ADO-018",
+    "question": "What security measures should be implemented for Azure DevOps CI/CD pipelines?",
+    "difficulty": "Advanced",
+    "tags": ["security", "pipeline"]
+  },
+  {
+    "id": "ADO-019",
+    "question": "How do you estimate or optimize Azure DevOps pipeline costs?",
+    "difficulty": "Intermediate",
+    "tags": ["cost", "optimization"]
+  },
+  {
+    "id": "ADO-020",
+    "question": "How do you troubleshoot common CI/CD pipeline failures?",
+    "difficulty": "Intermediate",
+    "tags": ["troubleshooting", "pipeline"]
+  },
+  {
+    "id": "ADO-021",
+    "question": "How do you integrate security scanning into an Azure DevOps CI/CD pipeline?",
+    "difficulty": "Advanced",
+    "tags": ["security", "sast", "dast", "dependency-scan"]
+  },
+  {
+    "id": "ADO-022",
+    "question": "A build stage produces an artifact that is consumed by the release stage. How do you ensure the release stage executes only after the build stage completes successfully?",
+    "difficulty": "Advanced",
+    "tags": ["stages", "dependsOn", "artifacts"]
+  },
+  {
+    "id": "ADO-023",
+    "question": "How do you configure an Azure DevOps pipeline so that the CI stage runs for the develop branch, while the CD stage runs only for the release branch?",
+    "difficulty": "Advanced",
+    "tags": ["branch", "condition", "yaml"]
+  },
+  {
+    "id": "ADO-024",
+    "question": "Explain branching strategies commonly used in Azure DevOps and how they affect CI/CD pipelines.",
+    "difficulty": "Intermediate",
+    "tags": ["gitflow", "branching", "ci-cd"]
+  },
+  {
+    "id": "ADO-025",
+    "question": "Describe the complete DevOps lifecycle in your current or previous project.",
+    "difficulty": "Intermediate",
+    "tags": ["lifecycle", "project"]
+  }
+]

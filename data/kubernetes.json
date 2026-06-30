@@ -1,0 +1,722 @@
+[
+  {
+    "id": "AKS-001",
+    "question": "Explain the Kubernetes architecture end-to-end.",
+    "difficulty": "Beginner",
+    "tags": ["architecture", "control-plane"]
+  },
+  {
+    "id": "AKS-002",
+    "question": "What are the responsibilities of the Kubernetes API Server?",
+    "difficulty": "Beginner",
+    "tags": ["api-server", "control-plane"]
+  },
+  {
+    "id": "AKS-003",
+    "question": "What is the role of the Kubernetes Scheduler?",
+    "difficulty": "Beginner",
+    "tags": ["scheduler", "control-plane"]
+  },
+  {
+    "id": "AKS-004",
+    "question": "What is the responsibility of the Kubernetes Controller Manager?",
+    "difficulty": "Intermediate",
+    "tags": ["controller-manager", "control-plane"]
+  },
+  {
+    "id": "AKS-005",
+    "question": "What is etcd, and why is it critical in a Kubernetes cluster?",
+    "difficulty": "Intermediate",
+    "tags": ["etcd", "storage"]
+  },
+  {
+    "id": "AKS-006",
+    "question": "Describe the complete request flow through the Kubernetes control plane.",
+    "difficulty": "Intermediate",
+    "tags": ["request-flow", "control-plane"]
+  },
+  {
+    "id": "AKS-007",
+    "question": "What happens internally when you execute 'kubectl apply'?",
+    "difficulty": "Intermediate",
+    "tags": ["kubectl", "apply"]
+  },
+  {
+    "id": "AKS-008",
+    "question": "How does etcd maintain data consistency in Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": ["etcd", "consistency"]
+  },
+  {
+    "id": "AKS-009",
+    "question": "What happens if etcd becomes unavailable or fails?",
+    "difficulty": "Advanced",
+    "tags": ["etcd", "failure"]
+  },
+  {
+    "id": "AKS-010",
+    "question": "How do leader elections work among Kubernetes control plane components?",
+    "difficulty": "Advanced",
+    "tags": ["leader-election", "high-availability"]
+  },
+  {
+    "id": "AKS-011",
+    "question": "What is kube-proxy, and how does it work?",
+    "difficulty": "Intermediate",
+    "tags": ["kube-proxy", "networking"]
+  },
+  {
+    "id": "AKS-012",
+    "question": "Compare kube-proxy operating modes: iptables versus IPVS.",
+    "difficulty": "Advanced",
+    "tags": ["iptables", "ipvs", "kube-proxy"]
+  },
+  {
+    "id": "AKS-013",
+    "question": "How do you secure the Kubernetes control plane?",
+    "difficulty": "Advanced",
+    "tags": ["security", "control-plane"]
+  },
+  {
+    "id": "AKS-014",
+    "question": "How would you design a highly available Kubernetes control plane?",
+    "difficulty": "Advanced",
+    "tags": ["ha", "architecture"]
+  },
+  {
+    "id": "AKS-015",
+    "question": "How do managed Kubernetes services such as AKS, Amazon EKS, or Google Kubernetes Engine differ from self-managed Kubernetes clusters?",
+    "difficulty": "Advanced",
+    "tags": ["aks", "eks", "gke"]
+  },
+  {
+    "id": "AKS-016",
+    "question": "How do you upgrade a Kubernetes cluster with minimal or zero downtime?",
+    "difficulty": "Advanced",
+    "tags": ["upgrade", "zero-downtime"]
+  },
+  {
+    "id": "AKS-017",
+    "question": "What is a Pod, and why does Kubernetes use Pods instead of running containers directly?",
+    "difficulty": "Beginner",
+    "tags": ["pod"]
+  },
+  {
+    "id": "AKS-018",
+    "question": "Explain the lifecycle of a Kubernetes Pod.",
+    "difficulty": "Beginner",
+    "tags": ["pod", "lifecycle"]
+  },
+  {
+    "id": "AKS-019",
+    "question": "What is the difference between a Pod and a Deployment?",
+    "difficulty": "Beginner",
+    "tags": ["pod", "deployment"]
+  },
+  {
+    "id": "AKS-020",
+    "question": "Compare Deployment, StatefulSet, DaemonSet, and Job in Kubernetes.",
+    "difficulty": "Intermediate",
+    "tags": ["deployment", "statefulset", "daemonset", "job"]
+  },
+  {
+    "id": "AKS-021",
+    "question": "How do rolling updates work in Kubernetes Deployments?",
+    "difficulty": "Intermediate",
+    "tags": ["rolling-update", "deployment"]
+  },
+  {
+    "id": "AKS-022",
+    "question": "What is the difference between the Recreate and RollingUpdate deployment strategies?",
+    "difficulty": "Intermediate",
+    "tags": ["rolling-update", "recreate"]
+  },
+  {
+    "id": "AKS-023",
+    "question": "How does Kubernetes ensure the desired state of workloads?",
+    "difficulty": "Intermediate",
+    "tags": ["desired-state", "controller"]
+  },
+  {
+    "id": "AKS-024",
+    "question": "How do you manage stateful workloads in Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": ["statefulset", "storage"]
+  },
+  {
+    "id": "AKS-025",
+    "question": "How would you design zero-downtime application deployments in Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": ["zero-downtime", "deployment"]
+  },
+  {
+    "id": "AKS-026",
+    "question": "What is the sidecar pattern, and when would you use it?",
+    "difficulty": "Advanced",
+    "tags": ["sidecar", "design-pattern"]
+  },
+  {
+    "id": "AKS-027",
+    "question": "A Deployment rollout is stuck. How would you troubleshoot and resolve the issue?",
+    "difficulty": "Advanced",
+    "tags": ["deployment", "rollout", "troubleshooting"]
+  },
+  {
+    "id": "AKS-028",
+    "question": "Pods are restarting frequently. How would you investigate the root cause?",
+    "difficulty": "Advanced",
+    "tags": ["pod", "crashloopbackoff", "troubleshooting"]
+  },
+  {
+    "id": "AKS-029",
+    "question": "Explain the Kubernetes networking model.",
+    "difficulty": "Beginner",
+    "tags": ["networking"]
+  },
+  {
+    "id": "AKS-030",
+    "question": "What is the purpose of a Kubernetes Service?",
+    "difficulty": "Beginner",
+    "tags": ["service"]
+  },
+  {
+    "id": "AKS-031",
+    "question": "Compare the ClusterIP, NodePort, and LoadBalancer service types.",
+    "difficulty": "Intermediate",
+    "tags": ["clusterip", "nodeport", "loadbalancer"]
+  },
+  {
+    "id": "AKS-032",
+    "question": "What is an Ingress resource, and when would you use it?",
+    "difficulty": "Intermediate",
+    "tags": ["ingress"]
+  },
+  {
+    "id": "AKS-033",
+    "question": "How does DNS resolution work inside a Kubernetes cluster?",
+    "difficulty": "Intermediate",
+    "tags": ["dns", "coredns"]
+  },
+  {
+    "id": "AKS-034",
+    "question": "How do Kubernetes Services discover and route traffic to Pods?",
+    "difficulty": "Intermediate",
+    "tags": ["service", "endpoint", "selector"]
+  },
+  {
+    "id": "AKS-035",
+    "question": "What is the difference between Kubernetes Ingress and an API Gateway?",
+    "difficulty": "Advanced",
+    "tags": ["ingress", "api-gateway"]
+  },
+  {
+    "id": "AKS-036",
+    "question": "How would you design networking for a multi-cluster Kubernetes environment?",
+    "difficulty": "Advanced",
+    "tags": ["multi-cluster", "networking"]
+  },
+  {
+    "id": "AKS-037",
+    "question": "How do you secure service-to-service communication in Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": ["mtls", "network-security"]
+  },
+  {
+    "id": "AKS-038",
+    "question": "What is a service mesh, and when would you use solutions such as Istio or Linkerd?",
+    "difficulty": "Advanced",
+    "tags": ["service-mesh", "istio", "linkerd"]
+  },
+  {
+    "id": "AKS-039",
+    "question": "Traffic is not reaching your Pod. How would you troubleshoot the issue?",
+    "difficulty": "Advanced",
+    "tags": ["networking", "troubleshooting"]
+  },
+  {
+    "id": "AKS-040",
+    "question": "An Ingress is returning HTTP 502 errors. What are the possible causes, and how would you debug them?",
+    "difficulty": "Advanced",
+    "tags": ["ingress", "502", "troubleshooting"]
+  },
+  {
+    "id": "AKS-041",
+    "question": "What are ConfigMaps in Kubernetes, and when should you use them?",
+    "difficulty": "Beginner",
+    "tags": ["configmap", "configuration"]
+  },
+  {
+    "id": "AKS-042",
+    "question": "What are Kubernetes Secrets, and how are they different from ConfigMaps?",
+    "difficulty": "Beginner",
+    "tags": ["secret", "configmap"]
+  },
+  {
+    "id": "AKS-043",
+    "question": "What are the key differences between ConfigMaps and Secrets?",
+    "difficulty": "Beginner",
+    "tags": ["configmap", "secret", "comparison"]
+  },
+  {
+    "id": "AKS-044",
+    "question": "How do you inject ConfigMaps into Pods?",
+    "difficulty": "Intermediate",
+    "tags": ["configmap", "environment-variables", "volume"]
+  },
+  {
+    "id": "AKS-045",
+    "question": "How do you inject Secrets into Pods securely?",
+    "difficulty": "Intermediate",
+    "tags": ["secret", "volume", "environment-variables"]
+  },
+  {
+    "id": "AKS-046",
+    "question": "How are Kubernetes Secrets stored in etcd?",
+    "difficulty": "Intermediate",
+    "tags": ["secret", "etcd", "encryption"]
+  },
+  {
+    "id": "AKS-047",
+    "question": "How do you enable encryption at rest for Kubernetes Secrets?",
+    "difficulty": "Advanced",
+    "tags": ["secret", "encryption", "security"]
+  },
+  {
+    "id": "AKS-048",
+    "question": "How do you securely manage Secrets in large Kubernetes environments?",
+    "difficulty": "Advanced",
+    "tags": ["secret", "security", "best-practices"]
+  },
+  {
+    "id": "AKS-049",
+    "question": "How do you integrate Kubernetes with external secret managers such as HashiCorp Vault or Azure Key Vault?",
+    "difficulty": "Advanced",
+    "tags": ["vault", "azure-key-vault", "csi-driver"]
+  },
+  {
+    "id": "AKS-050",
+    "question": "How do you rotate Kubernetes Secrets without causing application downtime?",
+    "difficulty": "Advanced",
+    "tags": ["secret", "rotation", "zero-downtime"]
+  },
+  {
+    "id": "AKS-051",
+    "question": "Configuration changes are not reflected in running Pods. What could be the reasons, and how would you resolve them?",
+    "difficulty": "Advanced",
+    "tags": ["configmap", "troubleshooting"]
+  },
+  {
+    "id": "AKS-052",
+    "question": "A Kubernetes Secret has been exposed. What immediate actions would you take?",
+    "difficulty": "Advanced",
+    "tags": ["secret", "incident-response", "security"]
+  },
+  {
+    "id": "AKS-053",
+    "question": "How does the Kubernetes Scheduler decide where to place a Pod?",
+    "difficulty": "Beginner",
+    "tags": ["scheduler", "pod-placement"]
+  },
+  {
+    "id": "AKS-054",
+    "question": "What are CPU and memory requests and limits in Kubernetes?",
+    "difficulty": "Beginner",
+    "tags": ["requests", "limits", "resources"]
+  },
+  {
+    "id": "AKS-055",
+    "question": "What happens when a node runs out of memory?",
+    "difficulty": "Intermediate",
+    "tags": ["oom", "memory", "node"]
+  },
+  {
+    "id": "AKS-056",
+    "question": "What are Kubernetes Quality of Service (QoS) classes?",
+    "difficulty": "Intermediate",
+    "tags": ["qos", "resources"]
+  },
+  {
+    "id": "AKS-057",
+    "question": "Explain the Guaranteed, Burstable, and BestEffort QoS classes.",
+    "difficulty": "Intermediate",
+    "tags": ["qos", "guaranteed", "burstable", "besteffort"]
+  },
+  {
+    "id": "AKS-058",
+    "question": "How do taints and tolerations work in Kubernetes?",
+    "difficulty": "Intermediate",
+    "tags": ["taints", "tolerations"]
+  },
+  {
+    "id": "AKS-059",
+    "question": "What are node affinity and anti-affinity rules?",
+    "difficulty": "Intermediate",
+    "tags": ["affinity", "anti-affinity"]
+  },
+  {
+    "id": "AKS-060",
+    "question": "What is Pod affinity and Pod anti-affinity?",
+    "difficulty": "Advanced",
+    "tags": ["pod-affinity", "pod-anti-affinity"]
+  },
+  {
+    "id": "AKS-061",
+    "question": "How do node selectors differ from node affinity?",
+    "difficulty": "Intermediate",
+    "tags": ["node-selector", "affinity"]
+  },
+  {
+    "id": "AKS-062",
+    "question": "How do you optimize Pod scheduling for efficient resource utilization (bin-packing)?",
+    "difficulty": "Advanced",
+    "tags": ["scheduler", "bin-packing", "optimization"]
+  },
+  {
+    "id": "AKS-063",
+    "question": "Pods remain in the Pending state. How would you troubleshoot the issue?",
+    "difficulty": "Advanced",
+    "tags": ["pending", "scheduler", "troubleshooting"]
+  },
+  {
+    "id": "AKS-064",
+    "question": "A Kubernetes cluster is underutilized. How would you improve resource efficiency?",
+    "difficulty": "Advanced",
+    "tags": ["optimization", "resources"]
+  },
+  {
+    "id": "AKS-065",
+    "question": "What is the Horizontal Pod Autoscaler (HPA), and how does it work?",
+    "difficulty": "Beginner",
+    "tags": ["hpa", "autoscaling"]
+  },
+  {
+    "id": "AKS-066",
+    "question": "What metrics can the Horizontal Pod Autoscaler (HPA) use for scaling decisions?",
+    "difficulty": "Intermediate",
+    "tags": ["hpa", "metrics-server"]
+  },
+  {
+    "id": "AKS-067",
+    "question": "What is the difference between the Horizontal Pod Autoscaler (HPA), Vertical Pod Autoscaler (VPA), and Cluster Autoscaler?",
+    "difficulty": "Intermediate",
+    "tags": ["hpa", "vpa", "cluster-autoscaler"]
+  },
+  {
+    "id": "AKS-068",
+    "question": "How do you scale Kubernetes workloads using custom or external metrics?",
+    "difficulty": "Advanced",
+    "tags": ["custom-metrics", "prometheus", "autoscaling"]
+  },
+  {
+    "id": "AKS-069",
+    "question": "How would you design autoscaling for applications with unpredictable traffic patterns?",
+    "difficulty": "Advanced",
+    "tags": ["autoscaling", "architecture"]
+  },
+  {
+    "id": "AKS-070",
+    "question": "The Horizontal Pod Autoscaler (HPA) is not scaling Pods as expected. How would you troubleshoot the issue?",
+    "difficulty": "Advanced",
+    "tags": ["hpa", "troubleshooting"]
+  },
+  {
+    "id": "AKS-071",
+    "question": "Your application experiences a sudden spike in traffic. Explain how Kubernetes autoscaling components respond to the increase in load.",
+    "difficulty": "Advanced",
+    "tags": ["autoscaling", "traffic", "cluster-autoscaler"]
+  },
+  {
+    "id": "AKS-072",
+    "question": "What is Helm, and why is it used in Kubernetes?",
+    "difficulty": "Beginner",
+    "tags": ["helm", "package-manager"]
+  },
+  {
+    "id": "AKS-073",
+    "question": "What is a Helm Chart, and what are its main components?",
+    "difficulty": "Beginner",
+    "tags": ["helm", "chart"]
+  },
+  {
+    "id": "AKS-074",
+    "question": "How do values.yaml and templates work together in Helm?",
+    "difficulty": "Intermediate",
+    "tags": ["helm", "values", "templates"]
+  },
+  {
+    "id": "AKS-075",
+    "question": "What are Helm Hooks, and when would you use them?",
+    "difficulty": "Intermediate",
+    "tags": ["helm", "hooks"]
+  },
+  {
+    "id": "AKS-076",
+    "question": "How do you manage Helm deployments across Development, QA, and Production environments?",
+    "difficulty": "Advanced",
+    "tags": ["helm", "multi-environment"]
+  },
+  {
+    "id": "AKS-077",
+    "question": "How do you version Helm Charts and manage releases?",
+    "difficulty": "Intermediate",
+    "tags": ["helm", "versioning"]
+  },
+  {
+    "id": "AKS-078",
+    "question": "How do you roll back a failed Helm deployment?",
+    "difficulty": "Intermediate",
+    "tags": ["helm", "rollback"]
+  },
+  {
+    "id": "AKS-079",
+    "question": "How do you secure Helm deployments in production environments?",
+    "difficulty": "Advanced",
+    "tags": ["helm", "security"]
+  },
+  {
+    "id": "AKS-080",
+    "question": "A Helm release has failed. How would you troubleshoot the issue?",
+    "difficulty": "Advanced",
+    "tags": ["helm", "troubleshooting"]
+  },
+  {
+    "id": "AKS-081",
+    "question": "A Helm chart upgrade caused production issues. What rollback strategy would you follow?",
+    "difficulty": "Advanced",
+    "tags": ["helm", "rollback", "production"]
+  },
+  {
+    "id": "AKS-082",
+    "question": "How does Role-Based Access Control (RBAC) work in Kubernetes?",
+    "difficulty": "Intermediate",
+    "tags": ["rbac", "security"]
+  },
+  {
+    "id": "AKS-083",
+    "question": "What are Roles, ClusterRoles, RoleBindings, and ClusterRoleBindings?",
+    "difficulty": "Intermediate",
+    "tags": ["rbac", "authorization"]
+  },
+  {
+    "id": "AKS-084",
+    "question": "How do you secure access to a Kubernetes cluster?",
+    "difficulty": "Advanced",
+    "tags": ["authentication", "authorization", "security"]
+  },
+  {
+    "id": "AKS-085",
+    "question": "What are Kubernetes Network Policies, and how do they work?",
+    "difficulty": "Intermediate",
+    "tags": ["network-policy", "security"]
+  },
+  {
+    "id": "AKS-086",
+    "question": "How do Network Policies improve security in Kubernetes?",
+    "difficulty": "Intermediate",
+    "tags": ["network-policy", "isolation"]
+  },
+  {
+    "id": "AKS-087",
+    "question": "How do you scan container images for vulnerabilities before deployment?",
+    "difficulty": "Intermediate",
+    "tags": ["image-scanning", "security"]
+  },
+  {
+    "id": "AKS-088",
+    "question": "Which container image scanning tools have you used with Kubernetes?",
+    "difficulty": "Intermediate",
+    "tags": ["trivy", "defender", "snyk"]
+  },
+  {
+    "id": "AKS-089",
+    "question": "How do you implement Pod Security Standards in Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": ["pod-security", "security"]
+  },
+  {
+    "id": "AKS-090",
+    "question": "How do you enforce security policies using Open Policy Agent (OPA) or Gatekeeper?",
+    "difficulty": "Advanced",
+    "tags": ["opa", "gatekeeper", "policy"]
+  },
+  {
+    "id": "AKS-091",
+    "question": "How do you secure communication between Pods in a Kubernetes cluster?",
+    "difficulty": "Advanced",
+    "tags": ["mtls", "service-mesh", "security"]
+  },
+  {
+    "id": "AKS-092",
+    "question": "How do you secure access to the Kubernetes API Server?",
+    "difficulty": "Advanced",
+    "tags": ["api-server", "security"]
+  },
+  {
+    "id": "AKS-093",
+    "question": "A Pod is not starting. How would you troubleshoot the issue?",
+    "difficulty": "Advanced",
+    "tags": ["pod", "troubleshooting"]
+  },
+  {
+    "id": "AKS-094",
+    "question": "A Node is in the NotReady state. How would you investigate and resolve the issue?",
+    "difficulty": "Advanced",
+    "tags": ["node", "notready", "troubleshooting"]
+  },
+  {
+    "id": "AKS-095",
+    "question": "DNS resolution is failing inside the cluster. How would you troubleshoot the problem?",
+    "difficulty": "Advanced",
+    "tags": ["dns", "coredns", "troubleshooting"]
+  },
+  {
+    "id": "AKS-096",
+    "question": "A Kubernetes Service is not reachable. How would you debug the issue?",
+    "difficulty": "Advanced",
+    "tags": ["service", "networking", "troubleshooting"]
+  },
+  {
+    "id": "AKS-097",
+    "question": "Users are experiencing high latency in the Kubernetes cluster. What are the possible root causes?",
+    "difficulty": "Advanced",
+    "tags": ["performance", "latency", "troubleshooting"]
+  },
+  {
+    "id": "AKS-098",
+    "question": "How do you debug CrashLoopBackOff errors in Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": ["crashloopbackoff", "troubleshooting"]
+  },
+  {
+    "id": "AKS-099",
+    "question": "How do you investigate ImagePullBackOff errors?",
+    "difficulty": "Advanced",
+    "tags": ["imagepullbackoff", "container-registry"]
+  },
+  {
+    "id": "AKS-100",
+    "question": "How do you collect logs and events to troubleshoot issues in Kubernetes?",
+    "difficulty": "Intermediate",
+    "tags": ["logs", "events", "kubectl"]
+  },
+  {
+    "id": "AKS-101",
+    "question": "Which kubectl commands do you commonly use for troubleshooting Kubernetes clusters?",
+    "difficulty": "Intermediate",
+    "tags": ["kubectl", "debugging"]
+  },
+  {
+    "id": "AKS-102",
+    "question": "How would you design a multi-tenant Kubernetes platform for multiple development teams?",
+    "difficulty": "Advanced",
+    "tags": ["system-design", "multi-tenant", "architecture"]
+  },
+  {
+    "id": "AKS-103",
+    "question": "How would you design a production-ready CI/CD pipeline for deploying applications to Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": ["ci-cd", "deployment", "azure-devops"]
+  },
+  {
+    "id": "AKS-104",
+    "question": "How would you build a self-service Kubernetes platform that allows developers to deploy applications independently?",
+    "difficulty": "Advanced",
+    "tags": ["platform-engineering", "developer-platform"]
+  },
+  {
+    "id": "AKS-105",
+    "question": "How do you enforce security policies in Kubernetes using RBAC, Pod Security Standards, and Open Policy Agent (OPA)?",
+    "difficulty": "Advanced",
+    "tags": ["security", "rbac", "opa"]
+  },
+  {
+    "id": "AKS-106",
+    "question": "How would you implement observability in Kubernetes using logs, metrics, and distributed tracing?",
+    "difficulty": "Advanced",
+    "tags": ["observability", "monitoring", "logging", "tracing"]
+  },
+  {
+    "id": "AKS-107",
+    "question": "How do Prometheus and Grafana work together in a Kubernetes monitoring solution?",
+    "difficulty": "Intermediate",
+    "tags": ["prometheus", "grafana", "monitoring"]
+  },
+  {
+    "id": "AKS-108",
+    "question": "How would you monitor the health and performance of a production Kubernetes cluster?",
+    "difficulty": "Advanced",
+    "tags": ["monitoring", "cluster-health"]
+  },
+  {
+    "id": "AKS-109",
+    "question": "How do you design a Kubernetes platform for high availability and disaster recovery?",
+    "difficulty": "Advanced",
+    "tags": ["high-availability", "disaster-recovery"]
+  },
+  {
+    "id": "AKS-110",
+    "question": "How would you design a Kubernetes architecture capable of handling millions of requests per day?",
+    "difficulty": "Advanced",
+    "tags": ["scalability", "architecture"]
+  },
+  {
+    "id": "AKS-111",
+    "question": "How do you optimize infrastructure costs in a large Kubernetes environment?",
+    "difficulty": "Advanced",
+    "tags": ["cost-optimization", "cluster-autoscaler"]
+  },
+  {
+    "id": "AKS-112",
+    "question": "Describe a production outage you handled involving Kubernetes. What was the root cause, and how did you resolve it?",
+    "difficulty": "Advanced",
+    "tags": ["behavioral", "incident-management"]
+  },
+  {
+    "id": "AKS-113",
+    "question": "Describe a challenging Kubernetes issue you diagnosed and resolved in production.",
+    "difficulty": "Advanced",
+    "tags": ["behavioral", "troubleshooting"]
+  },
+  {
+    "id": "AKS-114",
+    "question": "How do you design Kubernetes workloads for maximum reliability and fault tolerance?",
+    "difficulty": "Advanced",
+    "tags": ["reliability", "resilience"]
+  },
+  {
+    "id": "AKS-115",
+    "question": "How do you ensure zero-downtime deployments in Kubernetes production environments?",
+    "difficulty": "Advanced",
+    "tags": ["deployment", "zero-downtime"]
+  },
+  {
+    "id": "AKS-116",
+    "question": "How would you mentor junior engineers who are new to Kubernetes?",
+    "difficulty": "Intermediate",
+    "tags": ["behavioral", "leadership"]
+  },
+  {
+    "id": "AKS-117",
+    "question": "How do you handle disagreements during Kubernetes architecture or design discussions?",
+    "difficulty": "Advanced",
+    "tags": ["behavioral", "architecture"]
+  },
+  {
+    "id": "AKS-118",
+    "question": "Describe a time when you improved the reliability or performance of a Kubernetes platform.",
+    "difficulty": "Advanced",
+    "tags": ["behavioral", "optimization"]
+  },
+  {
+    "id": "AKS-119",
+    "question": "How do you approach capacity planning for a Kubernetes cluster supporting business-critical applications?",
+    "difficulty": "Advanced",
+    "tags": ["capacity-planning", "architecture"]
+  },
+  {
+    "id": "AKS-120",
+    "question": "If you were designing a Kubernetes platform from scratch for an enterprise, what architectural decisions would you make and why?",
+    "difficulty": "Advanced",
+    "tags": ["system-design", "enterprise", "architecture"]
+  }
+]
