@@ -28,6 +28,13 @@
         "questions": 10
     },
     {
+        "id": "observability ",
+        "title": "Observability Stack",
+        "icon": "🌍",
+        "file": "observability.json",
+        "questions": 10
+    },
+    {
         "id": "kubernetes",
         "title": "Kubernetes / AKS",
         "icon": "☸️",

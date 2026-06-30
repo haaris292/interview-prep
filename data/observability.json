@@ -1,0 +1,3849 @@
+[
+  {
+    "id": "OBS-001",
+    "question": "What is the ELK Stack?",
+    "difficulty": "Beginner",
+    "tags": [
+      "elk",
+      "basics",
+      "what",
+      "is",
+      "the"
+    ]
+  },
+  {
+    "id": "OBS-002",
+    "question": "What are the components of ELK?",
+    "difficulty": "Beginner",
+    "tags": [
+      "elk",
+      "basics",
+      "what",
+      "are",
+      "the"
+    ]
+  },
+  {
+    "id": "OBS-003",
+    "question": "What is the difference between ELK and Elastic Stack?",
+    "difficulty": "Beginner",
+    "tags": [
+      "elk",
+      "basics",
+      "what",
+      "is",
+      "the"
+    ]
+  },
+  {
+    "id": "OBS-004",
+    "question": "What is Elasticsearch?",
+    "difficulty": "Beginner",
+    "tags": [
+      "elk",
+      "basics",
+      "what",
+      "is",
+      "elasticsearch"
+    ]
+  },
+  {
+    "id": "OBS-005",
+    "question": "What is Logstash?",
+    "difficulty": "Beginner",
+    "tags": [
+      "elk",
+      "basics",
+      "what",
+      "is",
+      "logstash"
+    ]
+  },
+  {
+    "id": "OBS-006",
+    "question": "What is Kibana?",
+    "difficulty": "Beginner",
+    "tags": [
+      "elk",
+      "basics",
+      "what",
+      "is",
+      "kibana"
+    ]
+  },
+  {
+    "id": "OBS-007",
+    "question": "What is Beats?",
+    "difficulty": "Beginner",
+    "tags": [
+      "elk",
+      "basics",
+      "what",
+      "is",
+      "beats"
+    ]
+  },
+  {
+    "id": "OBS-008",
+    "question": "Why is ELK used?",
+    "difficulty": "Beginner",
+    "tags": [
+      "elk",
+      "basics",
+      "why",
+      "is"
+    ]
+  },
+  {
+    "id": "OBS-009",
+    "question": "What problems does ELK solve?",
+    "difficulty": "Beginner",
+    "tags": [
+      "elk",
+      "basics",
+      "what",
+      "problems",
+      "does"
+    ]
+  },
+  {
+    "id": "OBS-010",
+    "question": "What are common ELK use cases?",
+    "difficulty": "Beginner",
+    "tags": [
+      "elk",
+      "basics",
+      "what",
+      "are",
+      "common"
+    ]
+  },
+  {
+    "id": "OBS-011",
+    "question": "Explain Elasticsearch architecture?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "elasticsearch",
+      "architecture"
+    ]
+  },
+  {
+    "id": "OBS-012",
+    "question": "What is an index?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "what",
+      "is",
+      "an"
+    ]
+  },
+  {
+    "id": "OBS-013",
+    "question": "What is a document?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "OBS-014",
+    "question": "What is a shard?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "OBS-015",
+    "question": "What is a replica?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "OBS-016",
+    "question": "Difference between shard and replica?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "difference",
+      "between",
+      "shard"
+    ]
+  },
+  {
+    "id": "OBS-017",
+    "question": "What is a node?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "OBS-018",
+    "question": "What is a cluster?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "OBS-019",
+    "question": "How does Elasticsearch store data?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "how",
+      "does",
+      "elasticsearch"
+    ]
+  },
+  {
+    "id": "OBS-020",
+    "question": "How are documents indexed?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "how",
+      "are",
+      "documents"
+    ]
+  },
+  {
+    "id": "OBS-021",
+    "question": "How do you create an index?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-022",
+    "question": "What are mappings?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "what",
+      "are",
+      "mappings"
+    ]
+  },
+  {
+    "id": "OBS-023",
+    "question": "What are dynamic mappings?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "what",
+      "are",
+      "dynamic"
+    ]
+  },
+  {
+    "id": "OBS-024",
+    "question": "What are static mappings?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "what",
+      "are",
+      "static"
+    ]
+  },
+  {
+    "id": "OBS-025",
+    "question": "What is an analyzer?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "what",
+      "is",
+      "an"
+    ]
+  },
+  {
+    "id": "OBS-026",
+    "question": "Difference between text and keyword?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "difference",
+      "between",
+      "text"
+    ]
+  },
+  {
+    "id": "OBS-027",
+    "question": "What is tokenization?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "what",
+      "is",
+      "tokenization"
+    ]
+  },
+  {
+    "id": "OBS-028",
+    "question": "What are inverted indexes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "what",
+      "are",
+      "inverted"
+    ]
+  },
+  {
+    "id": "OBS-029",
+    "question": "What is indexing latency?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "OBS-030",
+    "question": "How does Elasticsearch search work?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "how",
+      "does",
+      "elasticsearch"
+    ]
+  },
+  {
+    "id": "OBS-031",
+    "question": "What is Query DSL?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "query",
+      "dsl",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "OBS-032",
+    "question": "Difference between match and term query?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "query",
+      "dsl",
+      "difference",
+      "between",
+      "match"
+    ]
+  },
+  {
+    "id": "OBS-033",
+    "question": "Difference between filter and query?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "query",
+      "dsl",
+      "difference",
+      "between",
+      "filter"
+    ]
+  },
+  {
+    "id": "OBS-034",
+    "question": "What is bool query?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "query",
+      "dsl",
+      "what",
+      "is",
+      "bool"
+    ]
+  },
+  {
+    "id": "OBS-035",
+    "question": "What are aggregations?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "query",
+      "dsl",
+      "what",
+      "are",
+      "aggregations"
+    ]
+  },
+  {
+    "id": "OBS-036",
+    "question": "What are buckets?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "query",
+      "dsl",
+      "what",
+      "are",
+      "buckets"
+    ]
+  },
+  {
+    "id": "OBS-037",
+    "question": "What are metrics aggregations?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "query",
+      "dsl",
+      "what",
+      "are",
+      "metrics"
+    ]
+  },
+  {
+    "id": "OBS-038",
+    "question": "Explain nested queries?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "query",
+      "dsl",
+      "explain",
+      "nested",
+      "queries"
+    ]
+  },
+  {
+    "id": "OBS-039",
+    "question": "Explain wildcard query?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "query",
+      "dsl",
+      "explain",
+      "wildcard"
+    ]
+  },
+  {
+    "id": "OBS-040",
+    "question": "Explain fuzzy search?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "query",
+      "dsl",
+      "explain",
+      "fuzzy",
+      "search"
+    ]
+  },
+  {
+    "id": "OBS-041",
+    "question": "How do you improve Elasticsearch performance?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-042",
+    "question": "How do shards affect performance?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "how",
+      "do",
+      "shards"
+    ]
+  },
+  {
+    "id": "OBS-043",
+    "question": "What happens if you create too many shards?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "what",
+      "happens",
+      "if"
+    ]
+  },
+  {
+    "id": "OBS-044",
+    "question": "Explain refresh interval?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "explain",
+      "refresh",
+      "interval"
+    ]
+  },
+  {
+    "id": "OBS-045",
+    "question": "Explain segment merging?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "explain",
+      "segment",
+      "merging"
+    ]
+  },
+  {
+    "id": "OBS-046",
+    "question": "What is force merge?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "what",
+      "is",
+      "force"
+    ]
+  },
+  {
+    "id": "OBS-047",
+    "question": "Explain index lifecycle management (ILM)?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "explain",
+      "index",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "OBS-048",
+    "question": "How do you archive old logs?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-049",
+    "question": "Explain rollover indices?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "explain",
+      "rollover",
+      "indices"
+    ]
+  },
+  {
+    "id": "OBS-050",
+    "question": "Explain hot-warm-cold architecture?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "explain",
+      "hot",
+      "warm"
+    ]
+  },
+  {
+    "id": "OBS-051",
+    "question": "Explain cluster health?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cluster",
+      "management",
+      "explain",
+      "health"
+    ]
+  },
+  {
+    "id": "OBS-052",
+    "question": "Difference between green, yellow and red cluster?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cluster",
+      "management",
+      "difference",
+      "between",
+      "green"
+    ]
+  },
+  {
+    "id": "OBS-053",
+    "question": "Explain master nodes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cluster",
+      "management",
+      "explain",
+      "master",
+      "nodes"
+    ]
+  },
+  {
+    "id": "OBS-054",
+    "question": "Explain data nodes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cluster",
+      "management",
+      "explain",
+      "data",
+      "nodes"
+    ]
+  },
+  {
+    "id": "OBS-055",
+    "question": "Explain ingest nodes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cluster",
+      "management",
+      "explain",
+      "ingest",
+      "nodes"
+    ]
+  },
+  {
+    "id": "OBS-056",
+    "question": "Explain coordinating nodes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cluster",
+      "management",
+      "explain",
+      "coordinating",
+      "nodes"
+    ]
+  },
+  {
+    "id": "OBS-057",
+    "question": "Explain voting-only nodes?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cluster",
+      "management",
+      "explain",
+      "voting",
+      "only"
+    ]
+  },
+  {
+    "id": "OBS-058",
+    "question": "What happens if master node fails?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cluster",
+      "management",
+      "what",
+      "happens",
+      "if"
+    ]
+  },
+  {
+    "id": "OBS-059",
+    "question": "Explain cluster discovery?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cluster",
+      "management",
+      "explain",
+      "discovery"
+    ]
+  },
+  {
+    "id": "OBS-060",
+    "question": "Explain split brain problem?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "cluster",
+      "management",
+      "explain",
+      "split",
+      "brain"
+    ]
+  },
+  {
+    "id": "OBS-061",
+    "question": "How do you secure Elasticsearch?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-062",
+    "question": "Explain TLS?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "explain",
+      "tls"
+    ]
+  },
+  {
+    "id": "OBS-063",
+    "question": "Explain RBAC?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "explain",
+      "rbac"
+    ]
+  },
+  {
+    "id": "OBS-064",
+    "question": "Explain API Keys?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "explain",
+      "api",
+      "keys"
+    ]
+  },
+  {
+    "id": "OBS-065",
+    "question": "Explain authentication options?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "explain",
+      "authentication",
+      "options"
+    ]
+  },
+  {
+    "id": "OBS-066",
+    "question": "Explain index-level permissions?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "explain",
+      "index",
+      "level"
+    ]
+  },
+  {
+    "id": "OBS-067",
+    "question": "Explain document-level security?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "explain",
+      "document",
+      "level"
+    ]
+  },
+  {
+    "id": "OBS-068",
+    "question": "Explain field-level security?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "explain",
+      "field",
+      "level"
+    ]
+  },
+  {
+    "id": "OBS-069",
+    "question": "Explain encryption?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "explain",
+      "encryption"
+    ]
+  },
+  {
+    "id": "OBS-070",
+    "question": "Explain audit logs?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "explain",
+      "audit",
+      "logs"
+    ]
+  },
+  {
+    "id": "OBS-071",
+    "question": "Cluster is yellow. What do you check?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "troubleshooting",
+      "cluster",
+      "is",
+      "yellow"
+    ]
+  },
+  {
+    "id": "OBS-072",
+    "question": "Cluster is red. What do you do?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "troubleshooting",
+      "cluster",
+      "is",
+      "red"
+    ]
+  },
+  {
+    "id": "OBS-073",
+    "question": "Elasticsearch is slow?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "troubleshooting",
+      "elasticsearch",
+      "is",
+      "slow"
+    ]
+  },
+  {
+    "id": "OBS-074",
+    "question": "Search latency increased?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "troubleshooting",
+      "search",
+      "latency",
+      "increased"
+    ]
+  },
+  {
+    "id": "OBS-075",
+    "question": "High JVM usage?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "is",
+      "high",
+      "jvm",
+      "usage"
+    ]
+  },
+  {
+    "id": "OBS-076",
+    "question": "High CPU?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "is",
+      "high",
+      "cpu"
+    ]
+  },
+  {
+    "id": "OBS-077",
+    "question": "Disk full?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "is",
+      "disk",
+      "full"
+    ]
+  },
+  {
+    "id": "OBS-078",
+    "question": "Node disconnected?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "is",
+      "node",
+      "disconnected"
+    ]
+  },
+  {
+    "id": "OBS-079",
+    "question": "Replica not allocated?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "indexing",
+      "is",
+      "replica",
+      "not",
+      "allocated"
+    ]
+  },
+  {
+    "id": "OBS-080",
+    "question": "Explain Logstash pipeline?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "pipeline"
+    ]
+  },
+  {
+    "id": "OBS-081",
+    "question": "What are Inputs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "what",
+      "are",
+      "inputs"
+    ]
+  },
+  {
+    "id": "OBS-082",
+    "question": "What are Filters?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "what",
+      "are",
+      "filters"
+    ]
+  },
+  {
+    "id": "OBS-083",
+    "question": "What are Outputs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "what",
+      "are",
+      "outputs"
+    ]
+  },
+  {
+    "id": "OBS-084",
+    "question": "Explain Grok filter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "grok",
+      "filter"
+    ]
+  },
+  {
+    "id": "OBS-085",
+    "question": "Explain Date filter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "date",
+      "filter"
+    ]
+  },
+  {
+    "id": "OBS-086",
+    "question": "Explain Mutate filter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "mutate",
+      "filter"
+    ]
+  },
+  {
+    "id": "OBS-087",
+    "question": "Explain GeoIP filter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "geoip",
+      "filter"
+    ]
+  },
+  {
+    "id": "OBS-088",
+    "question": "Explain JSON filter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "json",
+      "filter"
+    ]
+  },
+  {
+    "id": "OBS-089",
+    "question": "Explain KV filter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "kv",
+      "filter"
+    ]
+  },
+  {
+    "id": "OBS-090",
+    "question": "Explain Ruby filter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "ruby",
+      "filter"
+    ]
+  },
+  {
+    "id": "OBS-091",
+    "question": "Explain conditionals?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "conditionals"
+    ]
+  },
+  {
+    "id": "OBS-092",
+    "question": "Explain codecs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "codecs"
+    ]
+  },
+  {
+    "id": "OBS-093",
+    "question": "Explain persistent queues?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "persistent",
+      "queues"
+    ]
+  },
+  {
+    "id": "OBS-094",
+    "question": "Difference between Beats and Logstash?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "difference",
+      "between",
+      "beats"
+    ]
+  },
+  {
+    "id": "OBS-095",
+    "question": "When would you skip Logstash?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "when",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-096",
+    "question": "Explain pipeline workers?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "pipeline",
+      "workers"
+    ]
+  },
+  {
+    "id": "OBS-097",
+    "question": "Explain dead letter queue?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "explain",
+      "dead",
+      "letter"
+    ]
+  },
+  {
+    "id": "OBS-098",
+    "question": "How do you troubleshoot Logstash?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "logstash",
+      "questions",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-099",
+    "question": "Explain dashboards?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "dashboards"
+    ]
+  },
+  {
+    "id": "OBS-100",
+    "question": "Explain Discover?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "discover"
+    ]
+  },
+  {
+    "id": "OBS-101",
+    "question": "Explain Lens?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "lens"
+    ]
+  },
+  {
+    "id": "OBS-102",
+    "question": "Explain Visualize?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "visualize"
+    ]
+  },
+  {
+    "id": "OBS-103",
+    "question": "Explain Canvas?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "canvas"
+    ]
+  },
+  {
+    "id": "OBS-104",
+    "question": "Explain TSVB?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "tsvb"
+    ]
+  },
+  {
+    "id": "OBS-105",
+    "question": "Explain Maps?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "maps"
+    ]
+  },
+  {
+    "id": "OBS-106",
+    "question": "Explain Alerting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "alerting"
+    ]
+  },
+  {
+    "id": "OBS-107",
+    "question": "Explain Spaces?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "spaces"
+    ]
+  },
+  {
+    "id": "OBS-108",
+    "question": "Explain saved objects?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "saved",
+      "objects"
+    ]
+  },
+  {
+    "id": "OBS-109",
+    "question": "Explain index patterns (data views)?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "index",
+      "patterns"
+    ]
+  },
+  {
+    "id": "OBS-110",
+    "question": "Explain role-based access?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "role",
+      "based"
+    ]
+  },
+  {
+    "id": "OBS-111",
+    "question": "Explain Dev Tools?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "dev",
+      "tools"
+    ]
+  },
+  {
+    "id": "OBS-112",
+    "question": "Explain Machine Learning features?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "kibana",
+      "questions",
+      "explain",
+      "machine",
+      "learning"
+    ]
+  },
+  {
+    "id": "OBS-113",
+    "question": "What is Filebeat?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "beats",
+      "questions",
+      "what",
+      "is",
+      "filebeat"
+    ]
+  },
+  {
+    "id": "OBS-114",
+    "question": "What is Metricbeat?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "beats",
+      "questions",
+      "what",
+      "is",
+      "metricbeat"
+    ]
+  },
+  {
+    "id": "OBS-115",
+    "question": "What is Packetbeat?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "beats",
+      "questions",
+      "what",
+      "is",
+      "packetbeat"
+    ]
+  },
+  {
+    "id": "OBS-116",
+    "question": "What is Auditbeat?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "beats",
+      "questions",
+      "what",
+      "is",
+      "auditbeat"
+    ]
+  },
+  {
+    "id": "OBS-117",
+    "question": "What is Heartbeat?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "beats",
+      "questions",
+      "what",
+      "is",
+      "heartbeat"
+    ]
+  },
+  {
+    "id": "OBS-118",
+    "question": "What is Winlogbeat?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "beats",
+      "questions",
+      "what",
+      "is",
+      "winlogbeat"
+    ]
+  },
+  {
+    "id": "OBS-119",
+    "question": "How does Filebeat harvest logs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "beats",
+      "questions",
+      "how",
+      "does",
+      "filebeat"
+    ]
+  },
+  {
+    "id": "OBS-120",
+    "question": "Explain multiline logs?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "beats",
+      "questions",
+      "explain",
+      "multiline",
+      "logs"
+    ]
+  },
+  {
+    "id": "OBS-121",
+    "question": "Explain processors?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "beats",
+      "questions",
+      "explain",
+      "processors"
+    ]
+  },
+  {
+    "id": "OBS-122",
+    "question": "Design centralized logging?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "architecture",
+      "design",
+      "centralized",
+      "logging"
+    ]
+  },
+  {
+    "id": "OBS-123",
+    "question": "Design logging for Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "architecture",
+      "design",
+      "logging",
+      "for"
+    ]
+  },
+  {
+    "id": "OBS-124",
+    "question": "Design logging for Azure?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "architecture",
+      "design",
+      "logging",
+      "for"
+    ]
+  },
+  {
+    "id": "OBS-125",
+    "question": "Logging architecture for microservices?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "architecture",
+      "logging",
+      "for"
+    ]
+  },
+  {
+    "id": "OBS-126",
+    "question": "Logging architecture for 1000 servers?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "architecture",
+      "logging",
+      "for"
+    ]
+  },
+  {
+    "id": "OBS-127",
+    "question": "Multi-region ELK architecture?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "architecture",
+      "multi",
+      "region"
+    ]
+  },
+  {
+    "id": "OBS-128",
+    "question": "High availability ELK?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "architecture",
+      "high",
+      "availability"
+    ]
+  },
+  {
+    "id": "OBS-129",
+    "question": "Scaling Elasticsearch?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "architecture",
+      "scaling",
+      "elasticsearch"
+    ]
+  },
+  {
+    "id": "OBS-130",
+    "question": "Disaster recovery?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "architecture",
+      "disaster",
+      "recovery"
+    ]
+  },
+  {
+    "id": "OBS-131",
+    "question": "Backup strategy?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "architecture",
+      "backup",
+      "strategy"
+    ]
+  },
+  {
+    "id": "OBS-132",
+    "question": "Logs suddenly stop appearing?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "scenario",
+      "logs",
+      "suddenly",
+      "stop"
+    ]
+  },
+  {
+    "id": "OBS-133",
+    "question": "Elasticsearch cluster turns yellow?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "scenario",
+      "elasticsearch",
+      "cluster",
+      "turns"
+    ]
+  },
+  {
+    "id": "OBS-134",
+    "question": "Search becomes slow after adding data?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "scenario",
+      "search",
+      "becomes",
+      "slow"
+    ]
+  },
+  {
+    "id": "OBS-135",
+    "question": "Disk utilization reaches 95%?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "scenario",
+      "disk",
+      "utilization",
+      "reaches"
+    ]
+  },
+  {
+    "id": "OBS-136",
+    "question": "Millions of logs arrive every minute?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "scenario",
+      "millions",
+      "of",
+      "logs"
+    ]
+  },
+  {
+    "id": "OBS-137",
+    "question": "Need to retain logs for 5 years?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "scenario",
+      "need",
+      "to",
+      "retain"
+    ]
+  },
+  {
+    "id": "OBS-138",
+    "question": "Need GDPR-compliant log deletion?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "scenario",
+      "need",
+      "gdpr",
+      "compliant"
+    ]
+  },
+  {
+    "id": "OBS-139",
+    "question": "Duplicate logs appear?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "scenario",
+      "duplicate",
+      "logs",
+      "appear"
+    ]
+  },
+  {
+    "id": "OBS-140",
+    "question": "Logs arrive out of order?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "scenario",
+      "logs",
+      "arrive",
+      "out"
+    ]
+  },
+  {
+    "id": "OBS-141",
+    "question": "Logstash crashes frequently?",
+    "difficulty": "Advanced",
+    "tags": [
+      "elk",
+      "scenario",
+      "logstash",
+      "crashes",
+      "frequently"
+    ]
+  },
+  {
+    "id": "OBS-142",
+    "question": "What is Prometheus?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "what",
+      "is",
+      "prometheus"
+    ]
+  },
+  {
+    "id": "OBS-143",
+    "question": "Why Prometheus?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "why",
+      "prometheus"
+    ]
+  },
+  {
+    "id": "OBS-144",
+    "question": "What problems does it solve?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "what",
+      "problems",
+      "does"
+    ]
+  },
+  {
+    "id": "OBS-145",
+    "question": "Explain Prometheus architecture?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "prometheus",
+      "architecture"
+    ]
+  },
+  {
+    "id": "OBS-146",
+    "question": "Components of Prometheus?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "components",
+      "of",
+      "prometheus"
+    ]
+  },
+  {
+    "id": "OBS-147",
+    "question": "What is a time-series database?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "OBS-148",
+    "question": "Difference between metrics and logs?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "difference",
+      "between",
+      "metrics"
+    ]
+  },
+  {
+    "id": "OBS-149",
+    "question": "Difference between metrics and traces?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "difference",
+      "between",
+      "metrics"
+    ]
+  },
+  {
+    "id": "OBS-150",
+    "question": "Explain monitoring vs observability?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "monitoring",
+      "vs"
+    ]
+  },
+  {
+    "id": "OBS-151",
+    "question": "Explain Prometheus data model?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "prometheus",
+      "data"
+    ]
+  },
+  {
+    "id": "OBS-152",
+    "question": "Explain pull model?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture",
+      "explain",
+      "pull",
+      "model"
+    ]
+  },
+  {
+    "id": "OBS-153",
+    "question": "Explain push model?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture",
+      "explain",
+      "push",
+      "model"
+    ]
+  },
+  {
+    "id": "OBS-154",
+    "question": "Difference between pull and push?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture",
+      "difference",
+      "between",
+      "pull"
+    ]
+  },
+  {
+    "id": "OBS-155",
+    "question": "Explain scrape?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture",
+      "explain",
+      "scrape"
+    ]
+  },
+  {
+    "id": "OBS-156",
+    "question": "Explain scrape interval?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture",
+      "explain",
+      "scrape",
+      "interval"
+    ]
+  },
+  {
+    "id": "OBS-157",
+    "question": "Explain scrape timeout?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture",
+      "explain",
+      "scrape",
+      "timeout"
+    ]
+  },
+  {
+    "id": "OBS-158",
+    "question": "Explain targets?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture",
+      "explain",
+      "targets"
+    ]
+  },
+  {
+    "id": "OBS-159",
+    "question": "Explain exporters?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture",
+      "explain",
+      "exporters"
+    ]
+  },
+  {
+    "id": "OBS-160",
+    "question": "Explain service discovery?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture",
+      "explain",
+      "service",
+      "discovery"
+    ]
+  },
+  {
+    "id": "OBS-161",
+    "question": "Explain federation?",
+    "difficulty": "Advanced",
+    "tags": [
+      "architecture",
+      "explain",
+      "federation"
+    ]
+  },
+  {
+    "id": "OBS-162",
+    "question": "What is a metric?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "what",
+      "is",
+      "a"
+    ]
+  },
+  {
+    "id": "OBS-163",
+    "question": "Counter?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "counter"
+    ]
+  },
+  {
+    "id": "OBS-164",
+    "question": "Gauge?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "gauge"
+    ]
+  },
+  {
+    "id": "OBS-165",
+    "question": "Histogram?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "histogram"
+    ]
+  },
+  {
+    "id": "OBS-166",
+    "question": "Summary?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "summary"
+    ]
+  },
+  {
+    "id": "OBS-167",
+    "question": "Which metric type should you use?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "which",
+      "metric",
+      "type"
+    ]
+  },
+  {
+    "id": "OBS-168",
+    "question": "Explain labels?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "explain",
+      "labels"
+    ]
+  },
+  {
+    "id": "OBS-169",
+    "question": "High cardinality?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "high",
+      "cardinality"
+    ]
+  },
+  {
+    "id": "OBS-170",
+    "question": "Why high cardinality is dangerous?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "why",
+      "high",
+      "cardinality"
+    ]
+  },
+  {
+    "id": "OBS-171",
+    "question": "Explain metric naming conventions?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "explain",
+      "metric",
+      "naming"
+    ]
+  },
+  {
+    "id": "OBS-172",
+    "question": "What is PromQL?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "promql",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "OBS-173",
+    "question": "Difference between rate() and irate()?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "promql",
+      "difference",
+      "between",
+      "rate"
+    ]
+  },
+  {
+    "id": "OBS-174",
+    "question": "increase()?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "promql",
+      "increase"
+    ]
+  },
+  {
+    "id": "OBS-175",
+    "question": "avg_over_time()?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "promql",
+      "avg",
+      "over",
+      "time"
+    ]
+  },
+  {
+    "id": "OBS-176",
+    "question": "max_over_time()?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "promql",
+      "max",
+      "over",
+      "time"
+    ]
+  },
+  {
+    "id": "OBS-177",
+    "question": "histogram_quantile()?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "promql",
+      "histogram",
+      "quantile"
+    ]
+  },
+  {
+    "id": "OBS-178",
+    "question": "topk()?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "promql",
+      "topk"
+    ]
+  },
+  {
+    "id": "OBS-179",
+    "question": "bottomk()?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "promql",
+      "bottomk"
+    ]
+  },
+  {
+    "id": "OBS-180",
+    "question": "sum by()?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "promql",
+      "sum",
+      "by"
+    ]
+  },
+  {
+    "id": "OBS-181",
+    "question": "group_left()?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "promql",
+      "group",
+      "left"
+    ]
+  },
+  {
+    "id": "OBS-182",
+    "question": "Explain TSDB?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "storage",
+      "explain",
+      "tsdb"
+    ]
+  },
+  {
+    "id": "OBS-183",
+    "question": "WAL?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "storage",
+      "wal"
+    ]
+  },
+  {
+    "id": "OBS-184",
+    "question": "Retention?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "storage",
+      "retention"
+    ]
+  },
+  {
+    "id": "OBS-185",
+    "question": "Compression?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "storage",
+      "compression"
+    ]
+  },
+  {
+    "id": "OBS-186",
+    "question": "Remote storage?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "storage",
+      "remote"
+    ]
+  },
+  {
+    "id": "OBS-187",
+    "question": "Long-term storage?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "storage",
+      "long",
+      "term"
+    ]
+  },
+  {
+    "id": "OBS-188",
+    "question": "Explain Thanos?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "storage",
+      "explain",
+      "thanos"
+    ]
+  },
+  {
+    "id": "OBS-189",
+    "question": "Explain Cortex?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "storage",
+      "explain",
+      "cortex"
+    ]
+  },
+  {
+    "id": "OBS-190",
+    "question": "Explain Mimir?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "storage",
+      "explain",
+      "mimir"
+    ]
+  },
+  {
+    "id": "OBS-191",
+    "question": "Explain remote write?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "storage",
+      "explain",
+      "remote",
+      "write"
+    ]
+  },
+  {
+    "id": "OBS-192",
+    "question": "Node Exporter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "exporters",
+      "node",
+      "exporter"
+    ]
+  },
+  {
+    "id": "OBS-193",
+    "question": "Blackbox Exporter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "exporters",
+      "blackbox",
+      "exporter"
+    ]
+  },
+  {
+    "id": "OBS-194",
+    "question": "SNMP Exporter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "exporters",
+      "snmp",
+      "exporter"
+    ]
+  },
+  {
+    "id": "OBS-195",
+    "question": "Windows Exporter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "exporters",
+      "windows",
+      "exporter"
+    ]
+  },
+  {
+    "id": "OBS-196",
+    "question": "SQL Exporter?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "exporters",
+      "sql",
+      "exporter"
+    ]
+  },
+  {
+    "id": "OBS-197",
+    "question": "cAdvisor?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "exporter",
+      "cadvisor"
+    ]
+  },
+  {
+    "id": "OBS-198",
+    "question": "kube-state-metrics?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "exporter",
+      "kube",
+      "state",
+      "metrics"
+    ]
+  },
+  {
+    "id": "OBS-199",
+    "question": "Custom Exporter?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "exporter",
+      "custom"
+    ]
+  },
+  {
+    "id": "OBS-200",
+    "question": "Pushgateway?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "exporter",
+      "pushgateway"
+    ]
+  },
+  {
+    "id": "OBS-201",
+    "question": "What is Alertmanager?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alertmanager",
+      "what",
+      "is"
+    ]
+  },
+  {
+    "id": "OBS-202",
+    "question": "Explain alert routing?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alertmanager",
+      "explain",
+      "alert",
+      "routing"
+    ]
+  },
+  {
+    "id": "OBS-203",
+    "question": "Explain inhibition?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alertmanager",
+      "explain",
+      "inhibition"
+    ]
+  },
+  {
+    "id": "OBS-204",
+    "question": "Explain silencing?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alertmanager",
+      "explain",
+      "silencing"
+    ]
+  },
+  {
+    "id": "OBS-205",
+    "question": "Alert grouping?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alertmanager",
+      "alert",
+      "grouping"
+    ]
+  },
+  {
+    "id": "OBS-206",
+    "question": "Alert deduplication?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alertmanager",
+      "alert",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "OBS-207",
+    "question": "Alert lifecycle?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alertmanager",
+      "alert",
+      "lifecycle"
+    ]
+  },
+  {
+    "id": "OBS-208",
+    "question": "PagerDuty integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alertmanager",
+      "pagerduty",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-209",
+    "question": "Teams integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alertmanager",
+      "teams",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-210",
+    "question": "Slack integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alertmanager",
+      "slack",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-211",
+    "question": "Prometheus Operator?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "prometheus",
+      "operator"
+    ]
+  },
+  {
+    "id": "OBS-212",
+    "question": "ServiceMonitor?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "servicemonitor"
+    ]
+  },
+  {
+    "id": "OBS-213",
+    "question": "PodMonitor?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "podmonitor"
+    ]
+  },
+  {
+    "id": "OBS-214",
+    "question": "PrometheusRule?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "prometheusrule"
+    ]
+  },
+  {
+    "id": "OBS-215",
+    "question": "Scraping Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "scraping"
+    ]
+  },
+  {
+    "id": "OBS-216",
+    "question": "Monitoring AKS?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "monitoring",
+      "aks"
+    ]
+  },
+  {
+    "id": "OBS-217",
+    "question": "Monitoring containers?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "monitoring",
+      "containers"
+    ]
+  },
+  {
+    "id": "OBS-218",
+    "question": "High cardinality issues?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "high",
+      "cardinality",
+      "issues"
+    ]
+  },
+  {
+    "id": "OBS-219",
+    "question": "Large memory usage?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "large",
+      "memory",
+      "usage"
+    ]
+  },
+  {
+    "id": "OBS-220",
+    "question": "Slow queries?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "slow",
+      "queries"
+    ]
+  },
+  {
+    "id": "OBS-221",
+    "question": "Missing metrics?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "missing",
+      "metrics"
+    ]
+  },
+  {
+    "id": "OBS-222",
+    "question": "Targets down?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "targets",
+      "down"
+    ]
+  },
+  {
+    "id": "OBS-223",
+    "question": "Duplicate metrics?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "duplicate",
+      "metrics"
+    ]
+  },
+  {
+    "id": "OBS-224",
+    "question": "Remote write failures?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "remote",
+      "write",
+      "failures"
+    ]
+  },
+  {
+    "id": "OBS-225",
+    "question": "Large retention?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "large",
+      "retention"
+    ]
+  },
+  {
+    "id": "OBS-226",
+    "question": "Scaling Prometheus?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "scaling",
+      "prometheus"
+    ]
+  },
+  {
+    "id": "OBS-227",
+    "question": "HA Prometheus?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "ha",
+      "prometheus"
+    ]
+  },
+  {
+    "id": "OBS-228",
+    "question": "Scenario Questions?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "scenario",
+      "questions"
+    ]
+  },
+  {
+    "id": "OBS-229",
+    "question": "CPU usage spikes?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "cpu",
+      "usage",
+      "spikes"
+    ]
+  },
+  {
+    "id": "OBS-230",
+    "question": "Exporter fails?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "disappear",
+      "exporter",
+      "fails"
+    ]
+  },
+  {
+    "id": "OBS-231",
+    "question": "Prometheus crashes?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "disappear",
+      "prometheus",
+      "crashes"
+    ]
+  },
+  {
+    "id": "OBS-232",
+    "question": "High memory usage?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "disappear",
+      "high",
+      "memory",
+      "usage"
+    ]
+  },
+  {
+    "id": "OBS-233",
+    "question": "Alert storm?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "disappear",
+      "alert",
+      "storm"
+    ]
+  },
+  {
+    "id": "OBS-234",
+    "question": "Duplicate alerts?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "disappear",
+      "duplicate",
+      "alerts"
+    ]
+  },
+  {
+    "id": "OBS-235",
+    "question": "Missing Kubernetes metrics?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "disappear",
+      "missing",
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "OBS-236",
+    "question": "Scrape failures?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "disappear",
+      "scrape",
+      "failures"
+    ]
+  },
+  {
+    "id": "OBS-237",
+    "question": "Slow dashboards?",
+    "difficulty": "Beginner",
+    "tags": [
+      "metrics",
+      "disappear",
+      "slow",
+      "dashboards"
+    ]
+  },
+  {
+    "id": "OBS-238",
+    "question": "What is Grafana?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "what",
+      "is",
+      "grafana"
+    ]
+  },
+  {
+    "id": "OBS-239",
+    "question": "Why Grafana?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "why",
+      "grafana"
+    ]
+  },
+  {
+    "id": "OBS-240",
+    "question": "Explain Grafana architecture?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "grafana",
+      "architecture"
+    ]
+  },
+  {
+    "id": "OBS-241",
+    "question": "Explain panels?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "panels"
+    ]
+  },
+  {
+    "id": "OBS-242",
+    "question": "Explain variables?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "variables"
+    ]
+  },
+  {
+    "id": "OBS-243",
+    "question": "Explain folders?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "folders"
+    ]
+  },
+  {
+    "id": "OBS-244",
+    "question": "Explain organizations?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "organizations"
+    ]
+  },
+  {
+    "id": "OBS-245",
+    "question": "Explain users?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "users"
+    ]
+  },
+  {
+    "id": "OBS-246",
+    "question": "Explain permissions?",
+    "difficulty": "Beginner",
+    "tags": [
+      "basics",
+      "explain",
+      "permissions"
+    ]
+  },
+  {
+    "id": "OBS-247",
+    "question": "What data sources does Grafana support?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "data",
+      "sources",
+      "what"
+    ]
+  },
+  {
+    "id": "OBS-248",
+    "question": "Prometheus integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "data",
+      "sources",
+      "prometheus",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-249",
+    "question": "Elasticsearch integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "data",
+      "sources",
+      "elasticsearch",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-250",
+    "question": "Azure Monitor integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "data",
+      "sources",
+      "azure",
+      "monitor",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-251",
+    "question": "SQL integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "data",
+      "sources",
+      "sql",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-252",
+    "question": "Loki integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "data",
+      "sources",
+      "loki",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-253",
+    "question": "InfluxDB integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "data",
+      "sources",
+      "influxdb",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-254",
+    "question": "CloudWatch integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "data",
+      "sources",
+      "cloudwatch",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-255",
+    "question": "Splunk integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "data",
+      "sources",
+      "splunk",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-256",
+    "question": "OpenSearch integration?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "data",
+      "sources",
+      "opensearch",
+      "integration"
+    ]
+  },
+  {
+    "id": "OBS-257",
+    "question": "Dashboard variables?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "dashboards",
+      "dashboard",
+      "variables"
+    ]
+  },
+  {
+    "id": "OBS-258",
+    "question": "Repeating panels?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "dashboards",
+      "repeating",
+      "panels"
+    ]
+  },
+  {
+    "id": "OBS-259",
+    "question": "Templating?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "dashboards",
+      "templating"
+    ]
+  },
+  {
+    "id": "OBS-260",
+    "question": "Time picker?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "dashboards",
+      "time",
+      "picker"
+    ]
+  },
+  {
+    "id": "OBS-261",
+    "question": "Transformations?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "dashboards",
+      "transformations"
+    ]
+  },
+  {
+    "id": "OBS-262",
+    "question": "Drill-down dashboards?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "dashboards",
+      "drill",
+      "down"
+    ]
+  },
+  {
+    "id": "OBS-263",
+    "question": "Dashboard links?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "dashboards",
+      "dashboard",
+      "links"
+    ]
+  },
+  {
+    "id": "OBS-264",
+    "question": "Library panels?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "dashboards",
+      "library",
+      "panels"
+    ]
+  },
+  {
+    "id": "OBS-265",
+    "question": "Dashboard provisioning?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "dashboards",
+      "dashboard",
+      "provisioning"
+    ]
+  },
+  {
+    "id": "OBS-266",
+    "question": "JSON model?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "dashboards",
+      "json",
+      "model"
+    ]
+  },
+  {
+    "id": "OBS-267",
+    "question": "Grafana Alerting?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "grafana",
+      "alerting"
+    ]
+  },
+  {
+    "id": "OBS-268",
+    "question": "Alert rules?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "alert",
+      "rules"
+    ]
+  },
+  {
+    "id": "OBS-269",
+    "question": "Notification policies?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "notification",
+      "policies"
+    ]
+  },
+  {
+    "id": "OBS-270",
+    "question": "Contact points?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "contact",
+      "points"
+    ]
+  },
+  {
+    "id": "OBS-271",
+    "question": "Silence alerts?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "silence"
+    ]
+  },
+  {
+    "id": "OBS-272",
+    "question": "Multi-dimensional alerts?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "multi",
+      "dimensional"
+    ]
+  },
+  {
+    "id": "OBS-273",
+    "question": "Alert evaluation?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "alert",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "OBS-274",
+    "question": "Alert history?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "alert",
+      "history"
+    ]
+  },
+  {
+    "id": "OBS-275",
+    "question": "Alert annotations?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "alert",
+      "annotations"
+    ]
+  },
+  {
+    "id": "OBS-276",
+    "question": "Authentication?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "authentication"
+    ]
+  },
+  {
+    "id": "OBS-277",
+    "question": "LDAP?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "ldap"
+    ]
+  },
+  {
+    "id": "OBS-278",
+    "question": "OAuth?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "oauth"
+    ]
+  },
+  {
+    "id": "OBS-279",
+    "question": "Azure AD?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "azure",
+      "ad"
+    ]
+  },
+  {
+    "id": "OBS-280",
+    "question": "SSO?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "sso"
+    ]
+  },
+  {
+    "id": "OBS-281",
+    "question": "RBAC?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "rbac"
+    ]
+  },
+  {
+    "id": "OBS-282",
+    "question": "API keys?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "api",
+      "keys"
+    ]
+  },
+  {
+    "id": "OBS-283",
+    "question": "Anonymous access?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "anonymous",
+      "access"
+    ]
+  },
+  {
+    "id": "OBS-284",
+    "question": "Folder permissions?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "folder",
+      "permissions"
+    ]
+  },
+  {
+    "id": "OBS-285",
+    "question": "Dashboard permissions?",
+    "difficulty": "Advanced",
+    "tags": [
+      "security",
+      "dashboard",
+      "permissions"
+    ]
+  },
+  {
+    "id": "OBS-286",
+    "question": "Large dashboards?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "large",
+      "dashboards"
+    ]
+  },
+  {
+    "id": "OBS-287",
+    "question": "Query optimization?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "query",
+      "optimization"
+    ]
+  },
+  {
+    "id": "OBS-288",
+    "question": "Dashboard caching?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "dashboard",
+      "caching"
+    ]
+  },
+  {
+    "id": "OBS-289",
+    "question": "Large PromQL queries?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "large",
+      "promql",
+      "queries"
+    ]
+  },
+  {
+    "id": "OBS-290",
+    "question": "Elasticsearch query optimization?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "elasticsearch",
+      "query",
+      "optimization"
+    ]
+  },
+  {
+    "id": "OBS-291",
+    "question": "Variable optimization?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "variable",
+      "optimization"
+    ]
+  },
+  {
+    "id": "OBS-292",
+    "question": "Time range optimization?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "time",
+      "range",
+      "optimization"
+    ]
+  },
+  {
+    "id": "OBS-293",
+    "question": "High user concurrency?",
+    "difficulty": "Advanced",
+    "tags": [
+      "performance",
+      "high",
+      "user",
+      "concurrency"
+    ]
+  },
+  {
+    "id": "OBS-294",
+    "question": "Infrastructure as Code?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioning",
+      "infrastructure",
+      "as",
+      "code"
+    ]
+  },
+  {
+    "id": "OBS-295",
+    "question": "Terraform with Grafana?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioning",
+      "terraform",
+      "with",
+      "grafana"
+    ]
+  },
+  {
+    "id": "OBS-296",
+    "question": "Data source provisioning?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioning",
+      "data",
+      "source"
+    ]
+  },
+  {
+    "id": "OBS-297",
+    "question": "Alert provisioning?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioning",
+      "alert"
+    ]
+  },
+  {
+    "id": "OBS-298",
+    "question": "Folder provisioning?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioning",
+      "folder"
+    ]
+  },
+  {
+    "id": "OBS-299",
+    "question": "Version control dashboards?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioning",
+      "version",
+      "control",
+      "dashboards"
+    ]
+  },
+  {
+    "id": "OBS-300",
+    "question": "GitOps?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioning",
+      "gitops"
+    ]
+  },
+  {
+    "id": "OBS-301",
+    "question": "Backup dashboards?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioning",
+      "backup",
+      "dashboards"
+    ]
+  },
+  {
+    "id": "OBS-302",
+    "question": "Restore dashboards?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "provisioning",
+      "restore",
+      "dashboards"
+    ]
+  },
+  {
+    "id": "OBS-303",
+    "question": "Grafana Operator?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "grafana",
+      "operator"
+    ]
+  },
+  {
+    "id": "OBS-304",
+    "question": "Grafana on Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "grafana",
+      "on"
+    ]
+  },
+  {
+    "id": "OBS-305",
+    "question": "Persistent volumes?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "persistent",
+      "volumes"
+    ]
+  },
+  {
+    "id": "OBS-306",
+    "question": "High availability?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "high",
+      "availability"
+    ]
+  },
+  {
+    "id": "OBS-307",
+    "question": "ConfigMaps?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "configmaps"
+    ]
+  },
+  {
+    "id": "OBS-308",
+    "question": "Secrets?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "secrets"
+    ]
+  },
+  {
+    "id": "OBS-309",
+    "question": "Dashboard sidecars?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "dashboard",
+      "sidecars"
+    ]
+  },
+  {
+    "id": "OBS-310",
+    "question": "Helm installation?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "helm",
+      "installation"
+    ]
+  },
+  {
+    "id": "OBS-311",
+    "question": "Dashboard is blank?",
+    "difficulty": "Advanced",
+    "tags": [
+      "kubernetes",
+      "dashboard",
+      "is",
+      "blank"
+    ]
+  },
+  {
+    "id": "OBS-312",
+    "question": "Prometheus queries fail?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "not",
+      "prometheus",
+      "queries",
+      "fail"
+    ]
+  },
+  {
+    "id": "OBS-313",
+    "question": "Elasticsearch queries timeout?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "not",
+      "elasticsearch",
+      "queries",
+      "timeout"
+    ]
+  },
+  {
+    "id": "OBS-314",
+    "question": "High dashboard latency?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "not",
+      "high",
+      "dashboard",
+      "latency"
+    ]
+  },
+  {
+    "id": "OBS-315",
+    "question": "Users cannot access dashboards?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "not",
+      "users",
+      "cannot",
+      "access"
+    ]
+  },
+  {
+    "id": "OBS-316",
+    "question": "Variables not working?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "not",
+      "variables",
+      "working"
+    ]
+  },
+  {
+    "id": "OBS-317",
+    "question": "Missing panels?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "not",
+      "missing",
+      "panels"
+    ]
+  },
+  {
+    "id": "OBS-318",
+    "question": "Data source unavailable?",
+    "difficulty": "Intermediate",
+    "tags": [
+      "alerts",
+      "not",
+      "data",
+      "source",
+      "unavailable"
+    ]
+  },
+  {
+    "id": "OBS-319",
+    "question": "When would you use ELK instead of Prometheus?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "when",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-320",
+    "question": "Why can't Prometheus replace ELK?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "why",
+      "can",
+      "t"
+    ]
+  },
+  {
+    "id": "OBS-321",
+    "question": "Difference between logs, metrics, and traces?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "difference",
+      "between",
+      "logs"
+    ]
+  },
+  {
+    "id": "OBS-322",
+    "question": "Explain the three pillars of observability?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "explain",
+      "the",
+      "three"
+    ]
+  },
+  {
+    "id": "OBS-323",
+    "question": "How do ELK, Prometheus, and Grafana complement each other?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "do"
+    ]
+  },
+  {
+    "id": "OBS-324",
+    "question": "Design a complete observability platform for Kubernetes?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "design",
+      "a",
+      "complete"
+    ]
+  },
+  {
+    "id": "OBS-325",
+    "question": "Design observability for Azure?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "design",
+      "observability",
+      "for"
+    ]
+  },
+  {
+    "id": "OBS-326",
+    "question": "How do you monitor microservices?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-327",
+    "question": "How do you correlate logs with metrics?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-328",
+    "question": "How do you reduce alert fatigue?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-329",
+    "question": "How would you implement distributed tracing with metrics and logs?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-330",
+    "question": "Explain OpenTelemetry and how it integrates with ELK, Prometheus, and Grafana?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "explain",
+      "opentelemetry",
+      "and"
+    ]
+  },
+  {
+    "id": "OBS-331",
+    "question": "How would you monitor a production AKS cluster?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-332",
+    "question": "How would you troubleshoot a latency spike using logs, metrics, and traces?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-333",
+    "question": "How would you design a highly available monitoring stack?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-334",
+    "question": "How would you secure an observability platform?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-335",
+    "question": "How do you estimate storage requirements for logs and metrics?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-336",
+    "question": "How do you optimize costs for large-scale monitoring?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-337",
+    "question": "How would you implement multi-tenancy in Grafana and Prometheus?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-338",
+    "question": "How would you migrate from ELK to OpenSearch or from self-managed Prometheus to managed monitoring solutions?",
+    "difficulty": "Advanced",
+    "tags": [
+      "combined",
+      "elk",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-339",
+    "question": "How do you monitor Azure resources using Prometheus and Grafana?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-340",
+    "question": "How does Azure Monitor compare with Prometheus?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "does"
+    ]
+  },
+  {
+    "id": "OBS-341",
+    "question": "How do you integrate Azure Managed Prometheus with Grafana?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-342",
+    "question": "How do you collect AKS logs into Elasticsearch?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-343",
+    "question": "How do you use Azure Monitor Logs with Grafana?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-344",
+    "question": "How do you configure Azure Managed Grafana?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-345",
+    "question": "How would you monitor Azure App Service?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-346",
+    "question": "How would you monitor Azure SQL Database?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-347",
+    "question": "How would you monitor Azure Kubernetes Service (AKS)?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "would",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-348",
+    "question": "How do you centralize logs from multiple Azure subscriptions?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-349",
+    "question": "What is the difference between Azure Monitor, Log Analytics, and ELK?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "what",
+      "is",
+      "the"
+    ]
+  },
+  {
+    "id": "OBS-350",
+    "question": "How do you configure alerts across Azure Monitor and Grafana?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-351",
+    "question": "How do you secure Grafana using Microsoft Entra ID (Azure AD)?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-352",
+    "question": "How do you monitor hybrid environments (Azure + on-premises)?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "how",
+      "do",
+      "you"
+    ]
+  },
+  {
+    "id": "OBS-353",
+    "question": "When would you choose Azure Monitor over a self-managed ELK or Prometheus stack?",
+    "difficulty": "Advanced",
+    "tags": [
+      "azure",
+      "specific",
+      "when",
+      "would",
+      "you"
+    ]
+  }
+]
